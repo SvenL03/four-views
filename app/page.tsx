@@ -1,64 +1,269 @@
-import Image from "next/image";
+"use client";
+
+import { useState, useCallback } from "react";
+import { TopicForm } from "@/components/topic-form";
+import { ViewCard } from "@/components/view-card";
+import { TheologianCard } from "@/components/theologian-card";
+import { SelectedTradition, ViewState, TheologianState } from "@/lib/types";
+
+async function streamSSE(
+  url: string,
+  options: RequestInit,
+  onChunk: (text: string) => void,
+  onDone: () => void,
+  onError: (msg: string) => void
+) {
+  try {
+    const res = await fetch(url, options);
+    if (!res.ok) {
+      onError(`Request failed: ${res.status}`);
+      return;
+    }
+    const reader = res.body!.getReader();
+    const decoder = new TextDecoder();
+    let buffer = "";
+
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      buffer += decoder.decode(value, { stream: true });
+      const lines = buffer.split("\n");
+      buffer = lines.pop() ?? "";
+      for (const line of lines) {
+        if (!line.startsWith("data: ")) continue;
+        const raw = line.slice(6);
+        if (raw === "[DONE]") {
+          onDone();
+          return;
+        }
+        try {
+          const parsed = JSON.parse(raw);
+          if (parsed.error) {
+            onError(parsed.error);
+            return;
+          }
+          if (parsed.text) onChunk(parsed.text);
+        } catch {
+          // ignore parse errors on partial lines
+        }
+      }
+    }
+    onDone();
+  } catch (err) {
+    onError(err instanceof Error ? err.message : "Network error");
+  }
+}
 
 export default function Home() {
+  const [topic, setTopic] = useState<string | null>(null);
+  const [views, setViews] = useState<ViewState[]>([]);
+  const [theologian, setTheologian] = useState<TheologianState | null>(null);
+  const [isSelecting, setIsSelecting] = useState(false);
+  const [isGenerating, setIsGenerating] = useState(false);
+
+  const isLoading = isSelecting || isGenerating;
+
+  const handleSubmit = useCallback(async (topicInput: string, theologianName: string) => {
+    setTopic(topicInput);
+    setViews([]);
+    setTheologian(null);
+    setIsSelecting(true);
+
+    // Phase 1: Select traditions
+    let traditions: SelectedTradition[];
+    try {
+      const res = await fetch(
+        `/api/select-traditions?topic=${encodeURIComponent(topicInput)}`
+      );
+      if (!res.ok) throw new Error("Failed to select traditions");
+      const data = await res.json();
+      traditions = data.traditions as SelectedTradition[];
+    } catch (err) {
+      setIsSelecting(false);
+      setViews([
+        {
+          tradition: {
+            id: "error",
+            name: "Error",
+            shortName: "Error",
+            description: "",
+            accentColor: "border-red-500",
+            badgeClass: "bg-red-900/40 text-red-300 border border-red-700/50",
+          },
+          text: "",
+          isLoading: false,
+          isComplete: false,
+          error: err instanceof Error ? err.message : "Failed to select traditions",
+        },
+      ]);
+      return;
+    }
+
+    // Phase 2: Initialize view states and start streaming
+    setIsSelecting(false);
+    setIsGenerating(true);
+
+    const initialViews: ViewState[] = traditions.map((t) => ({
+      tradition: t,
+      text: "",
+      isLoading: true,
+      isComplete: false,
+      error: null,
+    }));
+    setViews(initialViews);
+
+    if (theologianName) {
+      setTheologian({
+        name: theologianName,
+        text: "",
+        isLoading: true,
+        isComplete: false,
+        error: null,
+      });
+    }
+
+    let completedCount = 0;
+    const totalStreams = traditions.length + (theologianName ? 1 : 0);
+
+    function checkAllDone() {
+      completedCount++;
+      if (completedCount >= totalStreams) {
+        setIsGenerating(false);
+      }
+    }
+
+    // Stream all four tradition views in parallel
+    for (const tradition of traditions) {
+      streamSSE(
+        "/api/views",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ topic: topicInput, traditionId: tradition.id }),
+        },
+        (text) => {
+          setViews((prev) =>
+            prev.map((v) =>
+              v.tradition.id === tradition.id ? { ...v, text: v.text + text } : v
+            )
+          );
+        },
+        () => {
+          setViews((prev) =>
+            prev.map((v) =>
+              v.tradition.id === tradition.id
+                ? { ...v, isLoading: false, isComplete: true }
+                : v
+            )
+          );
+          checkAllDone();
+        },
+        (error) => {
+          setViews((prev) =>
+            prev.map((v) =>
+              v.tradition.id === tradition.id ? { ...v, isLoading: false, error } : v
+            )
+          );
+          checkAllDone();
+        }
+      );
+    }
+
+    // Stream theologian view in parallel
+    if (theologianName) {
+      streamSSE(
+        "/api/theologian",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ topic: topicInput, theologianName }),
+        },
+        (text) => {
+          setTheologian((prev) =>
+            prev ? { ...prev, text: prev.text + text } : null
+          );
+        },
+        () => {
+          setTheologian((prev) =>
+            prev ? { ...prev, isLoading: false, isComplete: true } : null
+          );
+          checkAllDone();
+        },
+        (error) => {
+          setTheologian((prev) =>
+            prev ? { ...prev, isLoading: false, error } : null
+          );
+          checkAllDone();
+        }
+      );
+    }
+  }, []);
+
+  const hasResults = views.length > 0;
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
+    <div className="min-h-screen">
+      {/* Sticky compact header (after first submission) */}
+      {hasResults && (
+        <header className="sticky top-0 z-10 bg-[#0f0f0f]/90 backdrop-blur border-b border-[#1e1e1e] px-4 py-3">
+          <div className="max-w-7xl mx-auto flex items-center gap-4">
+            <h1 className="text-sm font-semibold text-[#888] shrink-0 hidden sm:block">
+              Four Views
+            </h1>
+            <div className="flex-1">
+              <TopicForm onSubmit={handleSubmit} isLoading={isLoading} compact />
+            </div>
+          </div>
+        </header>
+      )}
+
+      <main className="max-w-7xl mx-auto px-4 py-8">
+        {/* Initial hero form */}
+        {!hasResults && !isSelecting && (
+          <div className="flex items-center justify-center min-h-[80vh]">
+            <div className="w-full">
+              <TopicForm onSubmit={handleSubmit} isLoading={isLoading} />
+            </div>
+          </div>
+        )}
+
+        {/* Selecting traditions loading */}
+        {isSelecting && (
+          <div className="flex items-center justify-center min-h-[60vh]">
+            <div className="text-center">
+              <div className="w-10 h-10 border-2 border-[#333] border-t-[#888] rounded-full animate-spin mx-auto mb-4" />
+              <p className="text-[#888] text-sm">
+                Selecting the most relevant traditions for &ldquo;{topic}&rdquo;...
+              </p>
+            </div>
+          </div>
+        )}
+
+        {/* Results */}
+        {hasResults && (
+          <div className="space-y-6">
+            <div className="pt-2">
+              <p className="text-xs text-[#555] uppercase tracking-widest mb-1">
+                Four Views on
+              </p>
+              <h2 className="text-2xl font-bold text-[#ededed] capitalize">{topic}</h2>
+            </div>
+
+            {/* 2x2 grid */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {views.map((viewState) => (
+                <ViewCard key={viewState.tradition.id} viewState={viewState} />
+              ))}
+            </div>
+
+            {/* Theologian card */}
+            {theologian && (
+              <div>
+                <TheologianCard state={theologian} />
+              </div>
+            )}
+          </div>
+        )}
       </main>
     </div>
   );
