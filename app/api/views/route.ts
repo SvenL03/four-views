@@ -1,5 +1,5 @@
 import { NextRequest } from "next/server";
-import { anthropic, MODEL } from "@/lib/claude";
+import { client, MODEL } from "@/lib/claude";
 import { TRADITION_MAP } from "@/lib/tradition-pool";
 
 export const runtime = "nodejs";
@@ -16,11 +16,14 @@ export async function POST(request: NextRequest) {
     return new Response("Unknown tradition", { status: 400 });
   }
 
-  const stream = anthropic.messages.stream({
+  const stream = await client.chat.completions.create({
     model: MODEL,
-    max_tokens: 1024,
-    system: tradition.systemPrompt,
+    stream: true,
     messages: [
+      {
+        role: "system",
+        content: tradition.systemPrompt,
+      },
       {
         role: "user",
         content: `Write your tradition's perspective on the following theological topic for a "Four Views" style academic book:
@@ -35,11 +38,9 @@ Topic: ${topic}`,
     async start(controller) {
       try {
         for await (const chunk of stream) {
-          if (
-            chunk.type === "content_block_delta" &&
-            chunk.delta.type === "text_delta"
-          ) {
-            const data = JSON.stringify({ text: chunk.delta.text });
+          const text = chunk.choices[0]?.delta?.content;
+          if (text) {
+            const data = JSON.stringify({ text });
             controller.enqueue(encoder.encode(`data: ${data}\n\n`));
           }
         }

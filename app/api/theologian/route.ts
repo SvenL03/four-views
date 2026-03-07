@@ -1,5 +1,5 @@
 import { NextRequest } from "next/server";
-import { anthropic, MODEL } from "@/lib/claude";
+import { client, MODEL } from "@/lib/claude";
 
 export const runtime = "nodejs";
 
@@ -16,11 +16,14 @@ Write approximately 350-400 words in first person. Write entirely in character. 
 
 Begin immediately. Do not start with "As [name]..." — just begin making the argument as they would.`;
 
-  const stream = anthropic.messages.stream({
+  const stream = await client.chat.completions.create({
     model: MODEL,
-    max_tokens: 1024,
-    system: systemPrompt,
+    stream: true,
     messages: [
+      {
+        role: "system",
+        content: systemPrompt,
+      },
       {
         role: "user",
         content: `Write your perspective on the following theological topic:
@@ -35,11 +38,9 @@ Topic: ${topic}`,
     async start(controller) {
       try {
         for await (const chunk of stream) {
-          if (
-            chunk.type === "content_block_delta" &&
-            chunk.delta.type === "text_delta"
-          ) {
-            const data = JSON.stringify({ text: chunk.delta.text });
+          const text = chunk.choices[0]?.delta?.content;
+          if (text) {
+            const data = JSON.stringify({ text });
             controller.enqueue(encoder.encode(`data: ${data}\n\n`));
           }
         }

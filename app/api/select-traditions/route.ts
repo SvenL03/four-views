@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { anthropic, MODEL } from "@/lib/claude";
+import { client, MODEL } from "@/lib/claude";
 import { TRADITION_LIST_FOR_PROMPT, TRADITION_MAP } from "@/lib/tradition-pool";
 import { SelectedTradition } from "@/lib/types";
 
@@ -11,11 +11,13 @@ export async function GET(request: NextRequest) {
     return NextResponse.json({ error: "Topic is required" }, { status: 400 });
   }
 
-  const message = await anthropic.messages.create({
+  const response = await client.chat.completions.create({
     model: MODEL,
-    max_tokens: 512,
-    system: `You are a theological curriculum designer. Given a theological topic, select the 4 most illuminating and genuinely distinct perspectives from the list provided. Choose traditions that will produce the most interesting contrast and debate on this specific topic. Return ONLY valid JSON — no markdown, no explanation, nothing else.`,
     messages: [
+      {
+        role: "system",
+        content: `You are a theological curriculum designer. Given a theological topic, select the 4 most illuminating and genuinely distinct perspectives from the list provided. Choose traditions that will produce the most interesting contrast and debate on this specific topic. Return ONLY valid JSON — no markdown, no explanation, nothing else.`,
+      },
       {
         role: "user",
         content: `Topic: "${topic}"
@@ -33,11 +35,10 @@ Return only the JSON object, nothing else.`,
     ],
   });
 
-  const raw = message.content[0].type === "text" ? message.content[0].text : "";
+  const raw = response.choices[0]?.message?.content ?? "";
 
   let ids: string[];
   try {
-    // Strip markdown code fences if present
     const cleaned = raw.replace(/```json?\n?/g, "").replace(/```/g, "").trim();
     const parsed = JSON.parse(cleaned);
     ids = parsed.traditions;
@@ -45,7 +46,6 @@ Return only the JSON object, nothing else.`,
     return NextResponse.json({ error: "Failed to parse tradition selection" }, { status: 500 });
   }
 
-  // Map ids to full tradition data (filter out any invalid ids)
   const selected: SelectedTradition[] = ids
     .filter((id) => TRADITION_MAP[id])
     .slice(0, 4)
@@ -61,7 +61,6 @@ Return only the JSON object, nothing else.`,
       };
     });
 
-  // Fallback: if fewer than 4 valid traditions, pad with defaults
   if (selected.length < 4) {
     const defaults = ["reformed", "arminian", "conservative_evangelical", "mainline_liberal"];
     for (const id of defaults) {
