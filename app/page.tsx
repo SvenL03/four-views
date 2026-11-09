@@ -4,7 +4,8 @@ import { useState, useCallback } from "react";
 import { TopicForm } from "@/components/topic-form";
 import { ViewCard } from "@/components/view-card";
 import { TheologianCard } from "@/components/theologian-card";
-import { SelectedTradition, ViewState, TheologianState } from "@/lib/types";
+import { AgreementPanel } from "@/components/agreement-panel";
+import { SelectedTradition, ViewState, TheologianState, AgreementState } from "@/lib/types";
 
 async function streamSSE(
   url: string,
@@ -58,6 +59,7 @@ export default function Home() {
   const [topic, setTopic] = useState<string | null>(null);
   const [views, setViews] = useState<ViewState[]>([]);
   const [theologian, setTheologian] = useState<TheologianState | null>(null);
+  const [agreement, setAgreement] = useState<AgreementState | null>(null);
   const [isSelecting, setIsSelecting] = useState(false);
   const [isGenerating, setIsGenerating] = useState(false);
 
@@ -67,6 +69,7 @@ export default function Home() {
     setTopic(topicInput);
     setViews([]);
     setTheologian(null);
+    setAgreement(null);
     setIsSelecting(true);
 
     // Phase 1: Select traditions
@@ -122,18 +125,46 @@ export default function Home() {
       });
     }
 
-    let completedCount = 0;
-    const totalStreams = traditions.length + (theologianName ? 1 : 0);
+    // Track tradition completions separately to trigger agreement analysis
+    const completedTexts: Record<string, string> = {};
+    let traditionsDone = 0;
 
-    function checkAllDone() {
-      completedCount++;
-      if (completedCount >= totalStreams) {
+    async function onTraditionComplete(traditionId: string) {
+      traditionsDone++;
+      if (traditionsDone === traditions.length) {
         setIsGenerating(false);
+
+        // Trigger agreement analysis
+        setAgreement({ result: null, isLoading: true, error: null });
+        try {
+          const viewsPayload = traditions.map((t) => ({
+            id: t.id,
+            name: t.name,
+            text: completedTexts[t.id] ?? "",
+          }));
+          const res = await fetch("/api/agreement", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ topic: topicInput, views: viewsPayload }),
+          });
+          if (!res.ok) throw new Error("Agreement API failed");
+          const result = await res.json();
+          setAgreement({ result, isLoading: false, error: null });
+        } catch (err) {
+          setAgreement({
+            result: null,
+            isLoading: false,
+            error: err instanceof Error ? err.message : "Agreement analysis failed",
+          });
+        }
       }
+      void traditionId;
     }
 
     // Stream all four tradition views in parallel
     for (const tradition of traditions) {
+      completedTexts[tradition.id] = "";
+
       streamSSE(
         "/api/views",
         {
@@ -142,6 +173,7 @@ export default function Home() {
           body: JSON.stringify({ topic: topicInput, traditionId: tradition.id }),
         },
         (text) => {
+          completedTexts[tradition.id] += text;
           setViews((prev) =>
             prev.map((v) =>
               v.tradition.id === tradition.id ? { ...v, text: v.text + text } : v
@@ -156,7 +188,7 @@ export default function Home() {
                 : v
             )
           );
-          checkAllDone();
+          onTraditionComplete(tradition.id);
         },
         (error) => {
           setViews((prev) =>
@@ -164,12 +196,12 @@ export default function Home() {
               v.tradition.id === tradition.id ? { ...v, isLoading: false, error } : v
             )
           );
-          checkAllDone();
+          onTraditionComplete(tradition.id);
         }
       );
     }
 
-    // Stream theologian view in parallel
+    // Stream theologian view in parallel (independent of agreement trigger)
     if (theologianName) {
       streamSSE(
         "/api/theologian",
@@ -187,13 +219,11 @@ export default function Home() {
           setTheologian((prev) =>
             prev ? { ...prev, isLoading: false, isComplete: true } : null
           );
-          checkAllDone();
         },
         (error) => {
           setTheologian((prev) =>
             prev ? { ...prev, isLoading: false, error } : null
           );
-          checkAllDone();
         }
       );
     }
@@ -203,7 +233,6 @@ export default function Home() {
 
   return (
     <div className="min-h-screen">
-      {/* Sticky compact header (after first submission) */}
       {hasResults && (
         <header className="sticky top-0 z-10 bg-[#0f0f0f]/90 backdrop-blur border-b border-[#1e1e1e] px-4 py-3">
           <div className="max-w-7xl mx-auto flex items-center gap-4">
@@ -218,7 +247,6 @@ export default function Home() {
       )}
 
       <main className="max-w-7xl mx-auto px-4 py-8">
-        {/* Initial hero form */}
         {!hasResults && !isSelecting && (
           <div className="flex items-center justify-center min-h-[80vh]">
             <div className="w-full">
@@ -227,7 +255,6 @@ export default function Home() {
           </div>
         )}
 
-        {/* Selecting traditions loading */}
         {isSelecting && (
           <div className="flex items-center justify-center min-h-[60vh]">
             <div className="text-center">
@@ -239,7 +266,6 @@ export default function Home() {
           </div>
         )}
 
-        {/* Results */}
         {hasResults && (
           <div className="space-y-6">
             <div className="pt-2">
@@ -249,19 +275,15 @@ export default function Home() {
               <h2 className="text-2xl font-bold text-[#ededed] capitalize">{topic}</h2>
             </div>
 
-            {/* 2x2 grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {views.map((viewState) => (
                 <ViewCard key={viewState.tradition.id} viewState={viewState} />
               ))}
             </div>
 
-            {/* Theologian card */}
-            {theologian && (
-              <div>
-                <TheologianCard state={theologian} />
-              </div>
-            )}
+            {agreement && <AgreementPanel state={agreement} />}
+
+            {theologian && <TheologianCard state={theologian} />}
           </div>
         )}
       </main>

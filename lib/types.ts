@@ -32,3 +32,24 @@ export interface TheologianState {
   isComplete: boolean;
   error: string | null;
 }
+
+export interface AgreementPair {
+  tradition1Id: string;
+  tradition1Name: string;
+  tradition2Id: string;
+  tradition2Name: string;
+  score: number; // 0-100
+  note: string;  // one-sentence explanation
+}
+
+export interface AgreementResult {
+  overallConsensus: number; // 0-100
+  summary: string;
+  pairs: AgreementPair[];
+}
+
+export interface AgreementState {
+  result: AgreementResult | null;
+  isLoading: boolean;
+  error: string | null;
+}
