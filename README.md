@@ -12,7 +12,7 @@ It's a summary to start from. The sources are the authority.
 4. **Validation.** Schema check; citation markers in range; a source is kept only if its URL came back from search or is in the curated library; Scripture references checked against the canon; long quotations stripped.
 5. **Cache.** Topics are stored in Neon (Postgres). The second reader of a topic costs nothing, and two readers asking the same new topic at once pay once.
 
-Seeded topics (`data/topics/*.json`) were written and source-checked by hand-supervised runs; every link is machine-checked by `scripts/check-topics.ts` and a sample of locators was opened and checked per topic (see each file's `meta.reviewNotes`).
+Seeded topics (`data/topics/*.json`) were written in Claude Code sessions with every source opened; every link is machine-checked by `scripts/check-topics.ts` and a sample of locators was opened and checked per topic (see each file's `meta.reviewNotes`).
 
 ### The traditions
 
@@ -55,10 +55,11 @@ node scripts/check-topics.ts
 |---|---|
 | `ANTHROPIC_API_KEY` | Claude engine (preferred when set) |
 | `PERPLEXITY_API_KEY` | Perplexity engine (used when no Anthropic key) |
-| `ENGINE` | `mock` for local testing |
+| `ENGINE` | `mock` for local testing; `anthropic` or `perplexity` to force one; `off` to pause new topics |
 | `DATABASE_URL` | Neon cache, limits and spend tracking (added by the Vercel Neon integration) |
 | `DAILY_SPEND_CAP_USD` | Daily cap on model spend, default 2 |
 | `DAILY_GENERATION_CAP` | Daily cap on new topics, default 25 |
+| `GENERATION_COST_ESTIMATE_USD` | Held against the cap while a topic is written (default by engine: Claude 1.50, Perplexity 0.20) |
 | `RATE_LIMIT_SECRET` | Salt for hashing visitor keys |
 | `EXTRA_TRADITIONS` | `1` to add Lutheran, Roman Catholic, Eastern Orthodox |
 | `NEXT_PUBLIC_SITE_URL` | Canonical URL for links and preview images |
