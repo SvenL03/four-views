@@ -78,8 +78,7 @@ function loadResearch(): Map<TraditionId, ResearchEntry> | null {
   if (cache !== undefined) return cache;
   cache = null;
   try {
-    const file = process.env.FOUR_VIEWS_RESEARCH_FILE || path.join(process.cwd(), "data", "traditions.research.json");
-    const json: unknown = JSON.parse(fs.readFileSync(file, "utf8"));
+    const json: unknown = JSON.parse(fs.readFileSync(path.join(process.cwd(), "data", "traditions.research.json"), "utf8"));
     let entries: [string, unknown][] = [];
     const root = json && typeof json === "object" && "traditions" in json ? (json as { traditions: unknown }).traditions : json;
     if (Array.isArray(root)) {
