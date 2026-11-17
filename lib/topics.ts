@@ -108,18 +108,18 @@ export function invalidateTopics(slug?: string): void {
 // ---------------------------------------------------------------------------
 // Public API used by pages, OG images, the sitemap and the API.
 
-/** A ready topic: database first, else the seed file. Deduped per request. */
+/** A ready topic: the checked seed file first (curated, always current), else the database. Deduped per request. */
 export const getTopic = cache(async (slug: string): Promise<Topic | null> => {
   if (!SLUG_RE.test(slug)) return null;
-  return (await getDbTopic(slug)) ?? (await getSeedTopic(slug));
+  return (await getSeedTopic(slug)) ?? (await getDbTopic(slug));
 });
 
 /** Every ready topic (database ∪ seeds, deduped by slug), newest first. */
 export const listTopics = cache(async (): Promise<TopicSummary[]> => {
   const [db, seeds] = await Promise.all([getDbSummaries(), listSeedTopics()]);
   const bySlug = new Map<string, TopicSummary>();
-  for (const s of seeds) bySlug.set(s.slug, s);
-  for (const s of db) bySlug.set(s.slug, s); // the database copy wins
+  for (const s of db) bySlug.set(s.slug, s);
+  for (const s of seeds) bySlug.set(s.slug, s); // the checked seed copy wins
   return [...bySlug.values()].sort((a, b) => (a.generatedAt < b.generatedAt ? 1 : a.generatedAt > b.generatedAt ? -1 : 0));
 });
 
