@@ -1,0 +1,201 @@
+{
+  "slug": "predestination-and-free-will",
+  "title": "Predestination and Free Will",
+  "question": "Does God choose who will be saved, and if so, on what basis, and how does that fit with real human choice?",
+  "intro": "The Bible speaks of God choosing, predestining and foreknowing, and it also calls every person to repent and believe. Christians agree on both lines of teaching but explain how they fit together in very different ways. The answers shape how churches preach, pray and understand God's love.",
+  "traditionIds": ["reformed", "arminian", "conservative_evangelical", "open_theist"],
+  "whyTheseFour": "Reformed and Wesleyan-Arminian churches give the two classic, confessionally settled answers; Conservative Evangelicals (here the Southern Baptist Convention) hold both camps inside one confession and show how a large body lives with the disagreement; Open Theism rethinks God's knowledge of the future itself, which changes the question rather than only the answer.",
+  "views": [
+    {
+      "traditionId": "reformed",
+      "headline": "God freely and unchangeably ordained all that happens and chose particular people for salvation by grace alone, while humans remain willing and responsible agents.",
+      "body": [
+        "Reformed churches teach that God, from all eternity and by his own wise counsel, freely and unchangeably ordained whatever comes to pass. They add at once that this does not make God the author of sin, does no violence to the will of creatures, and does not cancel real human choices; it establishes them [1]. God knows every possibility, but he did not decree anything because he foresaw that it would happen [1]. John Calvin defined predestination as God's eternal decree about what he willed for each person, and warned against prying beyond what Scripture reveals [5].",
+        "Election, God's choice of particular people for salvation, is unconditional in this view. Before creation God chose in Christ a definite number of people out of a fallen human race, by sheer grace and not because of foreseen faith or good works. Faith, holiness and perseverance flow from election rather than cause it [1][3]. The rest God passes by, leaving them to the just judgment their own sin deserves [1][3].",
+        "On free will, the confessions say the human will is never forced [2]. Since the fall, however, no one can turn to God by natural strength; when God converts a sinner he frees the will, so that the person truly and willingly believes [2]. Those who refuse the gospel are responsible, and the fault lies with them, not with God or the gospel [4].",
+        "Reformed pastors present the doctrine as a source of humility and comfort: believers can be assured of their election from God's effective call in their lives [1]."
+      ],
+      "keyTexts": [
+        { "ref": "Eph 1:4-11", "why": "God chose believers in Christ before the foundation of the world and works all things according to the counsel of his will." },
+        { "ref": "Rom 9:10-16", "why": "Jacob was chosen over Esau before either was born or had done anything, so that God's purpose of election would stand." },
+        { "ref": "Rom 8:29-30", "why": "Those God predestined he also called, justified and glorified: an unbroken chain from God's purpose to final salvation." },
+        { "ref": "John 6:37-44", "why": "All the Father gives to the Son will come, and no one can come unless the Father draws him." },
+        { "ref": "Acts 13:48", "why": "As many as were appointed to eternal life believed." }
+      ],
+      "sources": [
+        { "id": "wcf3", "title": "Westminster Confession of Faith", "publisher": "Orthodox Presbyterian Church", "year": 1647, "url": "https://opc.org/wcf.html", "kind": "confession", "locator": "ch. 3.1-3.8 (Of God's Eternal Decree)" },
+        { "id": "wcf9", "title": "Westminster Confession of Faith", "publisher": "Orthodox Presbyterian Church", "year": 1647, "url": "https://opc.org/wcf.html", "kind": "confession", "locator": "ch. 9.1-9.4 (Of Free Will)" },
+        { "id": "dort1", "title": "Canons of Dort", "publisher": "Christian Reformed Church in North America", "year": 1619, "url": "https://www.crcna.org/welcome/beliefs/confessions/canons-dort", "kind": "confession", "locator": "First Main Point, Articles 6-10" },
+        { "id": "dort34", "title": "Canons of Dort", "publisher": "Christian Reformed Church in North America", "year": 1619, "url": "https://www.crcna.org/welcome/beliefs/confessions/canons-dort", "kind": "confession", "locator": "Third and Fourth Main Points, Article 9" },
+        { "id": "calvin", "title": "Institutes of the Christian Religion", "author": "John Calvin", "publisher": "Christian Classics Ethereal Library", "year": 1559, "url": "https://www.ccel.org/ccel/calvin/institutes.v.xxii.html", "kind": "book", "locator": "Book III, ch. 21, sec. 1 and 5" }
+      ],
+      "consensus": "settled",
+      "consensusNote": "Confessional Presbyterian and Reformed churches (PCA, OPC, CRC, Reformed Baptists) hold this as their stated doctrine. Reformed theologians still debate finer points, such as the logical order of God's decrees."
+    },
+    {
+      "traditionId": "arminian",
+      "headline": "God's grace goes before every person and makes a free response to the gospel possible, and God has eternally chosen to save all who believe.",
+      "body": [
+        "Wesleyan-Arminian churches teach that God created humans with the ability to choose between right and wrong, and so made them morally responsible. Since Adam's fall, no one can turn to God or exercise saving faith by their own strength. Yet through Christ, prevenient grace (grace that goes before any human response) is given freely to all, enabling everyone who will to turn and be saved [1]. The older Methodist Articles of Religion say the same: without God's grace going before us and working with us, we have no power to do what pleases God [3].",
+        "Christ's death atoned for the sins of the whole world and is sufficient for every person; for those old enough to be accountable it saves through repentance and faith [2]. The ability to respond comes from God, but the act of responding is the person's own [2].",
+        "John Wesley preached that God's grace is free in all and free for all: it depends on nothing in us, and it is offered to every person [4]. He argued that a decree choosing some and passing by others would make preaching pointless and set Scripture against its own teaching that God is love [4]. Instead he located God's eternal decree in this: whoever chooses life in Christ shall live, and believers are elect according to God's foreknowledge [4]. In this tradition, election is God's unchanging plan to save all who believe, and God's sovereignty shows in the gracious way he makes a free response possible."
+      ],
+      "keyTexts": [
+        { "ref": "1 Tim 2:3-6", "why": "God wants all people to be saved, and Christ gave himself as a ransom for all." },
+        { "ref": "Titus 2:11", "why": "The grace of God that brings salvation has appeared to all people." },
+        { "ref": "2 Pet 3:9", "why": "God is not willing that any should perish but that all should come to repentance." },
+        { "ref": "1 Pet 1:1-2", "why": "Believers are chosen according to the foreknowledge of God the Father." }
+      ],
+      "sources": [
+        { "id": "wes8", "title": "Articles of Religion, Article 8: Personal Choice", "publisher": "The Wesleyan Church", "url": "https://www.wesleyan.org/about/articles-of-religion", "kind": "statement", "locator": "Article 8 (para. 224)" },
+        { "id": "wes1011", "title": "Articles of Religion, Articles 10-11: The Atonement; Repentance and Faith", "publisher": "The Wesleyan Church", "url": "https://www.wesleyan.org/about/articles-of-religion", "kind": "statement", "locator": "Articles 10-11 (paras. 226, 228)" },
+        { "id": "meth8", "title": "The Articles of Religion of the Methodist Church", "publisher": "The United Methodist Church (Book of Discipline)", "year": 1784, "url": "https://www.umc.org/en/content/articles-of-religion", "kind": "confession", "locator": "Article VIII, Of Free Will" },
+        { "id": "freegrace", "title": "Sermon 128: Free Grace", "author": "John Wesley", "publisher": "Wesley Center Online, Northwest Nazarene University", "year": 1739, "url": "https://wesley.nnu.edu/john-wesley/the-sermons-of-john-wesley-1872-edition/sermon-128-free-grace/", "kind": "sermon", "locator": "sec. 2-4, 10, 20, 29" }
+      ],
+      "consensus": "settled",
+      "consensusNote": "Methodist and Wesleyan-holiness bodies share prevenient grace and conditional election; teachers differ mainly in how they explain the link between God's foreknowledge and election."
+    },
+    {
+      "traditionId": "conservative_evangelical",
+      "headline": "Scripture teaches both God's gracious election and real human free agency; Southern Baptists confess both together and openly differ on how they fit.",
+      "body": [
+        "Conservative Evangelicals, here represented by the Southern Baptist Convention, confess together that election is God's gracious purpose by which he regenerates, justifies, sanctifies and glorifies sinners; that it is consistent with the free agency of human beings; and that it rules out boasting and fosters humility [1]. The confession holds sovereignty and responsibility side by side without spelling out how they fit.",
+        "Within that shared confession run two streams. Calvinist Southern Baptists stand in the line of the 1858 Abstract of Principles, which teaches that God chose some persons for eternal life, not because of foreseen merit in them but out of his mercy in Christ [2]. Others, who call their view Traditional, affirm that election is God's eternal, certain plan in Christ to have a people who are his by repentance and faith; they deny that God predestined some individuals for salvation and others for condemnation, and they hold that God gives every person real freedom to accept or reject the gospel [3].",
+        "A 2013 advisory committee named the points where the two streams differ, such as whether faith plays a role in election, whether grace can be resisted, and whether faith or new birth comes first [4]. It urged Southern Baptists to grant one another liberty within the confession and to keep working together in evangelism, saying it is better to live with unanswered questions than to trim any part of Scripture's teaching [4]."
+      ],
+      "keyTexts": [
+        { "ref": "Eph 1:3-6", "why": "God chose believers in Christ before the foundation of the world, to the praise of his grace." },
+        { "ref": "John 3:16", "why": "Whoever believes in the Son will not perish: the offer is to everyone." },
+        { "ref": "Rom 10:9-13", "why": "Everyone who calls on the name of the Lord will be saved." },
+        { "ref": "Phil 2:12-13", "why": "Believers work out their salvation because God is at work in them: both sides held together." }
+      ],
+      "sources": [
+        { "id": "bfm", "title": "The Baptist Faith and Message 2000", "publisher": "Southern Baptist Convention", "year": 2000, "url": "https://bfm.sbc.net/bfm2000/", "kind": "confession", "locator": "Article V, God's Purpose of Grace" },
+        { "id": "abstract", "title": "Abstract of Principles", "publisher": "The Southern Baptist Theological Seminary", "year": 1858, "url": "https://www.sbts.edu/about/abstract/", "kind": "confession", "locator": "Article V, Election" },
+        { "id": "traditional", "title": "A Statement of the Traditional Southern Baptist Understanding of God's Plan of Salvation", "publisher": "The Alabama Baptist", "year": 2012, "url": "https://thealabamabaptist.org/?p=64009", "kind": "statement", "locator": "Articles Six and Eight" },
+        { "id": "ttt", "title": "Truth, Trust and Testimony in a Time of Tension: A Statement from the Calvinism Advisory Committee", "publisher": "The Alabama Baptist", "year": 2013, "url": "https://thealabamabaptist.org/?p=69169", "kind": "statement", "locator": "section Tensions" }
+      ],
+      "consensus": "divided",
+      "consensusNote": "Conservative Evangelicals include both Calvinists and non-Calvinists. In the SBC both camps affirm the same confessional article on election and disagree on how to read it; the 2013 committee was an advisory team, not a binding ruling."
+    },
+    {
+      "traditionId": "open_theist",
+      "headline": "God created free creatures in a world of real possibilities, knows the future as partly settled and partly open, and chooses people for his purposes without fixing their eternal destinies in advance.",
+      "body": [
+        "Open theists teach that God chose to create a world that includes free agents, and therefore a world where possibilities are real. The future is partly settled, to whatever degree God has decided to settle it or past choices have fixed it, and partly open, to the degree free creatures have yet to decide [1]. God knows everything perfectly, including the future, but he knows its open parts as possibilities rather than certainties [1]. Because his wisdom is unlimited, he is as ready for every possibility as for a certainty, so his promise to defeat evil in the end is secure [1].",
+        "The authors of The Openness of God (1994) argued that the God revealed in Christ seeks a responsive relationship with his creatures, grants them significant freedom, and enters into a real give and take with them. They rejected process theology but called for rethinking classical claims about God's unchangeability and foreknowledge [2].",
+        "On predestination, Greg Boyd reads Romans 9 as Paul's defense of God's faithfulness to Israel as a people, not a lesson on which individuals are saved: God chose Isaac and Jacob for a mission, to form a nation that would bless the world [3]. Paul's own summary of the chapter turns on faith, and the potter image from Jeremiah 18 shows a potter who adapts to how the clay responds [3]. Election is a call to vocation, evil is no part of God's plan for anyone's life, and people have a real say in what comes to pass, including through prayer [1][3]."
+      ],
+      "keyTexts": [
+        { "ref": "Jer 18:1-11", "why": "The potter reshapes his plans for a nation as it responds, the background Boyd reads behind Romans 9." },
+        { "ref": "Exod 32:9-14", "why": "God relents from the disaster he had announced after Moses intercedes." },
+        { "ref": "Gen 22:12", "why": "After Abraham's test God says, now I know that you fear God." },
+        { "ref": "Rom 9:30-32", "why": "Paul sums up the chapter by pointing to faith as what made the difference." }
+      ],
+      "sources": [
+        { "id": "boyd-what", "title": "What is Open Theism?", "author": "Gregory A. Boyd", "publisher": "ReKnew", "year": 2008, "url": "https://reknew.org/2008/01/what-is-open-theism-2/", "kind": "article" },
+        { "id": "openness", "title": "The Openness of God: A Biblical Challenge to the Traditional Understanding of God", "author": "Clark H. Pinnock, Richard Rice, John Sanders, William Hasker, David Basinger", "publisher": "InterVarsity Press (book page at drjohnsanders.com)", "year": 1994, "url": "https://drjohnsanders.com/books/the-openness-of-god/", "kind": "book" },
+        { "id": "boyd-rom9", "title": "How do you respond to Romans 9?", "author": "Gregory A. Boyd", "publisher": "ReKnew", "year": 2008, "url": "https://reknew.org/2008/01/how-do-you-respond-to-romans-9/", "kind": "article", "locator": "sec. 3-5" }
+      ],
+      "consensus": "no-official-position",
+      "consensusNote": "Open Theism is a theological movement, not a denomination, so it has no confession of its own. Its teachers differ on whether the open future is unknowable in principle or left open by God's choice, and its place within evangelical bodies has been debated."
+    }
+  ],
+  "synthesis": {
+    "common": [
+      "Salvation is God's gracious gift in Christ, and no one can boast of earning it.",
+      "Since the fall, no one turns to God without God's grace going first.",
+      "People are truly responsible before God for how they respond to the gospel.",
+      "The gospel is to be preached to everyone, and God's purposes in Christ will not finally fail.",
+      "Scripture's words for choosing, predestining and foreknowing must be taken seriously, not explained away."
+    ],
+    "partings": [
+      {
+        "question": "Does God choose who will be saved on the basis of anything he sees in them, such as foreseen faith?",
+        "why": "Whether grace is only grace if it is unconditional, or whether a gift of love must be freely received to be what it is.",
+        "answers": [
+          { "traditionId": "reformed", "answer": "No. Election is unconditional: God chose particular people out of sheer grace, and faith is the fruit of election, not its ground." },
+          { "traditionId": "arminian", "answer": "God eternally decreed to save all who believe in Christ, and he elects believers according to his foreknowledge of their faith." },
+          { "traditionId": "conservative_evangelical", "answer": "Southern Baptists differ. Calvinists say God chose some apart from foreseen merit; Traditionalists say election is God's plan to have a people by repentance and faith. Both affirm the same confessional article." },
+          { "traditionId": "open_theist", "answer": "Election is mainly God's choice of a people, and of people for a mission. Individuals are not chosen for salvation in advance; whoever believes belongs to the chosen people." }
+        ]
+      },
+      {
+        "question": "Can a fallen person refuse the grace that draws them to God?",
+        "why": "How deeply sin has bound the will, and whether God's saving grace works by effective power or by enabling persuasion.",
+        "answers": [
+          { "traditionId": "reformed", "answer": "God's effective call frees the will and surely brings the elect to faith; those who refuse the gospel do so by their own fault." },
+          { "traditionId": "arminian", "answer": "Yes. Prevenient grace is given to all and enables a response, but the person can still say no." },
+          { "traditionId": "conservative_evangelical", "answer": "Divided: some hold that saving grace is irresistible, others that it can be resisted, and the SBC's 2013 committee asked both to give each other liberty." },
+          { "traditionId": "open_theist", "answer": "Yes. God's love seeks a free response and never forces one; real relationship requires that creatures can refuse." }
+        ]
+      },
+      {
+        "question": "Does God know every future free choice as certain, and has he ordained all that happens?",
+        "why": "The underlying account of freedom (compatible with God's ordaining, or requiring open alternatives) and of how God relates to time.",
+        "answers": [
+          { "traditionId": "reformed", "answer": "Yes. God ordained whatever comes to pass and knows it all, yet without forcing the will or making himself the author of sin." },
+          { "traditionId": "arminian", "answer": "God knows all future choices, but his knowing them does not cause them; he does not ordain sin, and his saving decree is conditioned on faith." },
+          { "traditionId": "conservative_evangelical", "answer": "All affirm God's complete knowledge and sovereignty; they differ on how God exercises that sovereignty with respect to human freedom." },
+          { "traditionId": "open_theist", "answer": "God knows all that can be known. Future free choices are partly still possibilities, so God knows them as possibilities, and he settles some things but not all." }
+        ]
+      },
+      {
+        "question": "What is Romans 9 about?",
+        "why": "Whether the election passages describe God's choice of individuals for salvation or his choice of peoples and servants for his purposes in history.",
+        "answers": [
+          { "traditionId": "reformed", "answer": "God's free choice of particular persons, shown in Jacob and Esau before birth; the Canons of Dort cite it for election based on God's good pleasure alone." },
+          { "traditionId": "arminian", "answer": "Wesley held that reading it as eternal reprobation contradicts the whole tenor of Scripture, which says God is love and his mercy is over all his works, so it must be read in that light." },
+          { "traditionId": "conservative_evangelical", "answer": "Both readings are held among Southern Baptists, and the confession does not decide between them." },
+          { "traditionId": "open_theist", "answer": "Paul is defending God's faithfulness to Israel and his right to choose a people for a mission, not deciding individual destinies." }
+        ]
+      }
+    ],
+    "terms": [
+      {
+        "term": "Election",
+        "meanings": [
+          { "traditionId": "reformed", "meaning": "God's eternal, unconditional choice of particular people for salvation in Christ." },
+          { "traditionId": "arminian", "meaning": "God's eternal decree to save all who believe, with believers chosen according to his foreknowledge." },
+          { "traditionId": "conservative_evangelical", "meaning": "God's gracious purpose to regenerate, justify, sanctify and glorify sinners, consistent with free agency; read as individual and unconditional by some, as God's plan for a believing people by others." },
+          { "traditionId": "open_theist", "meaning": "God's choosing of a people, and of individuals for a calling in history, rather than a fixed list of the saved." }
+        ]
+      },
+      {
+        "term": "Foreknowledge",
+        "meanings": [
+          { "traditionId": "reformed", "meaning": "God's knowledge of all possibilities and all that will be; his decree does not rest on what he foresaw." },
+          { "traditionId": "arminian", "meaning": "God's eternal knowledge of who will believe, according to which he elects them." },
+          { "traditionId": "conservative_evangelical", "meaning": "God's complete knowledge of the future, affirmed by all; whether it grounds election is disputed." },
+          { "traditionId": "open_theist", "meaning": "God's perfect knowledge of the future as it is: settled parts as certain, open parts as possibilities." }
+        ]
+      },
+      {
+        "term": "Free will",
+        "meanings": [
+          { "traditionId": "reformed", "meaning": "A will that is never forced, but that since the fall cannot choose saving good until God frees it." },
+          { "traditionId": "arminian", "meaning": "The ability, restored to all by prevenient grace, to accept or refuse salvation." },
+          { "traditionId": "conservative_evangelical", "meaning": "Free agency that all affirm; Traditionalists define it as a real ability to choose between options, while Calvinists stress sin's bondage of the will." },
+          { "traditionId": "open_theist", "meaning": "The power of creatures to turn real possibilities into actual events by their own choices." }
+        ]
+      }
+    ],
+    "furtherReading": [
+      { "title": "Predestination and Free Will: Four Views of Divine Sovereignty and Human Freedom", "author": "David Basinger and Randall Basinger, eds. (InterVarsity Press, 1986)", "note": "Multi-view: John Feinberg, Norman Geisler, Bruce Reichenbach and Clark Pinnock answer one another.", "traditionIds": ["reformed", "conservative_evangelical", "arminian", "open_theist"] },
+      { "title": "Four Views on Divine Providence", "author": "Dennis W. Jowers, ed. (Zondervan Counterpoints, 2011)", "note": "Multi-view, including a Reformed case and Gregory Boyd's open view.", "traditionIds": ["reformed", "open_theist"] },
+      { "title": "Institutes of the Christian Religion, Book III, chapters 21-24", "author": "John Calvin", "url": "https://www.ccel.org/ccel/calvin/institutes.v.xxii.html", "note": "The classic Reformed treatment of election.", "traditionIds": ["reformed"] },
+      { "title": "Sermon 128: Free Grace", "author": "John Wesley", "url": "https://wesley.nnu.edu/john-wesley/the-sermons-of-john-wesley-1872-edition/sermon-128-free-grace/", "note": "Wesley's 1739 sermon against unconditional predestination.", "traditionIds": ["arminian"] },
+      { "title": "Arminian Theology: Myths and Realities", "author": "Roger E. Olson (IVP Academic, 2006)", "note": "A modern Arminian's own account of the tradition.", "traditionIds": ["arminian"] },
+      { "title": "Whosoever Will: A Biblical-Theological Critique of Five-Point Calvinism", "author": "David L. Allen and Steve W. Lemke, eds. (B&H Academic, 2010)", "note": "Southern Baptist non-Calvinist case.", "traditionIds": ["conservative_evangelical"] },
+      { "title": "The Openness of God", "author": "Clark H. Pinnock, Richard Rice, John Sanders, William Hasker, David Basinger", "url": "https://drjohnsanders.com/books/the-openness-of-god/", "note": "The 1994 book that brought the open view into evangelical debate.", "traditionIds": ["open_theist"] }
+    ]
+  },
+  "meta": {
+    "version": 2,
+    "generatedAt": "2026-11-16T19:30:00-05:00",
+    "engine": "seed:claude-code",
+    "model": "claude-opus-5-5",
+    "reviewed": true,
+    "reviewNotes": "Opened every source URL and read the cited sections: WCF ch. 3.1-3.8 and 9.1-9.4 (opc.org); Canons of Dort First Main Point Arts. 6-10 and Third/Fourth Main Points Art. 9 (crcna.org); Calvin Institutes III.21 secs. 1 and 5 (ccel.org); Wesleyan Church Articles of Religion Arts. 8, 10, 11 (paras. 224, 226, 228); Methodist Articles of Religion Art. VIII (umc.org); Wesley, Free Grace secs. 2-4, 10, 20, 29 (wesley.nnu.edu); BF&M 2000 Art. V (bfm.sbc.net); Abstract of Principles Art. V (sbts.edu); Traditional Statement Arts. Six and Eight and the 2013 Calvinism Advisory Committee report, Tensions section (both via thealabamabaptist.org reprints, since baptistpress.com blocks automated fetches); Boyd, What is Open Theism? and How do you respond to Romans 9? secs. 3-5 (reknew.org); The Openness of God book page (drjohnsanders.com). Further-reading books without URLs (Basinger, Jowers, Olson, Allen and Lemke) were not opened; their titles, editors and publishers are given from standard bibliographic knowledge. Could not read the Church of the Nazarene Articles of Faith page (content loads by script), so it is not cited."
+  }
+}

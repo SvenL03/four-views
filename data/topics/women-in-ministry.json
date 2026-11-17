@@ -1,0 +1,196 @@
+{
+  "slug": "women-in-ministry",
+  "title": "Women in Ministry",
+  "question": "May women serve as pastors, elders and preachers, and which roles in the church are open to them?",
+  "intro": "Every church relies on the ministry of women; the disagreement is over ordained office, especially the office of pastor or elder who preaches and oversees a congregation. Christians who share a high view of the Bible reach different answers from the same passages, so the line runs through several traditions rather than between them. The terms often used are complementarian (men and women are equal in worth and given different roles in church leadership) and egalitarian (every office is open to both).",
+  "traditionIds": ["conservative_evangelical", "reformed", "arminian", "mainline_liberal"],
+  "whyTheseFour": "Two views limit pastoral office to men but draw the line in different places (Southern Baptists restrict the pastoral office; conservative Presbyterians restrict every ordained office), and two ordain women on different grounds (Wesleyan-holiness churches from Scripture and the Spirit's anointing, mainline churches from the equality confessed in creation and baptism). Pentecostal bodies such as the Assemblies of God also ordain women; their case resembles the Wesleyan one.",
+  "views": [
+    {
+      "traditionId": "conservative_evangelical",
+      "headline": "Men and women are equally gifted for service, but Scripture reserves the office of pastor, elder or overseer to qualified men.",
+      "body": [
+        "Southern Baptists, the largest body in this stream, confess that a local church has two scriptural offices: pastor (also called elder or overseer) and deacon. Both men and women are gifted for service in the church, but the confession limits the pastoral office to men, as Scripture sets out its qualifications [1]. The article does not restrict the office of deacon by sex, and each self-governing congregation settles that question for itself [1].",
+        "Many in this stream call their view complementarian. The Danvers Statement (1987) from the Council on Biblical Manhood and Womanhood affirms that Adam and Eve were both created in God's image, equal as persons and distinct as man and woman, and that role distinctions belong to the created order, set before the fall rather than caused by it [2]. Redemption gives men and women an equal share in the blessings of salvation, yet some governing and teaching roles in the church are restricted to men [2].",
+        "The same pattern shapes the home: husband and wife are of equal worth as bearers of God's image, the husband is called to loving servant leadership, and the wife to gracious submission to that leadership [3]. Danvers adds that a personal sense of call should never override the biblical qualifications for an office, and that no man or woman with a passion to serve need lack a fulfilling ministry in a world of great need [2]."
+      ],
+      "keyTexts": [
+        { "ref": "1 Tim 2:11-14", "why": "Paul does not permit a woman to teach or exercise authority over a man, grounding this in Adam being formed first." },
+        { "ref": "1 Tim 3:1-7", "why": "The overseer is to be the husband of one wife, among the qualifications for the office." },
+        { "ref": "Gen 2:18-24", "why": "The order of creation, read as establishing male headship before the fall." },
+        { "ref": "Gal 3:28", "why": "Men and women share equally in the blessings of salvation." }
+      ],
+      "sources": [
+        { "id": "bfm6", "title": "The Baptist Faith and Message 2000", "publisher": "Southern Baptist Convention", "year": 2000, "url": "https://bfm.sbc.net/bfm2000/", "kind": "confession", "locator": "Article VI, The Church (as amended 2023)" },
+        { "id": "danvers", "title": "The Danvers Statement", "publisher": "Council on Biblical Manhood and Womanhood", "year": 1988, "url": "https://cbmw.org/about/the-danvers-statement/", "kind": "statement", "locator": "Affirmations" },
+        { "id": "bfm18", "title": "The Baptist Faith and Message 2000", "publisher": "Southern Baptist Convention", "year": 2000, "url": "https://bfm.sbc.net/bfm2000/", "kind": "confession", "locator": "Article XVIII, The Family" }
+      ],
+      "consensus": "mostly",
+      "consensusNote": "The Southern Baptist confession is settled on the pastoral office. Across the wider conservative evangelical world some churches and bodies are egalitarian, and complementarians differ among themselves on women deacons and on women preaching in services."
+    },
+    {
+      "traditionId": "reformed",
+      "headline": "In conservative Presbyterian churches every ordained office, elder and deacon alike, is open to men only, while women serve widely without ordination; other Reformed churches have opened all offices to women.",
+      "body": [
+        "In conservative Presbyterian churches such as the Presbyterian Church in America (PCA), the ordinary and lasting offices of the church are elder, in two orders (teaching elders who preach and ruling elders who govern), and deacon. The Book of Church Order states that, in accord with Scripture, all of these offices are open to men only [1]. Unlike many Baptists, then, the PCA reserves the diaconate to men as well, though it describes the deacon's office as one of service rather than rule [1]. Ordination itself is the church's authoritative admission of a called person to an office [1].",
+        "Women still share in the church's work of mercy: a session (the board of elders) may appoint godly men and women to assist the deacons in caring for the sick, widows, orphans and prisoners, without ordaining them [2]. A 2017 PCA study committee, in its chairman's words, sought to encourage a gracious and robust complementary practice, helping women use their gifts fully within the limits Scripture sets [3].",
+        "The case for the restriction rests chiefly on the headship principle, God's ordering of male leadership in the household of faith [4]. The Reformed family is not of one mind, however. The Christian Reformed Church held in 1985 that headship barred women from being elders and ministers, concluded in 1990 that headship in marriage does not carry over to church office, and since 1995 has recognized two convictions on the question, both honoring Scripture as the infallible Word of God; all its congregations may now open every office to women [4]."
+      ],
+      "keyTexts": [
+        { "ref": "1 Tim 2:11-14", "why": "Teaching and authority in the gathered church are tied to the order of creation." },
+        { "ref": "1 Tim 3:1-13", "why": "The qualifications for elders and deacons are framed for men, each the husband of one wife." },
+        { "ref": "1 Cor 11:3", "why": "The head of every man is Christ, and the head of a wife is her husband: the headship principle." },
+        { "ref": "Titus 1:5-9", "why": "Elders are appointed in every town according to Paul's qualifications." }
+      ],
+      "sources": [
+        { "id": "bco7", "title": "The Book of Church Order of the Presbyterian Church in America", "publisher": "Presbyterian Church in America", "year": 2026, "url": "https://www.pcaac.org/wp-content/uploads/2026/11/BCO_2026.pdf", "kind": "statement", "locator": "BCO 7-2; 17-2" },
+        { "id": "bco9", "title": "The Book of Church Order of the Presbyterian Church in America", "publisher": "Presbyterian Church in America", "year": 2026, "url": "https://www.pcaac.org/wp-content/uploads/2026/11/BCO_2026.pdf", "kind": "statement", "locator": "BCO 9-7" },
+        { "id": "pca2017", "title": "Study Committee on Women in Ministry Releases Report", "publisher": "byFaith (Presbyterian Church in America)", "year": 2017, "url": "https://byfaithonline.com/study-committee-on-women-in-ministry-releases-report/", "kind": "article" },
+        { "id": "crc", "title": "Women in Ecclesiastical Office (position statement)", "publisher": "Christian Reformed Church in North America", "url": "https://www.crcna.org/welcome/beliefs/position-statements/women-ecclesiastical-office", "kind": "statement" }
+      ],
+      "consensus": "divided",
+      "consensusNote": "The PCA and the Orthodox Presbyterian Church ordain only men to church office. The Christian Reformed Church allows every congregation to open all offices to women while letting regional bodies decline to seat women delegates. The Presbyterian Church (U.S.A.), which shares the Reformed confessions, ordains women and is covered under Mainline Protestant."
+    },
+    {
+      "traditionId": "arminian",
+      "headline": "God calls, equips and anoints women as well as men for every level of ministry, so women may be ordained and serve as pastors, preachers and leaders.",
+      "body": [
+        "The Wesleyan Church affirms a long-standing commitment to full opportunity for women to be ordained and to serve in every ministerial and leadership role, a commitment it and its predecessor bodies have kept for over 150 years [1]. It holds that God progressively revealed his purpose to call, equip and empower women, and it treats Galatians 3:28 (in Christ there is neither male nor female) as a general principle by which harder passages are read [1]. The Church of the Nazarene likewise affirms the historic right of women to be elected and appointed to leadership, including the offices of elder and deacon [2].",
+        "The argument runs through the whole Bible. Man and woman were created equally in God's image and jointly given dominion; the wife's subordination came with the fall, and Christ's redemption sets creation free from the curse [1][2]. God raised up Miriam, Deborah and Huldah; Jesus made women the first witnesses of the resurrection; at Pentecost the Spirit fell on men and women alike, as Joel foretold; and Paul commended women co-workers, among them Phoebe, a deacon [1]. Passages such as 1 Corinthians 14 and 1 Timothy 2 are read as addressing local situations, since a limiting reading would conflict with texts that commend women's spiritual leadership [1][2].",
+        "Wesleyans also point to their history: the same reading of Scripture that led their forebears to oppose slavery led them to oppose discrimination against women ministers, and the Holy Spirit has visibly anointed women as pastors, evangelists and missionaries [1]. John Wesley himself licensed Sarah Crosby to preach in 1761 [3]."
+      ],
+      "keyTexts": [
+        { "ref": "Acts 2:17-18", "why": "At Pentecost the Spirit is poured out on sons and daughters, menservants and maidservants, and they prophesy." },
+        { "ref": "Gal 3:26-28", "why": "In Christ there is neither male nor female: read as the governing principle." },
+        { "ref": "Rom 16:1-7", "why": "Paul commends Phoebe as a deacon and greets Junia among the apostles." },
+        { "ref": "Judg 4:4-5", "why": "Deborah, a prophet, led Israel as judge." }
+      ],
+      "sources": [
+        { "id": "wesleyan", "title": "A Wesleyan View of Women in Ministry", "author": "Task Force on Women in the Ministry", "publisher": "The Wesleyan Church", "year": 2019, "url": "https://www.wesleyan.org/a-wesleyan-view-of-women-in-ministry", "kind": "statement" },
+        { "id": "nazarene", "title": "Women Clergy (Manual statement, Theology of Women in Ministry)", "publisher": "Church of the Nazarene", "url": "https://nazarene.org/global-clergy-development/women-clergy/", "kind": "statement", "locator": "Manual 2017-2021, para. 501" },
+        { "id": "umc-crosby", "title": "Ask The UMC: Why does The United Methodist Church ordain women?", "publisher": "The United Methodist Church", "url": "https://www.umc.org/en/content/ask-the-umc-why-does-the-united-methodist-church-ordain-women", "kind": "web" }
+      ],
+      "consensus": "settled",
+      "consensusNote": "The Wesleyan Church, the Church of the Nazarene and other Wesleyan-holiness bodies ordain women; the Wesleyan statement itself notes that the vision is not yet fully realized in practice."
+    },
+    {
+      "traditionId": "mainline_liberal",
+      "headline": "The Spirit calls women and men to all ministries of the church, and ordaining women is the church living out the equality it confesses in creation and baptism.",
+      "body": [
+        "Mainline Protestant churches ordain women to every office, and they ground the practice in the gospel itself. The Brief Statement of Faith of the Presbyterian Church (U.S.A.) confesses that God makes everyone equally in the divine image, male and female, of every race and people, to live as one community [1]. It goes on to say that the same Spirit who rules the church's faith and life through Scripture, and who claims us in baptism, calls women and men to all ministries of the church [1].",
+        "Presbyterians describe this as the church living up to its own proclamation of the equality of all persons. Women were first ordained as elders in a predecessor church in 1930, and presbyteries were permitted to ordain women as ministers from 1956; another predecessor church followed in 1962 and 1965 [2].",
+        "Methodists trace the practice back to John Wesley, who licensed Sarah Crosby to preach in 1761. Women were ordained in the Methodist tradition from the late 1800s, and the 1956 General Conference granted them full clergy rights; The United Methodist Church continues to declare its belief in the full equality of women and in their place in leadership at every level of the church [3].",
+        "For these churches the question is less whether a woman may hold office than how fully the church lives out the equality it confesses. The Brief Statement places the call of women and men to ministry among the Spirit's works, alongside justifying grace, baptism and the Lord's Supper [1]."
+      ],
+      "keyTexts": [
+        { "ref": "Gen 1:27", "why": "God created humankind in his image, male and female." },
+        { "ref": "Gal 3:27-28", "why": "All who are baptized into Christ are one in him, with neither male nor female." },
+        { "ref": "Acts 2:17-18", "why": "The Spirit poured out on daughters as well as sons." },
+        { "ref": "Rom 16:1-7", "why": "Phoebe, Prisca and Junia as leaders in the earliest churches." }
+      ],
+      "sources": [
+        { "id": "bsf", "title": "A Brief Statement of Faith", "publisher": "Presbyterian Church (U.S.A.), Book of Confessions (text at creeds.net)", "year": 1991, "url": "https://www.creeds.net/reformed/brief.htm", "kind": "confession", "locator": "sections on God the Creator and on the Holy Spirit" },
+        { "id": "pcusa101", "title": "Women in the church (Presbyterian 101)", "publisher": "Presbyterian Mission Agency, PC(USA)", "url": "https://pma.pcusa.org/ministries/101/women/", "kind": "web" },
+        { "id": "umc", "title": "Ask The UMC: Why does The United Methodist Church ordain women?", "publisher": "The United Methodist Church", "url": "https://www.umc.org/en/content/ask-the-umc-why-does-the-united-methodist-church-ordain-women", "kind": "web" }
+      ],
+      "consensus": "settled",
+      "consensusNote": "The Presbyterian Church (U.S.A.), The United Methodist Church and the other historic mainline denominations all ordain women; some congregations and members within them still hold the traditional view."
+    }
+  ],
+  "synthesis": {
+    "common": [
+      "Men and women are equally created in God's image and equally heirs of salvation in Christ.",
+      "Every believer, woman or man, is gifted by the Spirit for service, and the church needs the ministry of women.",
+      "The question is to be answered from Scripture; the disagreement is over how particular passages relate to the whole.",
+      "Women in the Bible such as Deborah, Phoebe and the women at the empty tomb served God in real and honored ways."
+    ],
+    "partings": [
+      {
+        "question": "May a woman hold the office of pastor or preaching elder?",
+        "why": "Whether the qualifications in 1 Timothy 2-3 state a lasting rule grounded in creation or address a particular first-century setting.",
+        "answers": [
+          { "traditionId": "conservative_evangelical", "answer": "No. The pastoral office of pastor, elder or overseer is limited to qualified men, though women are gifted for many other kinds of service." },
+          { "traditionId": "reformed", "answer": "No, in the PCA and OPC. The Christian Reformed Church, also Reformed, allows congregations to open the office of minister to women." },
+          { "traditionId": "arminian", "answer": "Yes. Women may be ordained and serve at every level of ministry, as Wesleyan and Nazarene churches have long practiced." },
+          { "traditionId": "mainline_liberal", "answer": "Yes. The Spirit calls women and men to all ministries of the church." }
+        ]
+      },
+      {
+        "question": "Which offices below the pastorate are open to women?",
+        "why": "Whether the restriction concerns the authority to teach and govern the whole church, or ordained office as such.",
+        "answers": [
+          { "traditionId": "conservative_evangelical", "answer": "The confession restricts only the pastoral office and is silent on deacons, so Baptist congregations decide whether women serve as deacons." },
+          { "traditionId": "reformed", "answer": "In the PCA none: elder and deacon are both open to men only, though sessions may appoint women to assist the deacons without ordination." },
+          { "traditionId": "arminian", "answer": "All of them; the Nazarene statement names the offices of both elder and deacon." },
+          { "traditionId": "mainline_liberal", "answer": "All of them, including ruling elder (open to Presbyterian women in one predecessor church since 1930) and deacon." }
+        ]
+      },
+      {
+        "question": "Is male headship a creation pattern that carries from the home into the church?",
+        "why": "Whether role distinctions were set before the fall as part of creation, or came with the fall and are overcome in Christ's redemption.",
+        "answers": [
+          { "traditionId": "conservative_evangelical", "answer": "Yes. Adam's headship was set before the fall, and it is echoed in servant leadership in the home and male pastoral leadership in the church." },
+          { "traditionId": "reformed", "answer": "The PCA holds that it does; the CRC concluded in 1990 that headship in marriage does not transfer to church office." },
+          { "traditionId": "arminian", "answer": "No. The wife's subordination is a result of the fall, and Christ's redemptive work frees creation from that curse." },
+          { "traditionId": "mainline_liberal", "answer": "Headship is not used as a bar to office; the church confesses that God makes everyone equally in the divine image and that the Spirit calls women and men alike." }
+        ]
+      },
+      {
+        "question": "How should 1 Timothy 2:11-15 be read?",
+        "why": "Whether a passage that grounds its instruction in Genesis is universal, and how it relates to texts that show women leading.",
+        "answers": [
+          { "traditionId": "conservative_evangelical", "answer": "As a lasting instruction, since Paul appeals to the order of creation; some teaching and governing roles in the church belong to men." },
+          { "traditionId": "reformed", "answer": "The PCA reads it as applying to all ordained office; the CRC accepts that faithful readers of Scripture reach both conclusions." },
+          { "traditionId": "arminian", "answer": "As addressing a local situation; read as a limit on women's ministry it would conflict with Joel, Acts and Paul's own commendation of women leaders." },
+          { "traditionId": "mainline_liberal", "answer": "Not as a bar to ordination; restrictive passages are read in their first-century setting and in light of the equality confessed in baptism." }
+        ]
+      }
+    ],
+    "terms": [
+      {
+        "term": "Headship",
+        "meanings": [
+          { "traditionId": "conservative_evangelical", "meaning": "The husband's God-given responsibility of loving, servant leadership, set at creation and reflected in male pastoral leadership." },
+          { "traditionId": "reformed", "meaning": "In the PCA, God's ordering of male leadership in home and church; in the CRC since 1990, a principle for marriage that does not govern church office." },
+          { "traditionId": "arminian", "meaning": "A result of the fall that Christ's redemption overcomes, not a rule for ministry." },
+          { "traditionId": "mainline_liberal", "meaning": "Not a category used to limit office; the stress falls on equality in the divine image and in baptism." }
+        ]
+      },
+      {
+        "term": "Ordination",
+        "meanings": [
+          { "traditionId": "conservative_evangelical", "meaning": "A local congregation setting apart its pastors and deacons; for the pastoral office, men only." },
+          { "traditionId": "reformed", "meaning": "The authoritative admission of a called person to church office by a church court, with prayer and laying on of hands." },
+          { "traditionId": "arminian", "meaning": "The church's confirmation of God's call on a man or woman, borne out by Spirit-anointed ministry." },
+          { "traditionId": "mainline_liberal", "meaning": "Setting apart women and men for the ministries to which the Spirit calls them." }
+        ]
+      },
+      {
+        "term": "Deacon",
+        "meanings": [
+          { "traditionId": "conservative_evangelical", "meaning": "The second scriptural office, one of service; the confession does not restrict it by sex." },
+          { "traditionId": "reformed", "meaning": "In the PCA, an ordained office of service, not rule, open to men only." },
+          { "traditionId": "arminian", "meaning": "An office open to women; Phoebe is read as a deacon, not merely a helper." },
+          { "traditionId": "mainline_liberal", "meaning": "An ordained office open to women and men alike." }
+        ]
+      }
+    ],
+    "furtherReading": [
+      { "title": "Two Views on Women in Ministry", "author": "James R. Beck, ed. (Zondervan Counterpoints, revised edition)", "note": "Multi-view: two complementarian and two egalitarian evangelical scholars answer one another.", "traditionIds": ["conservative_evangelical", "reformed", "arminian"] },
+      { "title": "Women in Ministry: Four Views", "author": "Bonnidell Clouse and Robert G. Clouse, eds. (InterVarsity Press, 1989)", "note": "Multi-view, from traditional to egalitarian positions.", "traditionIds": ["conservative_evangelical", "reformed", "arminian", "mainline_liberal"] },
+      { "title": "Recovering Biblical Manhood and Womanhood", "author": "John Piper and Wayne Grudem, eds. (Crossway, 1991)", "note": "The standard complementarian case.", "traditionIds": ["conservative_evangelical", "reformed"] },
+      { "title": "Discovering Biblical Equality", "author": "Ronald W. Pierce and Rebecca Merrill Groothuis, eds. (InterVarsity Press)", "note": "The standard evangelical egalitarian case.", "traditionIds": ["arminian"] },
+      { "title": "The Danvers Statement", "author": "Council on Biblical Manhood and Womanhood", "url": "https://cbmw.org/about/the-danvers-statement/", "note": "The founding complementarian statement.", "traditionIds": ["conservative_evangelical"] },
+      { "title": "Women in Ecclesiastical Office", "author": "Christian Reformed Church in North America", "url": "https://www.crcna.org/welcome/beliefs/position-statements/women-ecclesiastical-office", "note": "A Reformed denomination's decades of study, with references to its full synodical reports.", "traditionIds": ["reformed"] },
+      { "title": "A Wesleyan View of Women in Ministry", "author": "The Wesleyan Church", "url": "https://www.wesleyan.org/a-wesleyan-view-of-women-in-ministry", "note": "The full Wesleyan biblical case.", "traditionIds": ["arminian"] }
+    ]
+  },
+  "meta": {
+    "version": 2,
+    "generatedAt": "2026-11-16T19:40:00-05:00",
+    "engine": "seed:claude-code",
+    "model": "claude-opus-5-5",
+    "reviewed": true,
+    "reviewNotes": "Opened every source URL and read the cited text: BF&M 2000 Art. VI (as amended 2023) and Art. XVIII (bfm.sbc.net); Danvers Statement affirmations (cbmw.org); PCA Book of Church Order 2026 PDF, BCO 7-2, 9-7 and 17-2 (pcaac.org, text extracted from the PDF); byFaith report on the 2017 PCA study committee; CRCNA position statement on women in ecclesiastical office (synods 1985, 1990, 1995, current rule); A Wesleyan View of Women in Ministry, rev. 2019 (wesleyan.org); Church of the Nazarene women clergy page reproducing Manual 2017-2021 para. 501 (nazarene.org); Ask The UMC on ordaining women (umc.org); PC(USA) Presbyterian 101 page on women in the church (pma.pcusa.org); A Brief Statement of Faith text (creeds.net, a non-official host, used because the PC(USA) copies redirect to a login page; locator given by section, since the page has no 11.x numbering). The OPC's practice in the Reformed consensus note is stated from general knowledge, not from an opened source. Further-reading books without URLs (Beck, Clouse, Piper and Grudem, Pierce and Groothuis) were not opened. The Assemblies of God position paper was not cited because ag.org refuses automated requests (HTTP 403)."
+  }
+}
