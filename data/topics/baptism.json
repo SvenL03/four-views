@@ -1,0 +1,464 @@
+{
+  "slug": "baptism",
+  "title": "Baptism",
+  "question": "Who should be baptized, how, and what does baptism do?",
+  "intro": "Nearly every Christian church baptizes with water in the name of the Father, the Son and the Holy Spirit, because Jesus commanded it. Churches part ways on whether infants or only professing believers should be baptized, whether immersion is required, and whether baptism is God's act of giving grace, the believer's act of testimony, or both. Pentecostal churches add a further question: whether the New Testament also describes a distinct baptism in the Holy Spirit.",
+  "traditionIds": [
+    "reformed",
+    "mainline_liberal",
+    "conservative_evangelical",
+    "charismatic"
+  ],
+  "whyTheseFour": "These four cover the main American answers: baptism as the covenant sign given to believers and their children (Reformed), as a sacrament of new birth for infants and adults (Mainline), as a believer's ordinance by immersion (Conservative Evangelical), and as water baptism joined by a distinct baptism in the Holy Spirit (Pentecostal).",
+  "views": [
+    {
+      "traditionId": "reformed",
+      "headline": "Baptism is God's sign and seal of the covenant of grace, given to believers and to their children, through which the Spirit truly confers what God promises in his own time.",
+      "body": [
+        "Reformed churches teach that baptism is a sacrament, that is, a visible sign and seal God attaches to his promise. It admits a person into the visible church and signifies and seals the covenant of grace: being joined to Christ, regeneration, forgiveness of sins and a life given up to God [1]. The water itself does not wash away sin; only Christ's blood and Spirit do. Baptism is God's pledge that a believer is washed spiritually as surely as the body is washed with water [2].",
+        "Because God's covenant promise has always included believers' children, Presbyterian and Continental Reformed churches baptize the infants of believing parents as well as adult converts. The Heidelberg Catechism grounds this in the covenant itself: children belong to God's people, and baptism has replaced circumcision as the sign of that covenant [2]. The Westminster Confession holds that pouring or sprinkling is proper, that immersion is not required, and that baptism is given only once [1].",
+        "Baptism is not a mechanical cause of salvation. Grace is not so bound to it that no one can be saved without it, nor is every baptized person regenerated. Yet by the right use of baptism the promised grace is not only offered but truly conferred by the Holy Spirit on those to whom it belongs, in God's appointed time, which need not be the moment of baptism [1].",
+        "Reformed Baptists, who share this theology of grace, dissent here: the Second London Confession (1689) makes those who profess repentance and faith the only proper subjects of baptism and requires immersion [3]."
+      ],
+      "keyTexts": [
+        {
+          "ref": "Gen 17:7",
+          "why": "God's covenant is made with Abraham and his offspring, the pattern for including children."
+        },
+        {
+          "ref": "Acts 2:38-39",
+          "why": "Peter says the promise is for you and for your children."
+        },
+        {
+          "ref": "Col 2:11-12",
+          "why": "Paul links baptism with circumcision as signs of the same reality."
+        },
+        {
+          "ref": "1 Cor 7:14",
+          "why": "Children of a believing parent are called holy, set apart within the covenant community."
+        }
+      ],
+      "sources": [
+        {
+          "id": "wcf",
+          "title": "Westminster Confession of Faith",
+          "publisher": "Orthodox Presbyterian Church",
+          "year": 1647,
+          "url": "https://www.opc.org/wcf.html",
+          "kind": "confession",
+          "locator": "ch. 28.1-7"
+        },
+        {
+          "id": "hc",
+          "title": "Heidelberg Catechism",
+          "publisher": "Christian Reformed Church in North America",
+          "year": 1563,
+          "url": "https://www.crcna.org/welcome/beliefs/confessions/heidelberg-catechism",
+          "kind": "catechism",
+          "locator": "Q&A 69-74"
+        },
+        {
+          "id": "lbc",
+          "title": "Second London Baptist Confession of Faith",
+          "publisher": "the1689confession.com",
+          "year": 1689,
+          "url": "https://www.the1689confession.com/1689/chapter-29",
+          "kind": "confession",
+          "locator": "ch. 29.1-4"
+        }
+      ],
+      "consensus": "divided",
+      "consensusNote": "Presbyterian and Continental Reformed churches (PCA, OPC, Christian Reformed Church) baptize believers and their infants and accept pouring or sprinkling. Reformed Baptists, who hold the 1689 Confession, baptize professing believers only and require immersion."
+    },
+    {
+      "traditionId": "mainline_liberal",
+      "headline": "Baptism is first of all God's act: a sacrament by which God adopts a person, infant or adult, into Christ's body and gives new life in the Spirit.",
+      "body": [
+        "Mainline Protestant churches teach that baptism is a sacrament through which God acts before any human response. The Episcopal catechism describes it as the sacrament by which God adopts us as his children, makes us members of Christ's body, the church, and heirs of his kingdom; its inward grace is union with Christ in his death and resurrection, birth into God's family, forgiveness of sins and new life in the Holy Spirit [3]. The Methodist Articles of Religion likewise call baptism not only a mark of Christian profession but a sign of regeneration, or new birth [2].",
+        "Because grace comes first, these churches baptize infants as well as adults. The United Methodist statement By Water and the Spirit grounds infant baptism in prevenient grace (God's grace that goes before any awareness or request on our part) and asks that a baptized child be truly nurtured in the faith by family and congregation. It also says adult baptism is the norm where the church is reaching people outside the faith [1]. In the Episcopal catechism, parents and sponsors make promises on behalf of infants [3].",
+        "Water may be applied by sprinkling, pouring or immersion. Since baptism is primarily God's act, a person receives it only once, a teaching the United Methodist statement ties to the historic and ecumenical consensus of the church [1]. Following Wesley, the statement affirms the grace given in infant baptism while insisting that each person who comes to moral accountability must answer God's grace with repentance and faith [1]."
+      ],
+      "keyTexts": [
+        {
+          "ref": "Matt 28:19-20",
+          "why": "Jesus commands the church to make disciples of all nations, baptizing them."
+        },
+        {
+          "ref": "John 3:5",
+          "why": "New birth of water and the Spirit."
+        },
+        {
+          "ref": "Rom 6:3-4",
+          "why": "Baptism unites us with Christ in his death and resurrection."
+        },
+        {
+          "ref": "Acts 16:15",
+          "why": "Lydia and her household are baptized, read as evidence for including children."
+        }
+      ],
+      "sources": [
+        {
+          "id": "bwts",
+          "title": "By Water and the Spirit: A United Methodist Understanding of Baptism",
+          "publisher": "The United Methodist Church",
+          "year": 1996,
+          "url": "https://www.umc.org/en/content/by-water-and-the-spirit-a-united-methodist-understanding-of-baptism",
+          "kind": "statement"
+        },
+        {
+          "id": "umcar",
+          "title": "The Articles of Religion of The Methodist Church",
+          "publisher": "The United Methodist Church",
+          "url": "https://www.umc.org/en/content/articles-of-religion",
+          "kind": "confession",
+          "locator": "Article XVII"
+        },
+        {
+          "id": "bcp",
+          "title": "The Book of Common Prayer (1979): An Outline of the Faith, commonly called the Catechism",
+          "publisher": "The Episcopal Church",
+          "year": 1979,
+          "url": "https://www.bcponline.org/Misc/catechism.html",
+          "kind": "catechism",
+          "locator": "Holy Baptism"
+        }
+      ],
+      "consensus": "mostly",
+      "consensusNote": "All the major mainline bodies baptize both infants and adults by any mode, but they inherit different explanations of what baptism does: Lutheran (ELCA), Reformed (PC(USA)), Anglican (Episcopal) and Methodist (UMC) churches each describe baptism's effect in the language of their own confessions."
+    },
+    {
+      "traditionId": "conservative_evangelical",
+      "headline": "Baptism is an ordinance Christ commanded: a believer's public act of obedience that pictures the gospel and the new life faith has already received.",
+      "body": [
+        "Many conservative evangelicals, led in the United States by Southern Baptists, call baptism an ordinance, an act Christ commanded his church to keep, rather than a channel that conveys saving grace by itself. The Baptist Faith and Message defines Christian baptism as the immersion of a believer in water in the name of the Father, Son and Holy Spirit. It is an act of obedience that pictures the believer's faith in a crucified, buried and risen Savior, death to sin and rising to walk in new life, and it testifies to faith in the coming resurrection [1].",
+        "Because baptism is the public testimony of personal faith, it follows conversion instead of preceding it, and Southern Baptists baptize only those who profess faith, by immersion, the form that pictures burial and resurrection with Christ [1]. Baptism is also a church ordinance: it is the doorway to church membership and comes before taking the Lord's Supper [1].",
+        "Broader evangelical bodies keep the same core while leaving room on who and how. The Evangelical Free Church of America confesses two ordinances that visibly and tangibly express the gospel; they are not the means of salvation, but when the church celebrates them in genuine faith they confirm and nourish believers [2]. The Gospel Coalition's confessional statement, written for a coalition across denominations, does not settle the mode or subjects of baptism; it ties baptism to entrance into the new covenant community and calls both ordinances God's pledge, means of grace and public vows of submission to Christ [3]."
+      ],
+      "keyTexts": [
+        {
+          "ref": "Matt 28:19-20",
+          "why": "Disciples are to be baptized and taught: making disciples comes first."
+        },
+        {
+          "ref": "Acts 2:41",
+          "why": "Those who received the word were baptized."
+        },
+        {
+          "ref": "Acts 8:36-38",
+          "why": "The Ethiopian believes, then goes down into the water to be baptized."
+        },
+        {
+          "ref": "Rom 6:3-5",
+          "why": "Baptism pictures burial with Christ and rising to new life."
+        },
+        {
+          "ref": "Col 2:12",
+          "why": "Buried with him in baptism and raised through faith."
+        }
+      ],
+      "sources": [
+        {
+          "id": "bfm",
+          "title": "The Baptist Faith and Message 2000",
+          "publisher": "Southern Baptist Convention",
+          "year": 2000,
+          "url": "https://bfm.sbc.net/bfm2000/",
+          "kind": "confession",
+          "locator": "Article VII"
+        },
+        {
+          "id": "efca",
+          "title": "EFCA Statement of Faith",
+          "publisher": "Evangelical Free Church of America",
+          "year": 2008,
+          "url": "https://www.efca.org/resources/document/efca-statement-faith",
+          "kind": "statement",
+          "locator": "Article 7"
+        },
+        {
+          "id": "tgc",
+          "title": "The Gospel Coalition Confessional Statement",
+          "publisher": "The Gospel Coalition",
+          "url": "https://www.thegospelcoalition.org/about/foundation-documents/",
+          "kind": "statement",
+          "locator": "Baptism and the Lord's Supper"
+        }
+      ],
+      "consensus": "mostly",
+      "consensusNote": "Believer's baptism by immersion is the majority practice among American conservative evangelicals (Southern Baptists, Bible churches and many non-denominational churches). Evangelical coalitions such as the EFCA and The Gospel Coalition leave mode and subjects open in their statements, and Presbyterian evangelicals in them baptize infants."
+    },
+    {
+      "traditionId": "charismatic",
+      "headline": "Believers are baptized in water by immersion after they repent, and every believer should also seek the baptism in the Holy Spirit, a further empowering for witness.",
+      "body": [
+        "Pentecostal churches baptize in water by immersion, and teach that all who repent should be baptized in the name of the Father, the Son and the Holy Spirit [1]. They locate the new birth in faith in the blood of Jesus Christ, through which justification and regeneration are received, rather than in the water [1]. Water baptism is the obedient step of those who have already turned to Christ.",
+        "What sets Pentecostals apart is a second baptism the New Testament also speaks of: baptism in, or with, the Holy Spirit. The Church of God (Cleveland, Tennessee) teaches that this experience follows the new birth and a cleansed heart, and that it is an endowment of power for service [1][2].",
+        "Classical Pentecostals hold that speaking in other tongues as the Spirit gives utterance is the initial evidence of Spirit baptism, following the pattern of Acts [1][2][3]. The International Pentecostal Holiness Church teaches that the experience is received by an act of faith and is available to every believer whose heart is cleansed. It separates this initial sign, which it expects for everyone baptized in the Spirit, from the gift of tongues, which not every Spirit-filled believer receives, and it names further evidences: the fruit of the Spirit and power to witness and endure [3]."
+      ],
+      "keyTexts": [
+        {
+          "ref": "Matt 3:11",
+          "why": "John says the coming one will baptize with the Holy Spirit and fire."
+        },
+        {
+          "ref": "Acts 2:1-4",
+          "why": "At Pentecost the disciples are filled with the Spirit and speak in other tongues."
+        },
+        {
+          "ref": "Acts 2:38",
+          "why": "Repent and be baptized, and receive the gift of the Holy Spirit."
+        },
+        {
+          "ref": "Acts 10:44-46",
+          "why": "The Spirit falls on Gentile believers and they speak in tongues."
+        },
+        {
+          "ref": "Acts 19:1-7",
+          "why": "Believers at Ephesus receive the Spirit after baptism and speak in tongues."
+        }
+      ],
+      "sources": [
+        {
+          "id": "cogdf",
+          "title": "Declaration of Faith",
+          "publisher": "Church of God (Cleveland, Tennessee)",
+          "url": "https://www.churchofgod.org/beliefs/declaration-of-faith",
+          "kind": "confession"
+        },
+        {
+          "id": "cogdc",
+          "title": "Doctrinal Commitments",
+          "publisher": "Church of God (Cleveland, Tennessee)",
+          "url": "https://churchofgod.org/beliefs/doctrinal-commitments/",
+          "kind": "statement"
+        },
+        {
+          "id": "iphc",
+          "title": "Beliefs: Articles of Faith",
+          "publisher": "International Pentecostal Holiness Church",
+          "url": "https://iphc.org/beliefs/",
+          "kind": "statement",
+          "locator": "Article 11"
+        }
+      ],
+      "consensus": "mostly",
+      "consensusNote": "Trinitarian Pentecostal bodies agree on believer's baptism by immersion and on Spirit baptism as a distinct experience. Holiness Pentecostals (Church of God, IPHC) place it after sanctification, while the Assemblies of God does not require a separate sanctification experience first. Many charismatics in other denominations, and Third Wave believers, do not teach tongues as the required initial evidence. Oneness Pentecostals baptize in the name of Jesus only and are not represented here."
+    }
+  ],
+  "synthesis": {
+    "common": [
+      "Jesus commanded baptism, and it is done with water in the name of the Father, the Son and the Holy Spirit.",
+      "Baptism is tied to union with Christ in his death and resurrection and to belonging to his church.",
+      "None of the four teaches that water has saving power in itself; each grounds baptism's meaning in God's grace in Christ.",
+      "Baptism calls for a life of faith and discipleship; it is a beginning, not an end."
+    ],
+    "partings": [
+      {
+        "question": "Should the infants of believers be baptized, or only those who profess faith?",
+        "why": "It turns on whether the new covenant sign follows God's covenant promise to believers and their households, as circumcision did, or follows each person's own profession of faith.",
+        "answers": [
+          {
+            "traditionId": "reformed",
+            "answer": "Presbyterian and Continental Reformed churches baptize believers and their children, since children belong to the covenant. Reformed Baptists baptize professing believers only."
+          },
+          {
+            "traditionId": "mainline_liberal",
+            "answer": "Yes, infants and adults alike, because God's prevenient grace comes before any response; parents, sponsors and the congregation promise to nurture the child."
+          },
+          {
+            "traditionId": "conservative_evangelical",
+            "answer": "Baptists and most evangelical churches baptize only those who profess faith. Some evangelical coalitions leave the question open."
+          },
+          {
+            "traditionId": "charismatic",
+            "answer": "Those who repent and believe are baptized; Pentecostal churches baptize believers, not infants."
+          }
+        ]
+      },
+      {
+        "question": "Does baptism give grace, or does it testify to grace already received?",
+        "why": "Behind it is whether a sacrament is a means God uses to act on a person, or a sign by which a believer publicly responds to what God has done.",
+        "answers": [
+          {
+            "traditionId": "reformed",
+            "answer": "Both a sign and a seal: by the Spirit the promised grace is truly conferred on those it belongs to, though not tied to the moment of baptism."
+          },
+          {
+            "traditionId": "mainline_liberal",
+            "answer": "It is primarily God's act, through which God adopts the person and gives new life, which the person is then called to embrace in faith."
+          },
+          {
+            "traditionId": "conservative_evangelical",
+            "answer": "For Baptists it is an act of obedience that pictures salvation already received by faith; some evangelicals also call it a means of grace that confirms and nourishes faith."
+          },
+          {
+            "traditionId": "charismatic",
+            "answer": "Water baptism is an obedient witness of those already born again by faith; the empowering Pentecostals look for comes in Spirit baptism."
+          }
+        ]
+      },
+      {
+        "question": "Must baptism be by immersion?",
+        "why": "It depends on whether the form pictured in Romans 6, burial and rising, belongs to the command itself, or whether any washing with water fulfills it.",
+        "answers": [
+          {
+            "traditionId": "reformed",
+            "answer": "Presbyterian churches say immersion is not necessary and pouring or sprinkling is right; Reformed Baptists require immersion."
+          },
+          {
+            "traditionId": "mainline_liberal",
+            "answer": "No. Sprinkling, pouring and immersion are all valid, as long as the water is used generously enough to show its meaning."
+          },
+          {
+            "traditionId": "conservative_evangelical",
+            "answer": "Southern Baptists and most Baptist churches require immersion; some broader evangelical bodies accept other modes."
+          },
+          {
+            "traditionId": "charismatic",
+            "answer": "Yes. Pentecostal churches baptize by immersion."
+          }
+        ]
+      },
+      {
+        "question": "Is there a further baptism in the Holy Spirit after conversion?",
+        "why": "It turns on whether the pattern in Acts, where believers receive the Spirit with tongues after believing, is a normal pattern for every Christian or a unique stage in the church's founding.",
+        "answers": [
+          {
+            "traditionId": "reformed",
+            "answer": "Reformed churches generally teach that every believer receives the Spirit at conversion, while welcoming continued fillings of the Spirit, not a second baptism."
+          },
+          {
+            "traditionId": "mainline_liberal",
+            "answer": "Mainline churches connect the gift of the Spirit with baptism itself and do not teach a required second experience, though charismatic renewal is present in some congregations."
+          },
+          {
+            "traditionId": "conservative_evangelical",
+            "answer": "Most teach that Spirit baptism happens at conversion for all believers; continuationist evangelicals expect later fillings without making tongues a required sign."
+          },
+          {
+            "traditionId": "charismatic",
+            "answer": "Yes. It is a distinct experience for every believer, an endowment of power for witness, with tongues as its initial evidence in classical Pentecostal teaching."
+          }
+        ]
+      }
+    ],
+    "terms": [
+      {
+        "term": "Sacrament",
+        "meanings": [
+          {
+            "traditionId": "reformed",
+            "meaning": "A sign and seal God attaches to the covenant of grace, through which the Spirit confers what is promised to those it belongs to."
+          },
+          {
+            "traditionId": "mainline_liberal",
+            "meaning": "An outward and visible sign of inward and spiritual grace, through which God acts."
+          },
+          {
+            "traditionId": "conservative_evangelical",
+            "meaning": "Often avoided in favor of ordinance, to stress that baptism is obedience and testimony rather than a channel of saving grace."
+          },
+          {
+            "traditionId": "charismatic",
+            "meaning": "Most Pentecostals also prefer ordinance: a practice Christ commanded believers to keep."
+          }
+        ]
+      },
+      {
+        "term": "Regeneration (new birth)",
+        "meanings": [
+          {
+            "traditionId": "reformed",
+            "meaning": "The Spirit's work of giving new life, signified and sealed in baptism but not tied to the moment it is given."
+          },
+          {
+            "traditionId": "mainline_liberal",
+            "meaning": "Something baptism signifies and through which God works; Episcopal and Methodist texts speak of birth into God's family and a sign of new birth."
+          },
+          {
+            "traditionId": "conservative_evangelical",
+            "meaning": "The Spirit's work in conversion, which comes before baptism and which baptism pictures."
+          },
+          {
+            "traditionId": "charismatic",
+            "meaning": "New birth by faith in the blood of Christ, which comes before water baptism and Spirit baptism."
+          }
+        ]
+      },
+      {
+        "term": "Baptism in the Holy Spirit",
+        "meanings": [
+          {
+            "traditionId": "reformed",
+            "meaning": "The Spirit's uniting of every believer to Christ at conversion."
+          },
+          {
+            "traditionId": "mainline_liberal",
+            "meaning": "The gift of the Spirit linked with water baptism and the church's life, not usually a separate experience."
+          },
+          {
+            "traditionId": "conservative_evangelical",
+            "meaning": "For most, the Spirit's work at conversion that places every believer into Christ's body."
+          },
+          {
+            "traditionId": "charismatic",
+            "meaning": "A distinct experience after new birth that empowers for witness, evidenced at first by speaking in tongues."
+          }
+        ]
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Understanding Four Views on Baptism (Counterpoints)",
+        "author": "John H. Armstrong, ed.; Thomas J. Nettles, Richard L. Pratt Jr., Robert Kolb, John D. Castelein",
+        "note": "Baptist, Reformed, Lutheran and Christian Churches/Churches of Christ authors argue and respond to each other.",
+        "traditionIds": [
+          "reformed",
+          "conservative_evangelical"
+        ]
+      },
+      {
+        "title": "The Case for Covenantal Infant Baptism",
+        "author": "Gregg Strawbridge, ed.",
+        "note": "Reformed scholars make the covenant case for baptizing believers' children.",
+        "traditionIds": [
+          "reformed"
+        ]
+      },
+      {
+        "title": "Believer's Baptism: Sign of the New Covenant in Christ",
+        "author": "Thomas R. Schreiner and Shawn D. Wright, eds.",
+        "note": "Baptist scholars make the biblical and historical case for believer's baptism.",
+        "traditionIds": [
+          "conservative_evangelical"
+        ]
+      },
+      {
+        "title": "By Water and the Spirit: A United Methodist Understanding of Baptism",
+        "author": "The United Methodist Church",
+        "url": "https://www.umc.org/en/content/by-water-and-the-spirit-a-united-methodist-understanding-of-baptism",
+        "note": "The official United Methodist teaching document on baptism, including infant baptism and prevenient grace.",
+        "traditionIds": [
+          "mainline_liberal"
+        ]
+      },
+      {
+        "title": "Perspectives on Spirit Baptism: Five Views",
+        "author": "Chad Owen Brand, ed.",
+        "note": "Reformed, Wesleyan, Pentecostal, charismatic and Catholic authors debate what Spirit baptism is.",
+        "traditionIds": [
+          "charismatic",
+          "reformed"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "version": 2,
+    "generatedAt": "2026-11-17T00:24:57.602Z",
+    "engine": "seed:claude-code",
+    "model": "claude-opus-5-5",
+    "reviewed": true,
+    "reviewNotes": "Every source URL was opened (curl/node fetch) and the cited section read in full. Reformed: WCF ch. 28.1-7 on opc.org (sign and seal, admission to visible church, pouring/sprinkling proper, infants of believers, grace not inseparably annexed, efficacy not tied to the moment, given once); Heidelberg Q&A 69-74 on crcna.org (outward washing, Q&A 72 water does not wash away sins, Q&A 74 infants in covenant, circumcision replaced by baptism); 1689 Confession ch. 29.1-4 (professing believers the only proper subjects; immersion necessary). Mainline: By Water and the Spirit on umc.org (prevenient grace basis for infant baptism, nurture or postpone, adult baptism the norm in missionary settings, sprinkling/pouring/immersion, received only once, Wesley on regenerating grace of infant baptism and need for conversion); UMC Articles of Religion XVI-XVII (sign of regeneration, baptism of young children retained); Episcopal BCP Catechism, Holy Baptism section (adoption, inward grace, why infants are baptized, promises by parents and sponsors). Conservative Evangelical: BF&M 2000 Art. VII (immersion of a believer, symbolism, testimony to final resurrection, prerequisite to membership and the Supper); EFCA Statement of Faith Art. 7 (two ordinances, not means of salvation, confirm and nourish); TGC Confessional Statement, Baptism and the Lord's Supper (entrance into the new covenant community, pledge, means of grace, vows; mode and subjects not specified). Pentecostal: Church of God Declaration of Faith (regeneration by faith in the blood, Spirit baptism subsequent to a clean heart, tongues initial evidence, water baptism by immersion for all who repent); Church of God Doctrinal Commitments (water baptism; Spirit baptism subsequent to cleansing, enduement of power for service; tongues initial evidence); IPHC Articles of Faith Art. 11 (received by faith, for cleansed believers, initial evidence vs gift of tongues, other evidences). Not verified from a source document: the Assemblies of God position in consensusNote (ag.org returns 403 to automated fetches, so AG was not cited); statements in consensusNotes and partings about Oneness Pentecostals, Third Wave believers and Presbyterian members of evangelical coalitions are general knowledge, not cited. Further-reading books are listed without URLs from memory of their bibliographic details; titles and editors were not re-checked online. BCP page numbers were dropped because the online text's page markers were ambiguous."
+  }
+}
