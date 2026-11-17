@@ -2,12 +2,12 @@
 
 ## Status (keep current)
 
-- **Updated:** 2026-11-16 7:35 PM ET
+- **Updated:** 2026-11-16 7:45 PM ET
 - **Branch:** `rework-2026-11` (pushed). Production (`four-views.vercel.app`, from `main`) is untouched.
-- **Done and committed:** the six test topics (all pass `scripts/check-topics.ts`, every source opened by the writer, 6 more citations re-opened by the integrator); engine (Claude + Perplexity adapters, validation, guard, mock; 19 smoke checks pass); Neon database (free plan, tables made), per-visitor limits, daily spend cap, topics API, share images, sitemap. Build passes; an early private preview deployed and its API behaves (ready / paused / rejected / missing / search / OG image / sitemap).
-- **Now:** UI helper finishing the comparison layout; then deploy, walk at desktop and phone width, write `READY-FOR-REVIEW.md`.
-- **Engine:** no working key. Both Perplexity keys are dead and Vercel AI Gateway needs a card on file. The app works without one (checked, pre-written topics; new topics show a friendly "paused" state). Decision packaged in `DECISIONS-FOR-SVEN.md`.
-- **Pick up from here:** contract is `lib/schema.ts` (topic shape), `lib/traditions.ts`, `lib/engine/types.ts`, `lib/api-contract.ts`. Check topics with `node scripts/check-topics.ts`.
+- **Preview:** https://four-views-vfpgzvghf-sven-pro-services.vercel.app (private). Walked at desktop and phone width; `READY-FOR-REVIEW.md` written; independent review requested.
+- **Now:** web-design-guidelines compliance pass; then apply review findings.
+- **Engine:** no working key (both Perplexity keys dead; AI Gateway needs a card). The app works without one: six checked topics, and a friendly "paused" note for new questions. Decision #1 in `DECISIONS-FOR-SVEN.md`.
+- **Pick up from here:** the contract is `lib/schema.ts`, `lib/traditions.ts`, `lib/engine/types.ts`, `lib/api-contract.ts`. Check topics with `node scripts/check-topics.ts`; engine with `ENGINE=mock node scripts/engine-smoke.ts`; deploy a preview with `vercel deploy` (never `--prod`).
 
 ## 1. Audit of the live site (Nov 16, 2026, ~7:05 PM ET)
 
@@ -64,4 +64,22 @@ The old app asked the model to role-play a theologian of each tradition ("You ar
 4. Fix review findings; docs; decisions.
 
 ## 4. Before and after
-_(filled in at the end)_
+
+| | Before (live site, Mar 2026 code) | After (`rework-2026-11` preview) |
+|---|---|---|
+| Works? | No: every query returns HTTP 500 (dead keys, no error handling) | Yes: six checked topics load instantly; new questions get a clear "paused" note until an engine key exists |
+| Voice | Role-play ("You are a Reformed theologian… use we") with different registers per tradition | Third person, each tradition's own vocabulary at its strongest, same length and register for all four; no winner |
+| Descriptions | Critics' labels ("God Learns", "Health & Wealth", "little gods", "this-worldly justice over otherworldly salvation"), wrong key voices | Rewritten as adherents would put them, with real US bodies and where each tradition is divided (`lib/traditions.ts`) |
+| Sources | None shown; citation list thrown away | 3–6 per view from the tradition's own confessions, catechisms, statements and theologians, with pinpoint locators; every link checked by script; locators opened by the writers; 6 re-opened by hand by the integrator |
+| Scripture | In the prose only | Key passages per view, each linked to BibleGateway in the translation that tradition reads |
+| Settled or divided? | Not shown | Consensus badge per view with a note (e.g. Reformed paedobaptists vs Reformed Baptists) |
+| Beyond four columns | Nothing | Where they agree; where exactly they part ways and why (a grid answered by all four); same word, different meaning; further reading |
+| Phone | Four essays stacked; cramped header | Comparison as cards with "Compare two" side by side; four views as tabs; no horizontal scroll at 375px |
+| Sharing | No URL per topic; same title everywhere | `/t/{topic}` links, per-topic title, description, canonical, 1200×630 preview image, sitemap, robots |
+| Safety and cost | No cache, no limits, input pasted into prompts | Neon cache (two readers of a new topic pay once), 3 new topics/hour and 8/day per visitor (hashed, no raw IPs), daily spend and count caps, input guard, query fenced as data, keys server-only |
+| Engine | Perplexity sonar-pro, hard-coded | Claude Opus 5.5 with web search limited to each tradition's own sites (preferred), or Perplexity sonar-pro; sources kept only if search really returned them or they're in the 129-source verified library |
+| Theologian box | Invented first-person speech for any named person | Removed |
+
+**Cost per query.** Before: about $0.07 per topic ($0.09 with the theologian box), paid on every request, because nothing was cached. After: a cached topic costs $0. A new topic costs about $1.40 with Claude Opus 5.5 (estimate $0.80–$2.20; search results read back as input dominate) or about $0.15 with Perplexity sonar-pro. These are estimates from published prices; nothing could be measured, because no engine key works. The six seed topics were written in this session, outside the app.
+
+**Fairness and source-check notes per topic** are in each topic file's `meta.reviewNotes`, and the integrator's own re-checks are listed in `READY-FOR-REVIEW.md`.
