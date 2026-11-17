@@ -6,12 +6,14 @@ import { TopicList } from "@/components/topic-list";
 import { HonestNote } from "@/components/honest-note";
 import { hueStyle } from "@/components/tradition";
 import { rv } from "@/components/reveal-attrs";
+import { getEngine } from "@/lib/engine";
 
 export const dynamic = "force-dynamic";
 
 export default async function Home() {
   const topics = (await listTopics()).sort((a, b) => a.title.localeCompare(b.title));
   const traditions = activeTraditions();
+  const writing = getEngine() !== null;
 
   return (
     <>
@@ -27,6 +29,13 @@ export default async function Home() {
           <div className="rise rise-3 lg:pb-3">
             <h2 className="h3 mb-4">Ask about a doctrine or a question</h2>
             <TopicSearch stacked />
+            {!writing && (
+              <p className="ui mt-4 text-ink-2 max-w-[36rem]" role="note">
+                New topics are paused for now. The {topics.length} topics below are written and
+                checked. Search finds those, and anything else will have to wait until writing
+                reopens.
+              </p>
+            )}
           </div>
         </div>
       </section>
