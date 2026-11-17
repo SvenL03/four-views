@@ -1,0 +1,3338 @@
+{
+  "generatedAt": "2026-11-17T00:37:47+00:00",
+  "notes": [
+    "Every URL was re-checked with curl when this file was generated. 'httpStatus' is the status of the live page; where bot protection blocks curl, 'accessNote' says so and how the page was verified.",
+    "Ids reformed..open_theist match lib/tradition-pool.ts. lutheran, roman_catholic and eastern_orthodox are candidate additions.",
+    "'(living)' marks people confirmed alive as of 2026-11; '(status unconfirmed)' means the researcher could not confirm either way."
+  ],
+  "traditions": [
+    {
+      "id": "reformed",
+      "name": "Reformed",
+      "selfDescription": "Reformed Christians confess that salvation is God's gracious work from first to last: the Father chose a people in Christ, the Son accomplished their redemption, and the Spirit unites them to Christ through the Word and the sacraments. We read the whole Bible as the story of one covenant of grace, summarize its teaching in confessions such as the Westminster Standards and the Three Forms of Unity, and seek to live all of life before the face of God, for his glory.",
+      "emphases": [
+        "covenant of grace",
+        "sovereign grace",
+        "soli Deo gloria"
+      ],
+      "americanBodies": [
+        "Presbyterian Church in America (PCA)",
+        "Orthodox Presbyterian Church (OPC)",
+        "Evangelical Presbyterian Church (EPC)",
+        "Associate Reformed Presbyterian Church (ARP)",
+        "Christian Reformed Church in North America (CRCNA)",
+        "United Reformed Churches in North America (URCNA)",
+        "Reformed Baptist churches holding the 1689 London Baptist Confession",
+        "Westminster Theological Seminary; Reformed Theological Seminary; Covenant Theological Seminary",
+        "Ligonier Ministries"
+      ],
+      "keyVoices": [
+        "John Calvin",
+        "Zacharias Ursinus",
+        "Jonathan Edwards",
+        "Charles Hodge",
+        "B. B. Warfield",
+        "Herman Bavinck",
+        "J. Gresham Machen",
+        "R. C. Sproul",
+        "Michael Horton (living)",
+        "Sinclair Ferguson (living)"
+      ],
+      "internalDiversity": "Presbyterians (Westminster Standards) and Continental Reformed churches (Belgic Confession, Heidelberg Catechism, Canons of Dort) baptize infants, while Reformed Baptists hold the 1689 London Baptist Confession and baptize believers only. There are further divisions over the millennium (mostly amillennial or postmillennial, some premillennial), over continuationism, over worship practice (exclusive psalmody versus hymns), and between confessional churches and the broader 'Calvinist' evangelical movement that shares Reformed soteriology without the confessions.",
+      "searchDomains": [
+        "opc.org",
+        "pcanet.org",
+        "pcaac.org",
+        "crcna.org",
+        "urcna.org",
+        "epc.org",
+        "arpchurch.org",
+        "ligonier.org",
+        "wts.edu",
+        "rts.edu",
+        "covenantseminary.edu",
+        "wscal.edu",
+        "prts.edu",
+        "founders.org",
+        "reformation21.org",
+        "solamedia.org"
+      ],
+      "scriptureTranslation": "ESV",
+      "sources": [
+        {
+          "id": "wcf",
+          "title": "Westminster Confession of Faith",
+          "short": "WCF",
+          "kind": "confession",
+          "year": 1646,
+          "author": "Westminster Assembly",
+          "publisherHost": "Orthodox Presbyterian Church (American text as adopted by the OPC)",
+          "url": "https://www.opc.org/wcf.html",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "chapter.section (e.g. WCF 28.4)",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        },
+        {
+          "id": "wlc",
+          "title": "Westminster Larger Catechism",
+          "short": "WLC",
+          "kind": "catechism",
+          "year": 1648,
+          "author": "Westminster Assembly",
+          "publisherHost": "Orthodox Presbyterian Church",
+          "url": "https://www.opc.org/lc.html",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "Q&A number (e.g. WLC 168)",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        },
+        {
+          "id": "wsc",
+          "title": "Westminster Shorter Catechism",
+          "short": "WSC",
+          "kind": "catechism",
+          "year": 1647,
+          "author": "Westminster Assembly",
+          "publisherHost": "Orthodox Presbyterian Church",
+          "url": "https://www.opc.org/sc.html",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "Q&A number (e.g. WSC 92)",
+          "topics": [
+            "god",
+            "christ",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "ethics",
+            "worship"
+          ]
+        },
+        {
+          "id": "heidelberg",
+          "title": "Heidelberg Catechism",
+          "short": "HC",
+          "kind": "catechism",
+          "year": 1563,
+          "author": "Zacharias Ursinus and Caspar Olevianus (commissioned by Frederick III)",
+          "publisherHost": "Christian Reformed Church in North America",
+          "url": "https://www.crcna.org/welcome/beliefs/confessions/heidelberg-catechism",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "Q&A number, grouped by Lord's Day (e.g. HC Q&A 80, Lord's Day 30)",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        },
+        {
+          "id": "belgic",
+          "title": "Belgic Confession",
+          "short": "BC",
+          "kind": "confession",
+          "year": 1561,
+          "author": "Guido de Brès",
+          "publisherHost": "Christian Reformed Church in North America",
+          "url": "https://www.crcna.org/welcome/beliefs/confessions/belgic-confession",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "Article number (e.g. BC Art. 35)",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        },
+        {
+          "id": "dort",
+          "title": "Canons of Dort",
+          "short": "CD",
+          "kind": "confession",
+          "year": 1619,
+          "author": "Synod of Dort",
+          "publisherHost": "Christian Reformed Church in North America",
+          "url": "https://www.crcna.org/welcome/beliefs/confessions/canons-dort",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "main point (head) and article (e.g. CD 2.8); rejections of errors as 'CD 2, RE 3'",
+          "topics": [
+            "god",
+            "christ",
+            "salvation",
+            "holy-spirit"
+          ]
+        },
+        {
+          "id": "lbcf-1689",
+          "title": "Second London Baptist Confession of Faith (1689), modern English edition",
+          "short": "LBCF",
+          "kind": "confession",
+          "year": 1689,
+          "author": "Particular Baptist churches of England",
+          "publisherHost": "Founders Ministries",
+          "url": "https://founders.org/library-book/1689-confession/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "chapter.paragraph (e.g. LBCF 29.4)",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        },
+        {
+          "id": "calvin-institutes",
+          "title": "Institutes of the Christian Religion (1559 edition, Beveridge translation)",
+          "short": "Inst.",
+          "kind": "book",
+          "year": 1559,
+          "author": "John Calvin",
+          "publisherHost": "Christian Classics Ethereal Library (ccel.org)",
+          "url": "https://www.ccel.org/ccel/calvin/institutes.html",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "book.chapter.section (e.g. Inst. 4.17.10)",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        },
+        {
+          "id": "pca-beliefs",
+          "title": "PCA: What We Believe (Westminster Standards and Book of Church Order)",
+          "short": "PCA",
+          "kind": "denominational-statement",
+          "year": null,
+          "author": "Presbyterian Church in America",
+          "publisherHost": "Presbyterian Church in America",
+          "url": "https://www.pcanet.org/beliefs/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": null,
+          "topics": [
+            "scripture",
+            "salvation",
+            "church-and-ministry"
+          ],
+          "accessNote": "Returns 403 to curl's bare 'Mozilla/5.0' agent; 200 with a full browser user-agent."
+        },
+        {
+          "id": "berkhof-st",
+          "title": "Systematic Theology",
+          "short": "Berkhof",
+          "kind": "book",
+          "year": 1938,
+          "author": "Louis Berkhof",
+          "publisherHost": "Christian Classics Ethereal Library (ccel.org)",
+          "url": "https://www.ccel.org/ccel/berkhof/systematictheology.html",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "part and chapter",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        },
+        {
+          "id": "horton-christian-faith",
+          "title": "The Christian Faith: A Systematic Theology for Pilgrims on the Way",
+          "short": "Horton",
+          "kind": "book",
+          "year": 2011,
+          "author": "Michael Horton",
+          "publisherHost": "Zondervan Academic",
+          "url": "https://zondervanacademic.com/products/the-christian-faith",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "page number",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        },
+        {
+          "id": "sproul-chosen-by-god",
+          "title": "Chosen by God",
+          "short": "Sproul",
+          "kind": "book",
+          "year": 1986,
+          "author": "R. C. Sproul",
+          "publisherHost": "Ligonier Ministries store",
+          "url": "https://store.ligonier.org/chosen-by-god-paperback",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "chapter",
+          "topics": [
+            "god",
+            "salvation"
+          ]
+        }
+      ],
+      "fairnessNotes": [
+        "'TULIP' as the first line of the framework: the acrostic is a much later English-language teaching device, not the wording of the Canons of Dort. Reformed historians (e.g. Richard Muller) warn it distorts Dort, and most Reformed writers say 'definite atonement' or 'particular redemption' rather than 'limited atonement'. Let the prompt cite Dort's five main points in its own terms.",
+        "'The absolute sovereignty of God as the controlling principle of all theology' restates the old 'central dogma' thesis that Reformed historians reject. Adherents would say the controlling principle is God's self-revelation in Scripture: the triune God of the covenant, with sovereignty as one attribute among his perfections.",
+        "The prompt names only the Westminster Confession. Continental Reformed churches (CRCNA, URCNA) confess the Three Forms of Unity (Belgic Confession, Heidelberg Catechism, Canons of Dort), and Reformed Baptists confess the 1689 London Baptist Confession.",
+        "Key voices mix confessional Reformed theologians with Calvinistic Baptists whose views the framework says they hold. Spurgeon, Piper and Grudem are Baptists (Piper and Grudem are also premillennial and open to continuing spiritual gifts). They reject infant baptism and Westminster-style covenant theology, so they cannot speak for the 'Westminster Confession as a confessional standard'. Either drop them or describe the voice as 'Reformed and Calvinistic Baptist'.",
+        "Martyn Lloyd-Jones is respected but unusual: a Welsh-born nonconformist preacher (Westminster Chapel, London) who taught a distinct post-conversion 'sealing' or baptism of the Spirit that most confessional Reformed theologians reject."
+      ]
+    },
+    {
+      "id": "arminian",
+      "name": "Wesleyan / Arminian",
+      "selfDescription": "We believe God truly loves every person and that Christ died for all. By prevenient grace the Holy Spirit goes before every human heart and frees the will to respond to the gospel, so salvation is wholly by grace through faith, yet never forced. Wesleyans add that grace aims at holiness of heart and life: the Spirit can so fill a believer with love for God and neighbor that love becomes the ruling motive of life.",
+      "emphases": [
+        "prevenient grace",
+        "Christ died for all",
+        "holiness of heart and life"
+      ],
+      "americanBodies": [
+        "Global Methodist Church",
+        "The United Methodist Church (doctrinal standards; also counted as mainline)",
+        "Church of the Nazarene",
+        "The Wesleyan Church",
+        "Free Methodist Church USA",
+        "The Salvation Army",
+        "National Association of Free Will Baptists (Reformed Arminian)",
+        "Asbury Theological Seminary; Welch College",
+        "Society of Evangelical Arminians"
+      ],
+      "keyVoices": [
+        "Jacobus Arminius",
+        "John Wesley",
+        "Charles Wesley",
+        "John Fletcher",
+        "Adam Clarke",
+        "H. Orton Wiley",
+        "Thomas C. Oden",
+        "Roger E. Olson (living)",
+        "Ben Witherington III (living)",
+        "J. Matthew Pinson (living)"
+      ],
+      "internalDiversity": "Wesleyan-Holiness churches (Nazarene, Wesleyan, Free Methodist, Salvation Army) teach entire sanctification as a second work of grace; Methodists broadly speak of 'going on to perfection'; Reformed Arminians (Free Will Baptists) reject entire sanctification, hold a penal-satisfaction view of the atonement, and teach that true apostasy happens only through unbelief. Arminians differ on whether election is individual and based on foreseen faith or corporate 'in Christ', and many Baptists and Pentecostals hold Arminian views without the Wesleyan label.",
+      "searchDomains": [
+        "globalmethodist.org",
+        "umc.org",
+        "nazarene.org",
+        "wesleyan.org",
+        "fmcusa.org",
+        "salvationarmyusa.org",
+        "nafwb.org",
+        "welch.edu",
+        "randallhouse.com",
+        "asburyseminary.edu",
+        "nts.edu",
+        "wesley.nnu.edu",
+        "seedbed.com",
+        "evangelicalarminians.org"
+      ],
+      "scriptureTranslation": "NIV",
+      "sources": [
+        {
+          "id": "remonstrance",
+          "title": "The Five Arminian Articles (the Remonstrance)",
+          "short": "Remonstrance",
+          "kind": "confession",
+          "year": 1610,
+          "author": "Remonstrant pastors",
+          "publisherHost": "Christian Classics Ethereal Library (Philip Schaff, Creeds of Christendom, vol. 3)",
+          "url": "https://ccel.org/ccel/schaff/creeds3.iv.xv.html",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "Article number (1-5)",
+          "topics": [
+            "god",
+            "christ",
+            "salvation",
+            "holy-spirit"
+          ]
+        },
+        {
+          "id": "arminius-works",
+          "title": "The Works of James Arminius, vol. 1 (includes the Declaration of Sentiments, 1608)",
+          "short": "Arminius, Works",
+          "kind": "book",
+          "year": 1608,
+          "author": "Jacobus Arminius",
+          "publisherHost": "Christian Classics Ethereal Library (ccel.org)",
+          "url": "https://www.ccel.org/ccel/arminius/works1.html",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "volume and page",
+          "topics": [
+            "god",
+            "salvation",
+            "christ"
+          ]
+        },
+        {
+          "id": "methodist-articles",
+          "title": "The Articles of Religion of the Methodist Church",
+          "short": "Art. Rel.",
+          "kind": "confession",
+          "year": 1784,
+          "author": "John Wesley (abridged from the Thirty-Nine Articles)",
+          "publisherHost": "The United Methodist Church (umc.org)",
+          "url": "https://www.umc.org/en/content/articles-of-religion",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "Article number (Roman numerals, e.g. Art. XVIII)",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        },
+        {
+          "id": "eub-confession",
+          "title": "Confession of Faith of the Evangelical United Brethren Church",
+          "short": "EUB Conf.",
+          "kind": "confession",
+          "year": 1962,
+          "author": "Evangelical United Brethren Church",
+          "publisherHost": "The United Methodist Church (umc.org)",
+          "url": "https://www.umc.org/en/content/confession-of-faith",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "Article number (Roman numerals)",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        },
+        {
+          "id": "wesley-sermon-43",
+          "title": "Sermon 43: The Scripture Way of Salvation",
+          "short": "Wesley, Sermon 43",
+          "kind": "sermon",
+          "year": 1765,
+          "author": "John Wesley",
+          "publisherHost": "Wesley Center Online (Northwest Nazarene University)",
+          "url": "https://wesley.nnu.edu/john-wesley/the-sermons-of-john-wesley-1872-edition/sermon-43-the-scripture-way-of-salvation/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "part and paragraph (e.g. I.3)",
+          "topics": [
+            "salvation",
+            "holy-spirit"
+          ]
+        },
+        {
+          "id": "wesley-plain-account",
+          "title": "A Plain Account of Christian Perfection",
+          "short": "Plain Account",
+          "kind": "book",
+          "year": 1766,
+          "author": "John Wesley",
+          "publisherHost": "Wesley Center Online (Northwest Nazarene University)",
+          "url": "https://wesley.nnu.edu/john-wesley/a-plain-account-of-christian-perfection/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "section number",
+          "topics": [
+            "salvation",
+            "holy-spirit",
+            "ethics"
+          ]
+        },
+        {
+          "id": "nazarene-beliefs",
+          "title": "Church of the Nazarene: What We Believe",
+          "short": "Nazarene",
+          "kind": "denominational-statement",
+          "year": null,
+          "author": "Church of the Nazarene",
+          "publisherHost": "Church of the Nazarene",
+          "url": "https://nazarene.org/what-we-believe/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": null,
+          "topics": [
+            "salvation",
+            "holy-spirit",
+            "church-and-ministry"
+          ]
+        },
+        {
+          "id": "gmc-doctrines-discipline",
+          "title": "Book of Doctrines and Discipline (2024 edition)",
+          "short": "GMC BDD",
+          "kind": "denominational-statement",
+          "year": 2024,
+          "author": "Global Methodist Church",
+          "publisherHost": "Global Methodist Church",
+          "url": "https://irp.cdn-website.com/1876eae9/files/uploaded/2024-Book-of-Doctrines-Discipline-FINAL-15JAN2025.pdf",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "paragraph number (e.g. ¶ 104)",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        },
+        {
+          "id": "fwb-treatise",
+          "title": "Treatise of the Faith and Practices of the National Association of Free Will Baptists (2026 edition)",
+          "short": "FWB Treatise",
+          "kind": "confession",
+          "year": 1935,
+          "author": "National Association of Free Will Baptists",
+          "publisherHost": "National Association of Free Will Baptists",
+          "url": "https://nafwb.org/site/wp-content/uploads/NAFWB-Treatise-2026.pdf",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "chapter (Roman numeral) and section (e.g. ch. XIII)",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        },
+        {
+          "id": "wesleyan-church-beliefs",
+          "title": "The Wesleyan Church: Our Beliefs & Core Values",
+          "short": "Wesleyan Church",
+          "kind": "denominational-statement",
+          "year": null,
+          "author": "The Wesleyan Church",
+          "publisherHost": "The Wesleyan Church",
+          "url": "https://www.wesleyan.org/about/our-beliefs",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": null,
+          "topics": [
+            "salvation",
+            "holy-spirit",
+            "church-and-ministry"
+          ],
+          "accessNote": "Returns 403 to curl's bare 'Mozilla/5.0' agent; 200 with a full browser user-agent."
+        },
+        {
+          "id": "olson-arminian-theology",
+          "title": "Arminian Theology: Myths and Realities",
+          "short": "Olson",
+          "kind": "book",
+          "year": 2006,
+          "author": "Roger E. Olson",
+          "publisherHost": "InterVarsity Press (IVP Academic)",
+          "url": "https://www.ivpress.com/arminian-theology",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "chapter (the 'myths' are numbered)",
+          "topics": [
+            "god",
+            "salvation",
+            "christ"
+          ],
+          "accessNote": "Bot protection: curl gets HTTP 403. Page opened and read in a real browser on 2026-11-16 (HTTP 200)."
+        },
+        {
+          "id": "oden-wesleys-teachings",
+          "title": "John Wesley's Teachings, Volume 1: God and Providence",
+          "short": "Oden",
+          "kind": "book",
+          "year": 2012,
+          "author": "Thomas C. Oden",
+          "publisherHost": "Zondervan Academic",
+          "url": "https://zondervanacademic.com/products/john-wesleys-teachings-volume-1",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "page number",
+          "topics": [
+            "god",
+            "scripture"
+          ]
+        }
+      ],
+      "fairnessNotes": [
+        "The description's headline 'Free Will' invites the semi-Pelagian caricature Arminians reject. Arminius and Wesley both taught total depravity; the will is 'freed' by prevenient grace, not naturally free. Better: 'Prevenient Grace · Resistible Grace · Christ Died for All'.",
+        "The label 'Arminian / Wesleyan' plus 'Wesley's doctrine of entire sanctification' in the framework speaks only for Wesleyans. Reformed Arminians (Free Will Baptists: Picirilli, Forlines, Pinson) and many Baptist and Pentecostal Arminians reject entire sanctification. Present it as the Wesleyan-Holiness emphasis, not the whole tradition's.",
+        "'Conditional election: God foreknows who will believe and elects accordingly' is the classic view but not the only one; some Arminians teach corporate election in Christ (e.g. Robert Shank, Elect in the Son).",
+        "'The possibility of apostasy (falling from grace)' merges two views: Wesleyans generally hold that backsliders can be restored; Reformed Arminians teach that apostasy happens only through unbelief and cannot be undone (the FWB Treatise ch. XIII speaks of believers being 'in danger of falling').",
+        "Key voices omit the Reformed Arminian and Holiness streams (e.g. Pinson, H. Orton Wiley), so the voice leans Methodist."
+      ]
+    },
+    {
+      "id": "fundamentalist",
+      "name": "Fundamentalist",
+      "selfDescription": "Fundamentalists are Bible-believing Christians who hold that the fundamentals of the faith must be believed and defended, not merely assumed: the verbally inspired, inerrant Word of God, the virgin birth and deity of Christ, his substitutionary blood atonement, his bodily resurrection and his literal return. Because Scripture commands God's people to keep the faith pure, we practice biblical separation from apostasy and from ministries that cooperate with it, while giving ourselves to holy living, soul-winning and strong local churches.",
+      "emphases": [
+        "the fundamentals of the faith",
+        "biblical separation",
+        "soul-winning"
+      ],
+      "americanBodies": [
+        "General Association of Regular Baptist Churches (GARBC)",
+        "IFCA International",
+        "Foundations Baptist Fellowship International (FBFI)",
+        "Independent Fundamental Baptist churches",
+        "Bob Jones University",
+        "Central Baptist Theological Seminary (Minneapolis area)",
+        "Detroit Baptist Theological Seminary",
+        "Maranatha Baptist University"
+      ],
+      "keyVoices": [
+        "Charles H. Spurgeon (claimed as a forerunner for the Downgrade Controversy)",
+        "R. A. Torrey",
+        "A. C. Dixon",
+        "William Bell Riley",
+        "Bob Jones Sr.",
+        "John R. Rice",
+        "Ernest Pickering",
+        "Kevin T. Bauder (living)"
+      ],
+      "internalDiversity": "Self-described 'historic' fundamentalists (Central Seminary, Detroit Seminary, FBFI, BJU) differ from much of the independent Baptist world over King James Only convictions, revivalist methods and authoritarian pastoral styles, which Central Seminary calls 'hyper-fundamentalism'. They also differ on how far separation extends (secondary separation from evangelicals who cooperate with non-evangelicals), and a minority are Calvinist or non-dispensational. The movement also had Presbyterian fundamentalists (Bible Presbyterian Church).",
+      "searchDomains": [
+        "garbc.org",
+        "ifca.org",
+        "fbfi.org",
+        "proclaimanddefend.org",
+        "bju.edu",
+        "bjupress.com",
+        "centralseminary.edu",
+        "dbts.edu",
+        "mbu.edu",
+        "faith.edu",
+        "rbpequips.com",
+        "swordofthelord.com"
+      ],
+      "scriptureTranslation": "KJV",
+      "sources": [
+        {
+          "id": "garbc-articles",
+          "title": "GARBC Articles of Faith",
+          "short": "GARBC",
+          "kind": "denominational-statement",
+          "year": null,
+          "author": "General Association of Regular Baptist Churches",
+          "publisherHost": "GARBC",
+          "url": "https://www.garbc.org/about-us/beliefs-constitution/articles-of-faith/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "article number",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        },
+        {
+          "id": "ifca-doctrine",
+          "title": "IFCA International: Our Mission & Doctrine",
+          "short": "IFCA",
+          "kind": "denominational-statement",
+          "year": null,
+          "author": "IFCA International",
+          "publisherHost": "IFCA International",
+          "url": "https://www.ifca.org/what-is-ifca/our-mission---doctrine",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": null,
+          "topics": [
+            "scripture",
+            "church-and-ministry",
+            "salvation"
+          ]
+        },
+        {
+          "id": "fbfi-constitution",
+          "title": "FBFI Constitution (purpose and doctrinal statement)",
+          "short": "FBFI Const.",
+          "kind": "denominational-statement",
+          "year": null,
+          "author": "Foundations Baptist Fellowship International",
+          "publisherHost": "Foundations Baptist Fellowship International",
+          "url": "https://fbfi.org/constitution/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "article and section",
+          "topics": [
+            "scripture",
+            "church-and-ministry",
+            "salvation",
+            "end-times"
+          ]
+        },
+        {
+          "id": "fbfi-positions",
+          "title": "FBFI Position Statements (resolutions)",
+          "short": "FBFI Positions",
+          "kind": "position-paper",
+          "year": null,
+          "author": "Foundations Baptist Fellowship International",
+          "publisherHost": "Foundations Baptist Fellowship International",
+          "url": "https://fbfi.org/position-statements/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "resolution title and year",
+          "topics": [
+            "church-and-ministry",
+            "ethics",
+            "scripture"
+          ]
+        },
+        {
+          "id": "central-fundamentalism",
+          "title": "On Fundamentalism and Evangelicalism",
+          "short": "Central, Fundamentalism",
+          "kind": "position-paper",
+          "year": null,
+          "author": "Central Baptist Theological Seminary",
+          "publisherHost": "Central Baptist Theological Seminary",
+          "url": "https://centralseminary.edu/on-fundamentalism-and-evangelicalism/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": null,
+          "topics": [
+            "church-and-ministry",
+            "scripture"
+          ]
+        },
+        {
+          "id": "dbts-statement",
+          "title": "Detroit Baptist Theological Seminary: Statement of Faith",
+          "short": "DBTS",
+          "kind": "denominational-statement",
+          "year": null,
+          "author": "Detroit Baptist Theological Seminary",
+          "publisherHost": "Detroit Baptist Theological Seminary",
+          "url": "https://dbts.edu/statement-of-faith/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "article number",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        },
+        {
+          "id": "bju-creed",
+          "title": "Bob Jones University Creed",
+          "short": "BJU Creed",
+          "kind": "creed",
+          "year": null,
+          "author": "Bob Jones University",
+          "publisherHost": "Bob Jones University",
+          "url": "https://www.bju.edu/about/creed-mission.php",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": null,
+          "topics": [
+            "scripture",
+            "christ",
+            "salvation"
+          ],
+          "accessNote": "Bot protection: curl gets HTTP 403. Page opened and read in a real browser on 2026-11-16 (HTTP 200)."
+        },
+        {
+          "id": "the-fundamentals",
+          "title": "The Fundamentals: A Testimony to the Truth (vols. 1-7 scan)",
+          "short": "The Fundamentals",
+          "kind": "book",
+          "year": 1910,
+          "author": "R. A. Torrey, A. C. Dixon and others (eds.)",
+          "publisherHost": "Internet Archive (New York Public Library scan of the Testimony Publishing Co. edition)",
+          "url": "https://archive.org/details/fundamentalstest17chic",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "volume and essay title",
+          "topics": [
+            "scripture",
+            "christ",
+            "salvation",
+            "god"
+          ]
+        },
+        {
+          "id": "four-views-spectrum",
+          "title": "Four Views on the Spectrum of Evangelicalism (Kevin Bauder writes for fundamentalism)",
+          "short": "Four Views Spectrum",
+          "kind": "book",
+          "year": 2011,
+          "author": "Andrew David Naselli and Collin Hansen (eds.); Kevin T. Bauder et al.",
+          "publisherHost": "Zondervan Academic",
+          "url": "https://zondervanacademic.com/products/four-views-on-the-spectrum-of-evangelicalism",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "page number",
+          "topics": [
+            "church-and-ministry",
+            "scripture"
+          ]
+        }
+      ],
+      "fairnessNotes": [
+        "Key voices: J. Frank Norris shot and killed a man in his church office in 1926 (he was acquitted). Self-described historic fundamentalists treat him as a cautionary figure, not a model.",
+        "Key voices: Jerry Falwell Sr.'s Moral Majority cooperation was opposed by separatist fundamentalists such as Bob Jones Jr. Carl McIntire was a Presbyterian separatist, and Clarence Larkin was a dispensational chart illustrator. None of the three speaks well for the movement's theology as such. Better: Torrey, Dixon, Riley, John R. Rice, Ernest Pickering, Kevin Bauder.",
+        "'Dispensational premillennialism' is listed as a defining tenet. It is dominant (GARBC and IFCA are premillennial), but the original fundamentalist coalition included non-dispensationalists (e.g. Presbyterian fundamentalists), and fundamentalists define themselves by the fundamentals plus separation, not by eschatology.",
+        "'A high view of the local church and pastoral authority' reads as a nod to authoritarian independent-Baptist culture, which historic fundamentalists explicitly oppose (Central Seminary rejects 'hyper-fundamentalism'). Adherents would say 'local church autonomy' and 'biblical separation'.",
+        "'Suspicion of ecumenism, cultural compromise' frames separation as a mood. Adherents frame it as obedience to a biblical command (FBFI's constitution speaks of 'the mandate of biblical separation'). 'Neo-evangelical' is their own term, so it can stay.",
+        "The 'KJV or NKJV' instruction is right for many independent Baptists, but BJU, Central and Detroit Seminary are not King James Only; avoid making KJV-onlyism part of the voice."
+      ]
+    },
+    {
+      "id": "conservative_evangelical",
+      "name": "Evangelical",
+      "selfDescription": "Evangelicals are gospel people: we believe the Bible is God's inspired and fully trustworthy Word, that Jesus Christ died in our place and rose bodily from the dead, and that every person needs to be born again through personal faith in him. That gospel shapes everything else: evangelism and world missions, Bible-centered preaching, prayer and holy living, and faithful engagement with culture, across many denominations and in nondenominational churches.",
+      "emphases": [
+        "the gospel",
+        "biblical authority",
+        "the Great Commission"
+      ],
+      "americanBodies": [
+        "Southern Baptist Convention",
+        "Evangelical Free Church of America (EFCA)",
+        "National Association of Evangelicals (NAE)",
+        "Many nondenominational churches",
+        "The Gospel Coalition",
+        "Evangelical Theological Society",
+        "Billy Graham Evangelistic Association",
+        "Wheaton College; Trinity Evangelical Divinity School",
+        "Christianity Today"
+      ],
+      "keyVoices": [
+        "Billy Graham",
+        "Carl F. H. Henry",
+        "Harold J. Ockenga",
+        "Francis Schaeffer",
+        "John Stott",
+        "J. I. Packer",
+        "Tim Keller",
+        "D. A. Carson (living)",
+        "Albert Mohler (living)",
+        "Wayne Grudem (living)"
+      ],
+      "internalDiversity": "Evangelicals are divided between Calvinists and non-Calvinists (a live debate inside the SBC), between complementarians and egalitarians on women's roles, between cessationists and continuationists, over baptism (believers-only versus infant baptism in evangelical Presbyterian and Anglican churches), and over eschatology. Some hold strict inerrancy in the Chicago Statement sense; others prefer 'infallible' or 'trustworthy' language.",
+      "searchDomains": [
+        "sbc.net",
+        "bfm.sbc.net",
+        "baptistpress.com",
+        "nae.org",
+        "etsjets.org",
+        "thegospelcoalition.org",
+        "lausanne.org",
+        "efca.org",
+        "christianitytoday.com",
+        "billygraham.org",
+        "wheaton.edu",
+        "teds.edu",
+        "sbts.edu",
+        "crossway.org",
+        "9marks.org",
+        "alliancenet.org"
+      ],
+      "scriptureTranslation": "NIV",
+      "sources": [
+        {
+          "id": "chicago-inerrancy",
+          "title": "The Chicago Statement on Biblical Inerrancy",
+          "short": "CSBI",
+          "kind": "denominational-statement",
+          "year": 1978,
+          "author": "International Council on Biblical Inerrancy",
+          "publisherHost": "Alliance of Confessing Evangelicals (alliancenet.org)",
+          "url": "https://www.alliancenet.org/the-chicago-statement-on-biblical-inerrancy",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "Article number, affirmation/denial (e.g. CSBI Art. XII)",
+          "topics": [
+            "scripture"
+          ]
+        },
+        {
+          "id": "lausanne-covenant",
+          "title": "The Lausanne Covenant",
+          "short": "LC",
+          "kind": "denominational-statement",
+          "year": 1974,
+          "author": "International Congress on World Evangelization",
+          "publisherHost": "Lausanne Movement",
+          "url": "https://lausanne.org/statement/lausanne-covenant",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "paragraph number 1-15 (e.g. LC 5)",
+          "topics": [
+            "scripture",
+            "christ",
+            "salvation",
+            "church-and-ministry",
+            "ethics",
+            "end-times"
+          ],
+          "accessNote": "Returns 403 to curl's bare 'Mozilla/5.0' agent; 200 with a full browser user-agent."
+        },
+        {
+          "id": "cape-town-commitment",
+          "title": "The Cape Town Commitment",
+          "short": "CTC",
+          "kind": "denominational-statement",
+          "year": 2010,
+          "author": "Third Lausanne Congress",
+          "publisherHost": "Lausanne Movement",
+          "url": "https://lausanne.org/statement/ctcommitment",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "part and section (e.g. CTC I.7)",
+          "topics": [
+            "god",
+            "christ",
+            "scripture",
+            "church-and-ministry",
+            "ethics"
+          ],
+          "accessNote": "Returns 403 to curl's bare 'Mozilla/5.0' agent; 200 with a full browser user-agent."
+        },
+        {
+          "id": "bfm-2000",
+          "title": "The Baptist Faith and Message 2000",
+          "short": "BF&M",
+          "kind": "confession",
+          "year": 2000,
+          "author": "Southern Baptist Convention",
+          "publisherHost": "Southern Baptist Convention",
+          "url": "https://bfm.sbc.net/bfm2000/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "Article number (e.g. BF&M VII)",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ],
+          "accessNote": "Returns 403 to curl's bare 'Mozilla/5.0' agent; 200 with a full browser user-agent."
+        },
+        {
+          "id": "nae-statement",
+          "title": "NAE Statement of Faith",
+          "short": "NAE",
+          "kind": "denominational-statement",
+          "year": 1943,
+          "author": "National Association of Evangelicals",
+          "publisherHost": "National Association of Evangelicals",
+          "url": "https://www.nae.org/statement-of-faith/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": null,
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "end-times"
+          ]
+        },
+        {
+          "id": "ets-doctrinal-basis",
+          "title": "Evangelical Theological Society: Doctrinal Basis",
+          "short": "ETS",
+          "kind": "denominational-statement",
+          "year": 1949,
+          "author": "Evangelical Theological Society",
+          "publisherHost": "Evangelical Theological Society",
+          "url": "https://etsjets.org/about/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": null,
+          "topics": [
+            "scripture",
+            "god"
+          ]
+        },
+        {
+          "id": "tgc-foundation-documents",
+          "title": "The Gospel Coalition: Confessional Statement and Theological Vision for Ministry",
+          "short": "TGC",
+          "kind": "denominational-statement",
+          "year": 2007,
+          "author": "The Gospel Coalition",
+          "publisherHost": "The Gospel Coalition",
+          "url": "https://www.thegospelcoalition.org/about/foundation-documents/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "section number",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        },
+        {
+          "id": "efca-statement",
+          "title": "EFCA Statement of Faith",
+          "short": "EFCA",
+          "kind": "denominational-statement",
+          "year": 2008,
+          "author": "Evangelical Free Church of America",
+          "publisherHost": "Evangelical Free Church of America",
+          "url": "https://www.efca.org/sof",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "Article number 1-10",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        },
+        {
+          "id": "henry-gra",
+          "title": "God, Revelation and Authority (6 vols., 1976-1983; Crossway reprint)",
+          "short": "Henry, GRA",
+          "kind": "book",
+          "year": 1976,
+          "author": "Carl F. H. Henry",
+          "publisherHost": "Crossway",
+          "url": "https://www.crossway.org/books/god-revelation-and-authority-tpb-2/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "volume and page",
+          "topics": [
+            "scripture",
+            "god"
+          ]
+        },
+        {
+          "id": "stott-cross-of-christ",
+          "title": "The Cross of Christ",
+          "short": "Stott",
+          "kind": "book",
+          "year": 1986,
+          "author": "John Stott",
+          "publisherHost": "InterVarsity Press",
+          "url": "https://www.ivpress.com/the-cross-of-christ",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "chapter and page",
+          "topics": [
+            "christ",
+            "salvation"
+          ],
+          "accessNote": "Bot protection: curl gets HTTP 403. Page opened and read in a real browser on 2026-11-16 (HTTP 200)."
+        },
+        {
+          "id": "grudem-systematic-theology",
+          "title": "Systematic Theology, Second Edition",
+          "short": "Grudem",
+          "kind": "book",
+          "year": 2020,
+          "author": "Wayne Grudem",
+          "publisherHost": "Zondervan Academic",
+          "url": "https://zondervanacademic.com/products/systematic-theology-second-edition",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "chapter and page",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        }
+      ],
+      "fairnessNotes": [
+        "'Tim Keller (in his more conservative moments)' is a dig, not a description. Keller was a PCA minister bound to the Westminster Standards throughout his ministry; adherents would reject the implication that he was only intermittently conservative. (He died in 2023.)",
+        "'Biblical authority and inerrancy (Chicago Statement), but engaged with scholarship' implies inerrancy and scholarship pull against each other. Evangelicals see inerrancy as a scholarly position (ETS was founded as a scholarly society on that basis). Drop 'but'.",
+        "Francis Chan has since moved to a house-church model and has spoken publicly about his changing views of the Lord's Supper, so he is a debated example of the evangelical center. John Stott, J. I. Packer or D. A. Carson are safer.",
+        "The tradition is described as 'Southern Baptist, non-denominational' but the framework silently assumes Calvinist-leaning voices (Mohler, Keller, Platt). Many Southern Baptists and nondenominational evangelicals are not Calvinists, so the voice should not default to Reformed soteriology."
+      ]
+    },
+    {
+      "id": "progressive_evangelical",
+      "name": "Progressive Evangelical",
+      "selfDescription": "We are evangelicals who believe the gospel of Jesus is good news for the whole person and the whole world: personal conversion and discipleship belong together with justice for the poor, racial reconciliation, the equal partnership of women and men, and care for creation. We take the words and way of Jesus, especially the Sermon on the Mount, as the center of Christian ethics, and we call the church to repent wherever it has been captured by wealth, racism or partisan politics.",
+      "emphases": [
+        "the whole gospel",
+        "the kingdom of God",
+        "justice and shalom"
+      ],
+      "americanBodies": [
+        "Sojourners",
+        "Christians for Social Action (formerly Evangelicals for Social Action)",
+        "Red Letter Christians",
+        "CBE International (Christians for Biblical Equality)",
+        "Christian Community Development Association (CCDA)",
+        "Evangelical Environmental Network"
+      ],
+      "keyVoices": [
+        "Ronald J. Sider",
+        "John M. Perkins",
+        "Tony Campolo",
+        "Jim Wallis (living)",
+        "Shane Claiborne (living)",
+        "Lisa Sharon Harper (living)",
+        "Soong-Chan Rah (living)",
+        "Catherine Clark Kroeger"
+      ],
+      "internalDiversity": "The older evangelical left (Sider, Perkins, the 1973 Chicago Declaration) generally held traditional sexual ethics and often a consistent pro-life ethic, while many younger voices affirm same-sex marriage. Campolo did so in 2015; Sider did not. Some prefer 'Red Letter Christian' or 'post-evangelical' to 'evangelical' at all, and the movement ranges from Anabaptist-leaning peace churches to mainline-adjacent progressives.",
+      "searchDomains": [
+        "sojo.net",
+        "christiansforsocialaction.org",
+        "redletterchristians.org",
+        "cbeinternational.org",
+        "ccda.org",
+        "creationcare.org"
+      ],
+      "scriptureTranslation": "NIV",
+      "sources": [
+        {
+          "id": "chicago-declaration",
+          "title": "The Chicago Declaration of Evangelical Social Concern (full text appended to Jim Wallis's 50th-anniversary column)",
+          "short": "Chicago Declaration",
+          "kind": "position-paper",
+          "year": 1973,
+          "author": "Thanksgiving Workshop on Evangelical Social Concern (53 signers)",
+          "publisherHost": "Jim Wallis (a signer), Substack",
+          "url": "https://jimwallis.substack.com/p/reflections-on-the-50th-anniversary",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "paragraph",
+          "topics": [
+            "ethics",
+            "church-and-ministry",
+            "salvation"
+          ]
+        },
+        {
+          "id": "csa-about",
+          "title": "Christians for Social Action: About Us",
+          "short": "CSA",
+          "kind": "denominational-statement",
+          "year": null,
+          "author": "Christians for Social Action",
+          "publisherHost": "Christians for Social Action",
+          "url": "https://christiansforsocialaction.org/about-us/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": null,
+          "topics": [
+            "ethics",
+            "church-and-ministry"
+          ],
+          "accessNote": "Returns 403 to curl's bare 'Mozilla/5.0' agent; 200 with a full browser user-agent."
+        },
+        {
+          "id": "sojourners-about",
+          "title": "About Sojourners (mission statement)",
+          "short": "Sojourners",
+          "kind": "denominational-statement",
+          "year": null,
+          "author": "Sojourners",
+          "publisherHost": "Sojourners",
+          "url": "https://sojo.net/about/about-sojourners",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": null,
+          "topics": [
+            "ethics",
+            "church-and-ministry"
+          ]
+        },
+        {
+          "id": "red-letter-mission",
+          "title": "Red Letter Christians: Our Mission & Story",
+          "short": "RLC",
+          "kind": "denominational-statement",
+          "year": null,
+          "author": "Red Letter Christians",
+          "publisherHost": "Red Letter Christians",
+          "url": "https://redletterchristians.org/about-us/our-mission-our-story/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": null,
+          "topics": [
+            "christ",
+            "ethics"
+          ]
+        },
+        {
+          "id": "cbe-statement",
+          "title": "Men, Women and Biblical Equality",
+          "short": "CBE Statement",
+          "kind": "position-paper",
+          "year": 1989,
+          "author": "Christians for Biblical Equality",
+          "publisherHost": "CBE International",
+          "url": "https://www.cbeinternational.org/resource/men-women-and-biblical-equality/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "numbered paragraph",
+          "topics": [
+            "church-and-ministry",
+            "ethics",
+            "scripture"
+          ]
+        },
+        {
+          "id": "ccda-philosophy",
+          "title": "Christian Community Development (CCD) Philosophy: the key components (relocation, reconciliation, redistribution and more)",
+          "short": "CCDA",
+          "kind": "position-paper",
+          "year": null,
+          "author": "Christian Community Development Association",
+          "publisherHost": "CCDA",
+          "url": "https://ccda.org/about/philosophy/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "component name",
+          "topics": [
+            "ethics",
+            "church-and-ministry"
+          ],
+          "accessNote": "Returns 403 to curl's bare 'Mozilla/5.0' agent; 200 with a full browser user-agent."
+        },
+        {
+          "id": "sider-good-news-good-works",
+          "title": "Good News and Good Works: A Theology for the Whole Gospel",
+          "short": "Sider",
+          "kind": "book",
+          "year": 1999,
+          "author": "Ronald J. Sider",
+          "publisherHost": "Baker Publishing Group",
+          "url": "https://bakerpublishinggroup.com/products/9780801058455_good-news-and-good-works",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "chapter and page",
+          "topics": [
+            "salvation",
+            "ethics",
+            "church-and-ministry"
+          ]
+        },
+        {
+          "id": "perkins-let-justice-roll-down",
+          "title": "Let Justice Roll Down",
+          "short": "Perkins",
+          "kind": "book",
+          "year": 1976,
+          "author": "John M. Perkins",
+          "publisherHost": "Baker Publishing Group",
+          "url": "https://bakerpublishinggroup.com/products/9780801018152_let-justice-roll-down",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "chapter",
+          "topics": [
+            "ethics",
+            "church-and-ministry"
+          ]
+        },
+        {
+          "id": "rah-next-evangelicalism",
+          "title": "The Next Evangelicalism: Freeing the Church from Western Cultural Captivity",
+          "short": "Rah",
+          "kind": "book",
+          "year": 2009,
+          "author": "Soong-Chan Rah",
+          "publisherHost": "InterVarsity Press",
+          "url": "https://www.ivpress.com/the-next-evangelicalism",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "chapter and page",
+          "topics": [
+            "church-and-ministry",
+            "ethics"
+          ],
+          "accessNote": "Bot protection: curl gets HTTP 403. Page opened and read in a real browser on 2026-11-16 (HTTP 200)."
+        }
+      ],
+      "fairnessNotes": [
+        "Several key voices did not, or no longer, identify with this tradition. N. T. Wright is a Church of England bishop with traditional views on sexuality who does not use the label. Eugene Peterson was a PC(USA) (mainline) pastor. Richard Foster is a Quaker spiritual-formation writer. Rachel Held Evans publicly left evangelicalism for the Episcopal Church before her death in 2019. Brian McLaren and Rob Bell have moved beyond evangelical identity. Scot McKnight is debatable. Better: Sider, Perkins, Campolo, Wallis, Claiborne, Harper, Rah.",
+        "'Engagement with postmodern culture and interfaith dialogue' and 'generous orthodoxy' describe the 2000s emerging church (McLaren's 2004 book title, borrowed from Hans Frei), not the evangelical-left lineage of the 1973 Chicago Declaration, ESA/CSA, Sojourners and CCDA, which stresses evangelism plus justice ('the whole gospel').",
+        "'Commitment to biblical authority alongside historical-critical scholarship' is not a defining mark: the Chicago Declaration signers and Sider held a high, traditional view of Scripture. Adherents would say they take the words of Jesus with full seriousness, not that they adopt historical criticism.",
+        "'The Kingdom of God as present social reality, not just future hope' is fair, but adherents insist on both personal conversion and social transformation; the prompt never mentions evangelism or personal faith, which makes the voice sound mainline rather than evangelical.",
+        "The name itself is contested: Campolo and Claiborne coined 'Red Letter Christians' partly because 'evangelical' had become politically loaded. Note that some in this stream reject both 'progressive' and 'evangelical'."
+      ]
+    },
+    {
+      "id": "mainline_liberal",
+      "name": "Mainline Protestant",
+      "selfDescription": "Mainline Protestants belong to the historic denominations that shaped American public life, Presbyterian, Methodist, Episcopal, Lutheran, United Church of Christ and others, and we confess the faith of the ancient creeds within our own Reformed, Wesleyan, Anglican or Lutheran heritage. We read Scripture as the living witness to God's Word made flesh in Jesus Christ, interpreted in community with tradition, reason and the best of scholarship. We believe God's grace calls the church to welcome all people and to work for justice and peace, because, as the UCC puts it, 'God is still speaking.'",
+      "emphases": [
+        "God is still speaking",
+        "justice and peace",
+        "ecumenical and inclusive church"
+      ],
+      "americanBodies": [
+        "Presbyterian Church (U.S.A.)",
+        "The United Methodist Church",
+        "The Episcopal Church",
+        "Evangelical Lutheran Church in America (ELCA)",
+        "United Church of Christ",
+        "Christian Church (Disciples of Christ)",
+        "American Baptist Churches USA",
+        "National Council of the Churches of Christ in the USA"
+      ],
+      "keyVoices": [
+        "Walter Rauschenbusch",
+        "Harry Emerson Fosdick",
+        "Reinhold Niebuhr",
+        "H. Richard Niebuhr",
+        "Paul Tillich",
+        "William Sloane Coffin",
+        "Marcus Borg",
+        "Walter Brueggemann",
+        "Barbara Brown Taylor (living)",
+        "Diana Butler Bass (living)"
+      ],
+      "internalDiversity": "'Mainline' names a family of denominations, not one theology: each keeps its own confessional heritage (PC(USA)'s Book of Confessions, Methodist Articles of Religion and Wesley's sermons, the Episcopal Book of Common Prayer, the ELCA's Lutheran confessions), and their sacramental theology differs accordingly. Each also contains liberal, moderate and evangelical wings, though many theological conservatives have left (for example the UMC disaffiliations of 2019-2023, when roughly a quarter of US congregations left).",
+      "searchDomains": [
+        "pcusa.org",
+        "umc.org",
+        "umnews.org",
+        "episcopalchurch.org",
+        "ucc.org",
+        "elca.org",
+        "disciples.org",
+        "abc-usa.org",
+        "nationalcouncilofchurches.us",
+        "christiancentury.org",
+        "wjkbooks.com"
+      ],
+      "scriptureTranslation": "NRSVUE",
+      "sources": [
+        {
+          "id": "pcusa-book-of-confessions",
+          "title": "The Constitution of the Presbyterian Church (U.S.A.), Part I: The Book of Confessions (includes the Confession of 1967 and A Brief Statement of Faith)",
+          "short": "BoC",
+          "kind": "confession",
+          "year": 2016,
+          "author": "Office of the General Assembly, PC(USA)",
+          "publisherHost": "Presbyterian Church (U.S.A.)",
+          "url": "https://pcusa.org/sites/default/files/boc2016.pdf",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "confession number.paragraph (e.g. 9.07 for the Confession of 1967; 11.3 for A Brief Statement of Faith)",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        },
+        {
+          "id": "pcusa-confessions",
+          "title": "PC(USA): Confessions (why Presbyterians have confessions)",
+          "short": "PC(USA) Confessions",
+          "kind": "denominational-statement",
+          "year": null,
+          "author": "Presbyterian Church (U.S.A.)",
+          "publisherHost": "Presbyterian Church (U.S.A.)",
+          "url": "https://pcusa.org/confessions",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": null,
+          "topics": [
+            "scripture",
+            "church-and-ministry"
+          ]
+        },
+        {
+          "id": "umc-theological-task",
+          "title": "Book of Discipline ¶105: Our Theological Task",
+          "short": "BOD ¶105",
+          "kind": "denominational-statement",
+          "year": 1972,
+          "author": "The United Methodist Church",
+          "publisherHost": "The United Methodist Church (umc.org)",
+          "url": "https://www.umc.org/en/content/book-of-discipline-105-our-theological-task",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "Book of Discipline paragraph (¶105)",
+          "topics": [
+            "scripture",
+            "god"
+          ]
+        },
+        {
+          "id": "umc-social-community",
+          "title": "Social Principles: The Social Community",
+          "short": "UMC SP",
+          "kind": "denominational-statement",
+          "year": null,
+          "author": "The United Methodist Church",
+          "publisherHost": "The United Methodist Church (umc.org)",
+          "url": "https://www.umc.org/en/content/social-principles-the-social-community",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "Social Principles paragraph",
+          "topics": [
+            "ethics"
+          ]
+        },
+        {
+          "id": "umc-communion",
+          "title": "What United Methodists Believe: Communion",
+          "short": "UMC Communion",
+          "kind": "article",
+          "year": null,
+          "author": "The United Methodist Church",
+          "publisherHost": "The United Methodist Church (umc.org)",
+          "url": "https://www.umc.org/en/content/what-united-methodists-believe-communion",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": null,
+          "topics": [
+            "sacraments",
+            "worship"
+          ]
+        },
+        {
+          "id": "tec-what-we-believe",
+          "title": "The Episcopal Church: What We Believe",
+          "short": "TEC",
+          "kind": "denominational-statement",
+          "year": null,
+          "author": "The Episcopal Church",
+          "publisherHost": "The Episcopal Church",
+          "url": "https://www.episcopalchurch.org/who-we-are/what-we-believe/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": null,
+          "topics": [
+            "scripture",
+            "sacraments",
+            "worship",
+            "church-and-ministry"
+          ]
+        },
+        {
+          "id": "tec-bcp",
+          "title": "The Book of Common Prayer (1979)",
+          "short": "BCP",
+          "kind": "denominational-statement",
+          "year": 1979,
+          "author": "The Episcopal Church",
+          "publisherHost": "The Episcopal Church",
+          "url": "https://www.episcopalchurch.org/who-we-are/how-we-worship/book-of-common-prayer/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "BCP page number (e.g. BCP p. 304)",
+          "topics": [
+            "worship",
+            "sacraments",
+            "church-and-ministry"
+          ]
+        },
+        {
+          "id": "bcp-catechism",
+          "title": "An Outline of the Faith, commonly called the Catechism (Book of Common Prayer 1979, pp. 845-862)",
+          "short": "BCP Catechism",
+          "kind": "catechism",
+          "year": 1979,
+          "author": "The Episcopal Church",
+          "publisherHost": "bcponline.org (independent online edition of the 1979 BCP; not an official Episcopal Church site)",
+          "url": "https://www.bcponline.org/Misc/catechism.html",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "BCP page number (e.g. BCP p. 857)",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        },
+        {
+          "id": "ucc-statement-of-faith",
+          "title": "United Church of Christ Statement of Faith (original and later versions)",
+          "short": "UCC SoF",
+          "kind": "confession",
+          "year": 1959,
+          "author": "United Church of Christ",
+          "publisherHost": "United Church of Christ",
+          "url": "https://www.ucc.org/what-we-believe/worship/statement-of-faith/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": null,
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "salvation",
+            "church-and-ministry",
+            "end-times"
+          ]
+        },
+        {
+          "id": "ucc-what-we-believe",
+          "title": "United Church of Christ: What We Believe",
+          "short": "UCC",
+          "kind": "denominational-statement",
+          "year": null,
+          "author": "United Church of Christ",
+          "publisherHost": "United Church of Christ",
+          "url": "https://www.ucc.org/what-we-believe/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": null,
+          "topics": [
+            "god",
+            "church-and-ministry",
+            "ethics",
+            "sacraments"
+          ]
+        },
+        {
+          "id": "rauschenbusch-theology-social-gospel",
+          "title": "A Theology for the Social Gospel",
+          "short": "Rauschenbusch",
+          "kind": "book",
+          "year": 1917,
+          "author": "Walter Rauschenbusch",
+          "publisherHost": "Internet Archive (Digital Library of India scan, 1918 printing)",
+          "url": "https://archive.org/details/in.ernet.dli.2015.30677",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "chapter and page",
+          "topics": [
+            "salvation",
+            "ethics",
+            "end-times",
+            "god"
+          ]
+        }
+      ],
+      "fairnessNotes": [
+        "The grouping blurs real sacramental and confessional differences. The ELCA is Lutheran in sacramental theology: it confesses Christ's real presence in the Lord's Supper and baptismal regeneration and holds the Augsburg Confession as a constitutional standard. The Episcopal Church is Anglican (Book of Common Prayer, bishops in historic succession). PC(USA) is Reformed (its Book of Confessions includes Westminster and Heidelberg). The UMC is Wesleyan. On sacraments topics these churches will not answer alike, even though they are in full communion with one another (ELCA with PC(USA) and UCC through the 1997 Formula of Agreement, with TEC through Called to Common Mission, with the UMC since 2009).",
+        "'Christianity is fundamentally about social transformation' and 'this-worldly justice over otherworldly salvation' are critics' framings. Mainline confessions still speak of forgiveness of sins and eternal life (e.g. the UCC Statement of Faith, the BCP Catechism), and adherents would say justice flows from grace rather than replacing salvation.",
+        "Bultmann was a German Lutheran who never belonged to an American church. Spong is treated by many in his own Episcopal Church as an outlier, since he rejected theism in his 'Twelve Points'. Neither is representative of mainline teaching. Missing figures adherents would name: the Niebuhrs, Fosdick, Brueggemann, Barbara Brown Taylor.",
+        "'United Methodist (progressive wing)' is outdated: after about a quarter of US congregations disaffiliated (2019-2023), the 2024 General Conference removed the denomination's restrictions on LGBTQ clergy and weddings, so this is now the UMC's official position, not a wing's.",
+        "'Liberal' was a self-chosen label for Fosdick's generation, but most mainline members today would say 'mainline' or 'progressive'. Each denomination also has moderate and evangelical members, so the prompt should speak for mainline theology, not for every mainline Christian.",
+        "'Process theology, liberation theology, and feminist theology' are influential in mainline seminaries, but none is the official doctrine of any of these denominations; present them as influences, not tenets."
+      ]
+    },
+    {
+      "id": "charismatic",
+      "name": "Pentecostal / Charismatic",
+      "selfDescription": "Pentecostals and charismatics believe the same Holy Spirit who came on the day of Pentecost is poured out on believers today, empowering them to witness for Jesus with the gifts of the Spirit, including tongues, prophecy and healing. We proclaim Jesus as Savior, Healer, Baptizer in the Holy Spirit and soon-coming King, and we expect to meet God's presence in worship and prayer. Classical Pentecostals teach that the baptism in the Holy Spirit is a distinct experience after salvation, with speaking in other tongues as its initial physical evidence.",
+      "emphases": [
+        "baptism in the Holy Spirit",
+        "the full gospel",
+        "gifts of the Spirit"
+      ],
+      "americanBodies": [
+        "Assemblies of God (USA)",
+        "Church of God in Christ (COGIC)",
+        "Church of God (Cleveland, Tennessee)",
+        "International Pentecostal Holiness Church",
+        "The Foursquare Church",
+        "Vineyard USA",
+        "Charismatic renewal in Catholic and mainline churches",
+        "Oral Roberts University; Regent University; Lee University; Evangel University"
+      ],
+      "keyVoices": [
+        "William J. Seymour",
+        "Charles H. Mason",
+        "Aimee Semple McPherson",
+        "Stanley M. Horton",
+        "Jack Hayford",
+        "John Wimber",
+        "Gordon D. Fee",
+        "Frank D. Macchia (living)",
+        "Craig S. Keener (living)",
+        "Amos Yong (living)"
+      ],
+      "internalDiversity": "Classical Pentecostals (AG, Church of God, IPHC) teach subsequence and initial evidence. Holiness Pentecostals (Church of God, IPHC, COGIC) add sanctification as a definite work of grace. Charismatics in older denominations and 'Third Wave' churches (Vineyard) usually reject initial evidence and see Spirit baptism as part of conversion or as repeated fillings. Oneness Pentecostals (e.g. the United Pentecostal Church International) reject the Trinity and are not recognized as orthodox by Trinitarian Pentecostals. The movement is also divided over prosperity teaching and over modern-day apostles and prophets.",
+      "searchDomains": [
+        "ag.org",
+        "influencemagazine.com",
+        "cogic.org",
+        "churchofgod.org",
+        "iphc.org",
+        "foursquare.org",
+        "vineyardusa.org",
+        "oru.edu",
+        "regent.edu",
+        "leeuniversity.edu",
+        "evangel.edu",
+        "seu.edu",
+        "pneumareview.com"
+      ],
+      "scriptureTranslation": "NIV",
+      "sources": [
+        {
+          "id": "ag-fundamental-truths",
+          "title": "Assemblies of God Statement of Fundamental Truths",
+          "short": "AG SFT",
+          "kind": "confession",
+          "year": 1916,
+          "author": "General Council of the Assemblies of God",
+          "publisherHost": "Assemblies of God (USA)",
+          "url": "https://ag.org/Beliefs/Statement-of-Fundamental-Truths",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "Truth number 1-16 (e.g. SFT 8, Initial Physical Evidence)",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ],
+          "accessNote": "Bot protection: curl gets HTTP 403. Page opened and read in a real browser on 2026-11-16 (HTTP 200)."
+        },
+        {
+          "id": "ag-baptism-spirit",
+          "title": "AG Position Paper: Baptism in the Holy Spirit",
+          "short": "AG Spirit Baptism",
+          "kind": "position-paper",
+          "year": null,
+          "author": "General Presbytery of the Assemblies of God",
+          "publisherHost": "Assemblies of God (USA)",
+          "url": "https://ag.org/Beliefs/Position-Papers/Baptism-in-the-Holy-Spirit",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": null,
+          "topics": [
+            "holy-spirit",
+            "salvation"
+          ],
+          "accessNote": "Bot protection: curl gets HTTP 403. Page opened and read in a real browser on 2026-11-16 (HTTP 200)."
+        },
+        {
+          "id": "ag-divine-healing",
+          "title": "AG Position Paper: Divine Healing",
+          "short": "AG Healing",
+          "kind": "position-paper",
+          "year": 2010,
+          "author": "General Presbytery of the Assemblies of God",
+          "publisherHost": "Assemblies of God (USA)",
+          "url": "https://ag.org/Beliefs/Position-Papers/Divine-Healing",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": null,
+          "topics": [
+            "holy-spirit",
+            "salvation",
+            "christ"
+          ],
+          "accessNote": "Bot protection: curl gets HTTP 403. Page opened and read in a real browser on 2026-11-16 (HTTP 200)."
+        },
+        {
+          "id": "cog-declaration-of-faith",
+          "title": "Church of God (Cleveland, TN) Declaration of Faith",
+          "short": "CoG Declaration",
+          "kind": "confession",
+          "year": null,
+          "author": "Church of God (Cleveland, Tennessee)",
+          "publisherHost": "Church of God (Cleveland, Tennessee)",
+          "url": "https://churchofgod.org/beliefs/declaration-of-faith/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "numbered clause",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        },
+        {
+          "id": "cogic-statement-of-faith",
+          "title": "Church of God in Christ: Statement of Faith",
+          "short": "COGIC",
+          "kind": "denominational-statement",
+          "year": null,
+          "author": "Church of God in Christ",
+          "publisherHost": "Church of God in Christ",
+          "url": "https://www.cogic.org/about-us/statement-of-faith/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": null,
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        },
+        {
+          "id": "iphc-beliefs",
+          "title": "International Pentecostal Holiness Church: Beliefs (Articles of Faith)",
+          "short": "IPHC",
+          "kind": "confession",
+          "year": null,
+          "author": "International Pentecostal Holiness Church",
+          "publisherHost": "International Pentecostal Holiness Church",
+          "url": "https://iphc.org/beliefs/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "article number",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        },
+        {
+          "id": "foursquare-declaration",
+          "title": "Declaration of Faith (compiled by Aimee Semple McPherson; 2023 printing)",
+          "short": "Foursquare DoF",
+          "kind": "confession",
+          "year": null,
+          "author": "Aimee Semple McPherson / The Foursquare Church",
+          "publisherHost": "The Foursquare Church",
+          "url": "https://s3.amazonaws.com/foursquare.org/wp-content/uploads/2023/03/28143224/Declaration_of_Faith_2023.pdf",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "section (Roman numeral, e.g. X. The Baptism of the Holy Spirit)",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        },
+        {
+          "id": "vineyard-core-values",
+          "title": "Vineyard USA: Core Values & Beliefs",
+          "short": "Vineyard",
+          "kind": "denominational-statement",
+          "year": null,
+          "author": "Vineyard USA",
+          "publisherHost": "Vineyard USA",
+          "url": "https://vineyardusa.org/about/core-values-beliefs/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": null,
+          "topics": [
+            "holy-spirit",
+            "church-and-ministry",
+            "worship",
+            "end-times"
+          ],
+          "accessNote": "Returns 403 to curl's bare 'Mozilla/5.0' agent; 200 with a full browser user-agent."
+        },
+        {
+          "id": "fee-gods-empowering-presence",
+          "title": "God's Empowering Presence: The Holy Spirit in the Letters of Paul",
+          "short": "Fee, GEP",
+          "kind": "book",
+          "year": 1994,
+          "author": "Gordon D. Fee",
+          "publisherHost": "Baker Publishing Group (Baker Academic)",
+          "url": "https://bakerpublishinggroup.com/products/9780801046216_gods-empowering-presence",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "page number",
+          "topics": [
+            "holy-spirit",
+            "scripture"
+          ]
+        },
+        {
+          "id": "keener-miracles",
+          "title": "Miracles: The Credibility of the New Testament Accounts (2 vols.)",
+          "short": "Keener, Miracles",
+          "kind": "book",
+          "year": 2011,
+          "author": "Craig S. Keener",
+          "publisherHost": "Baker Publishing Group (Baker Academic)",
+          "url": "https://bakerpublishinggroup.com/products/9780801039522_miracles",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "volume and page",
+          "topics": [
+            "holy-spirit",
+            "scripture",
+            "christ"
+          ]
+        },
+        {
+          "id": "macchia-baptized-in-the-spirit",
+          "title": "Baptized in the Spirit: A Global Pentecostal Theology",
+          "short": "Macchia",
+          "kind": "book",
+          "year": 2006,
+          "author": "Frank D. Macchia",
+          "publisherHost": "Zondervan Academic",
+          "url": "https://zondervanacademic.com/products/baptized-in-the-spirit",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "chapter and page",
+          "topics": [
+            "holy-spirit",
+            "salvation",
+            "church-and-ministry"
+          ]
+        }
+      ],
+      "fairnessNotes": [
+        "The framework states 'Baptism in the Holy Spirit as a distinct experience subsequent to conversion, evidenced by speaking in tongues' as the shared view. That is the classical Pentecostal position (AG Truth 8; Church of God; IPHC), but charismatics in historic churches and the Third Wave or Vineyard stream it names usually reject both subsequence and initial evidence. Attribute it to classical Pentecostals.",
+        "'Divine healing is in the atonement; God desires physical healing for believers' is close to AG and IPHC wording ('provided for in the atonement'), but the second clause drifts toward Word of Faith. Pentecostal denominations distinguish themselves from that movement, so keep the confessional wording.",
+        "Charles Parham taught initial evidence first (1901), but his racism and personal scandal mean many Pentecostals today honor Seymour and Azusa Street, not Parham, as their founding figure.",
+        "Wayne Grudem is a Reformed Baptist continuationist who rejects a second-blessing Spirit baptism; he speaks for continuationism, not for Pentecostal or charismatic tradition. Bill Johnson (Bethel) is popular but contested within classical Pentecostalism (the AG has a position paper on 'modern-day apostles'), so he is a debatable choice as a representative.",
+        "Key voices omit Black Pentecostalism beyond Seymour; Charles H. Mason and COGIC, one of the largest Pentecostal bodies in the US, should be represented."
+      ]
+    },
+    {
+      "id": "word_of_faith",
+      "name": "Word of Faith",
+      "selfDescription": "Word of Faith believers are Spirit-filled Christians who take God's promises at face value: what Jesus purchased at the cross includes forgiveness, healing for the body and redemption from the curse of the law, and faith receives it by believing and speaking God's Word. Following teachers such as Kenneth E. Hagin, we emphasize the integrity of the Word, the believer's authority in Christ, and walking in God's blessing, spirit, soul and body, so that we can live in victory and be a blessing to others.",
+      "emphases": [
+        "the believer's authority",
+        "redeemed from the curse of the law",
+        "faith comes by hearing the Word"
+      ],
+      "americanBodies": [
+        "Kenneth Hagin Ministries, Rhema Bible Church and Rhema Bible Training College (Broken Arrow, OK)",
+        "Kenneth Copeland Ministries",
+        "International Convention of Faith Ministries (ICFM)",
+        "Andrew Wommack Ministries and Charis Bible College",
+        "Creflo Dollar Ministries / World Changers Church International",
+        "Jesse Duplantis Ministries"
+      ],
+      "keyVoices": [
+        "E. W. Kenyon",
+        "Kenneth E. Hagin",
+        "Kenneth W. Hagin (living)",
+        "Kenneth Copeland (living)",
+        "Gloria Copeland (living)",
+        "Frederick K. C. Price",
+        "Charles Capps",
+        "Andrew Wommack (living)",
+        "Creflo Dollar (living)",
+        "Jesse Duplantis (living)"
+      ],
+      "internalDiversity": "Hagin's Rhema stream emphasizes faith, healing and the believer's authority and later cautioned against prosperity excesses (Hagin's The Midas Touch, 2000), while other ministries put more weight on financial prosperity and seed-faith giving. Teachers differ on how far the believer's authority and 'confession' extend, on tithing (Creflo Dollar publicly revised his earlier tithing teaching in 2022), and on how they relate to classical Pentecostal denominations.",
+      "searchDomains": [
+        "rhema.org",
+        "rbtc.org",
+        "kcm.org",
+        "icfm.org",
+        "awmi.net",
+        "charisbiblecollege.org",
+        "kenyons.org",
+        "creflodollarministries.org",
+        "jdm.org"
+      ],
+      "scriptureTranslation": "KJV",
+      "sources": [
+        {
+          "id": "rhema-what-we-believe",
+          "title": "Kenneth Hagin Ministries / Rhema: What We Believe",
+          "short": "Rhema",
+          "kind": "denominational-statement",
+          "year": null,
+          "author": "Kenneth Hagin Ministries",
+          "publisherHost": "Kenneth Hagin Ministries (rhema.org)",
+          "url": "https://www.rhema.org/index.php?option=com_content&view=article&id=5&Itemid=138",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "heading (e.g. DIVINE HEALING)",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        },
+        {
+          "id": "icfm-beliefs",
+          "title": "International Convention of Faith Ministries: Our Beliefs (includes 'Prosperity: Spirit, Soul and Body')",
+          "short": "ICFM",
+          "kind": "denominational-statement",
+          "year": null,
+          "author": "International Convention of Faith Ministries",
+          "publisherHost": "ICFM",
+          "url": "https://icfm.org/our-beliefs/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "heading",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ],
+          "accessNote": "Returns 403 to curl's bare 'Mozilla/5.0' agent; 200 with a full browser user-agent."
+        },
+        {
+          "id": "awmi-beliefs",
+          "title": "Andrew Wommack Ministries: Our Beliefs",
+          "short": "AWMI",
+          "kind": "denominational-statement",
+          "year": null,
+          "author": "Andrew Wommack Ministries",
+          "publisherHost": "Andrew Wommack Ministries",
+          "url": "https://www.awmi.net/about-us/our-beliefs/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "heading (e.g. Healing.)",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ],
+          "accessNote": "Returns 403 to curl's bare 'Mozilla/5.0' agent; 200 with a full browser user-agent."
+        },
+        {
+          "id": "kcm-faith-essentials",
+          "title": "25 Faith Essentials Every Christian Needs to Know",
+          "short": "KCM Faith",
+          "kind": "article",
+          "year": null,
+          "author": "Kenneth Copeland Ministries",
+          "publisherHost": "Kenneth Copeland Ministries",
+          "url": "https://www.kcm.org/faith/25-faith-essentials-every-christian-needs-know/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "numbered item",
+          "topics": [
+            "salvation",
+            "holy-spirit",
+            "scripture"
+          ]
+        },
+        {
+          "id": "kcm-7-laws-of-prosperity",
+          "title": "The 7 Laws of Prosperity",
+          "short": "KCM Prosperity",
+          "kind": "article",
+          "year": 2019,
+          "author": "Kenneth Copeland Ministries",
+          "publisherHost": "Kenneth Copeland Ministries",
+          "url": "https://www.kcm.org/giving/the-7-laws-of-prosperity/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "numbered law",
+          "topics": [
+            "ethics",
+            "salvation"
+          ]
+        },
+        {
+          "id": "kcm-prosperity-topic",
+          "title": "KCM topic page: Prosperity",
+          "short": "KCM Prosperity topic",
+          "kind": "article",
+          "year": null,
+          "author": "Kenneth Copeland Ministries",
+          "publisherHost": "Kenneth Copeland Ministries",
+          "url": "https://www.kcm.org/topics/prosperity/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": null,
+          "topics": [
+            "ethics",
+            "salvation"
+          ]
+        },
+        {
+          "id": "hagin-midas-touch",
+          "title": "The Midas Touch: A Balanced Approach to Biblical Prosperity",
+          "short": "Hagin, Midas Touch",
+          "kind": "book",
+          "year": 2000,
+          "author": "Kenneth E. Hagin",
+          "publisherHost": "Kenneth Hagin Ministries store (rhema.org)",
+          "url": "https://www.rhema.org/store/the-midas-touch-book-2007.html",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "chapter",
+          "topics": [
+            "ethics",
+            "salvation",
+            "church-and-ministry"
+          ],
+          "accessNote": "Bot protection: curl gets HTTP 403. Page opened and read in a real browser on 2026-11-16 (HTTP 200)."
+        },
+        {
+          "id": "kenyon-books",
+          "title": "E. W. Kenyon's books (Kenyon's Gospel Publishing Society catalog)",
+          "short": "Kenyon",
+          "kind": "book",
+          "year": null,
+          "author": "E. W. Kenyon",
+          "publisherHost": "Kenyon's Gospel Publishing Society",
+          "url": "https://kenyons.org/shop-online.html",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "book title and page",
+          "topics": [
+            "salvation",
+            "scripture",
+            "holy-spirit"
+          ]
+        }
+      ],
+      "fairnessNotes": [
+        "'Believers are little gods' is not in any Word of Faith statement of faith (Rhema, ICFM, AWMI). It comes from isolated sermon remarks that critics publicized, notably Hank Hanegraaff's Christianity in Crisis (1993). Rhema's statement says 'Man is a created being' and confesses one God in three Persons. Presenting 'little gods' as a tenet puts words in the tradition's mouth; remove it, or at most note the 'believers share Christ's authority' theme in their own words.",
+        "'Health and wealth gospel' (in the framework) and 'Prosperity · Confession · Health & Wealth' (the description) are critics' labels. Adherents do use 'prosperity': ICFM's statement has 'Prosperity: Spirit, Soul and Body' and KCM has a prosperity topic. But they frame it as redemption from 'the curse of the law which is poverty, sickness and death' (ICFM), divine healing 'provided for in the atonement' (Rhema), and the believer's authority. Better description: 'Faith · Healing · The Believer's Authority'.",
+        "'Faith is a spiritual force that, when activated through positive confession, releases God's power' reads as mind-over-matter. Copeland does speak of 'the force of faith', but the Hagin stream frames faith as believing and speaking what God's Word says (Mark 11:23-24; Rom 10:10) and denies that it is positive thinking. Use their scriptural wording.",
+        "'Negative confession ... can block or forfeit God's blessings' is a real teaching, but stated alone it sounds like superstition; adherents tie it to Proverbs 18:21 and to faith versus unbelief.",
+        "Joel Osteen does not identify as Word of Faith and his preaching is mainly motivational, so including him is debatable. The list also omits Kenneth W. Hagin (who now leads Rhema), Frederick K. C. Price and Andrew Wommack. Hagin Sr.'s own critique of prosperity excesses (The Midas Touch, 2000) shows the tradition corrects itself and should be represented."
+      ]
+    },
+    {
+      "id": "dispensationalist",
+      "name": "Dispensational",
+      "selfDescription": "Dispensationalists read the Bible with a consistently normal, grammatical-historical hermeneutic and see God administering his one purpose through successive stewardships, or dispensations, all of them saving by grace through faith. Because God keeps his unconditional covenant promises, we believe national Israel still has a future in God's program distinct from the church, and we look for the imminent return of Christ for his church, followed by the tribulation and Christ's literal thousand-year reign on David's throne.",
+      "emphases": [
+        "rightly dividing the Word",
+        "Israel and the church",
+        "the blessed hope"
+      ],
+      "americanBodies": [
+        "Dallas Theological Seminary",
+        "Moody Bible Institute",
+        "The Master's Seminary",
+        "IFCA International and GARBC churches",
+        "Plymouth Brethren assemblies",
+        "Calvary Chapel churches",
+        "Pre-Trib Research Center",
+        "Friends of Israel Gospel Ministry; Ariel Ministries"
+      ],
+      "keyVoices": [
+        "John Nelson Darby",
+        "C. I. Scofield",
+        "Lewis Sperry Chafer",
+        "Alva J. McClain",
+        "John F. Walvoord",
+        "J. Dwight Pentecost",
+        "Charles C. Ryrie",
+        "Robert L. Saucy",
+        "Darrell L. Bock (living)",
+        "Craig A. Blaising (living)"
+      ],
+      "internalDiversity": "Classical dispensationalism (Darby, Scofield, Chafer) contrasted Israel's earthly destiny with the church's heavenly one. Revised or normative dispensationalism (Ryrie, Walvoord, Pentecost) kept the Israel-church distinction without that dualism. Progressive dispensationalism (Blaising, Bock, Saucy) sees the church as an inaugurated stage of the one Davidic kingdom. Most hold a pretribulational rapture, but adherents differ on how much of the New Covenant applies to the church now.",
+      "searchDomains": [
+        "dts.edu",
+        "moodybible.org",
+        "moodypublishers.com",
+        "tms.edu",
+        "pre-trib.org",
+        "stempublishing.com",
+        "foi.org",
+        "ariel.org",
+        "ifca.org",
+        "garbc.org"
+      ],
+      "scriptureTranslation": "NASB1995",
+      "sources": [
+        {
+          "id": "dts-doctrinal-statement",
+          "title": "Dallas Theological Seminary Doctrinal Statement (incl. Article V, The Dispensations)",
+          "short": "DTS",
+          "kind": "denominational-statement",
+          "year": null,
+          "author": "Dallas Theological Seminary",
+          "publisherHost": "Dallas Theological Seminary",
+          "url": "https://www.dts.edu/why-dts/doctrinal-statement",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "Article number (Roman numerals, e.g. Art. V)",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        },
+        {
+          "id": "moody-doctrinal-statement",
+          "title": "Moody Bible Institute Doctrinal Statement and Institutional Positions",
+          "short": "Moody",
+          "kind": "denominational-statement",
+          "year": 1928,
+          "author": "Moody Bible Institute",
+          "publisherHost": "Moody Bible Institute",
+          "url": "https://www.moodybible.org/beliefs/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "article number",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        },
+        {
+          "id": "tms-doctrinal-statement",
+          "title": "The Master's Seminary Doctrinal Statement",
+          "short": "TMS",
+          "kind": "denominational-statement",
+          "year": null,
+          "author": "The Master's Seminary",
+          "publisherHost": "The Master's Seminary",
+          "url": "https://tms.edu/doctrinal-statement/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "heading",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        },
+        {
+          "id": "pre-trib-research-center",
+          "title": "Pre-Trib Research Center (articles by Thomas Ice, Charles Ryrie, Arnold Fruchtenbaum and others)",
+          "short": "PTRC",
+          "kind": "article",
+          "year": null,
+          "author": "Pre-Trib Research Center",
+          "publisherHost": "Pre-Trib Research Center",
+          "url": "https://www.pre-trib.org/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "article title",
+          "topics": [
+            "end-times",
+            "scripture"
+          ]
+        },
+        {
+          "id": "ryrie-dispensationalism",
+          "title": "Dispensationalism (rev. and expanded ed.; first published as Dispensationalism Today, 1965)",
+          "short": "Ryrie",
+          "kind": "book",
+          "year": 1965,
+          "author": "Charles C. Ryrie",
+          "publisherHost": "Moody Publishers",
+          "url": "https://www.moodypublishers.com/dispensationalism/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "chapter and page",
+          "topics": [
+            "scripture",
+            "end-times",
+            "church-and-ministry"
+          ]
+        },
+        {
+          "id": "blaising-bock-progressive-dispensationalism",
+          "title": "Progressive Dispensationalism",
+          "short": "Blaising & Bock",
+          "kind": "book",
+          "year": 1993,
+          "author": "Craig A. Blaising and Darrell L. Bock",
+          "publisherHost": "Baker Publishing Group (Baker Academic)",
+          "url": "https://bakerpublishinggroup.com/products/9780801022432_progressive-dispensationalism",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "chapter and page",
+          "topics": [
+            "scripture",
+            "end-times",
+            "church-and-ministry"
+          ]
+        },
+        {
+          "id": "darby-writings",
+          "title": "J. N. Darby: collected writings",
+          "short": "Darby",
+          "kind": "book",
+          "year": null,
+          "author": "John Nelson Darby",
+          "publisherHost": "STEM Publishing (Brethren writings archive)",
+          "url": "https://www.stempublishing.com/authors/darby/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "volume and page",
+          "topics": [
+            "end-times",
+            "church-and-ministry",
+            "scripture"
+          ]
+        }
+      ],
+      "fairnessNotes": [
+        "'A sharp distinction between Israel (earthly promises) and the Church (heavenly calling)' is classical dispensationalism only. Revised dispensationalists (Ryrie, Walvoord) dropped the earthly/heavenly dualism, and progressive dispensationalists (Blaising, Bock, Saucy) reject it. State the Israel-church distinction without the dualism, or label it classical.",
+        "'Literal interpretation of all biblical prophecy' invites the wooden-literalism caricature. Adherents say a 'normal', 'plain' or 'grammatical-historical' hermeneutic, consistently applied (Ryrie's sine qua non), which recognizes figures of speech.",
+        "Hal Lindsey (died 2024) and Tim LaHaye were popularizers. Scholarly dispensationalists distance themselves from prophecy speculation and would name Chafer, McClain, Walvoord, Pentecost, Ryrie, Saucy, Blaising and Bock.",
+        "'Dallas Theological Seminary as the institutional home of classical dispensationalism' is dated: DTS's own faculty includes progressive dispensationalists (Darrell Bock), and Moody Bible Institute and The Master's Seminary also teach premillennial positions that keep Israel distinct from the church.",
+        "The framework never says dispensationalists believe salvation has always been by grace through faith. Critics often claim dispensationalism teaches multiple ways of salvation, which adherents explicitly deny; the prompt should say so."
+      ]
+    },
+    {
+      "id": "open_theist",
+      "name": "Open Theism (the open view of God)",
+      "selfDescription": "Open theists believe the God revealed in Jesus is a God of love who created a world of genuine relationship, where creatures' choices and prayers really matter. God knows all of reality perfectly, including every possibility, but because God chose to create free agents, the future is partly settled and partly open. God is infinitely wise and resourceful, never caught off guard, and engages in real give-and-take with us, as Scripture portrays.",
+      "emphases": [
+        "the open future",
+        "God's responsive love",
+        "prayer that changes things"
+      ],
+      "americanBodies": [
+        "No denomination officially holds open theism; adherents are found mainly in Arminian, Wesleyan, Baptist, Anabaptist-leaning and Adventist settings",
+        "ReKnew (Greg Boyd) and Woodland Hills Church, St. Paul, MN",
+        "Center for Open and Relational Theology"
+      ],
+      "keyVoices": [
+        "Clark H. Pinnock",
+        "Richard Rice (status unconfirmed)",
+        "John Sanders (living)",
+        "Gregory A. Boyd (living)",
+        "William Hasker (status unconfirmed)",
+        "Thomas Jay Oord (living)"
+      ],
+      "internalDiversity": "Open theists differ on why the future is open: some say God limits his own foreknowledge, while most say future free choices are not yet there to be known, so not knowing them is no limit on omniscience. They also differ on how close to stay to classical theism (evangelical open theists such as Boyd and Sanders versus 'open and relational' thinkers influenced by process thought, such as Oord) and on how to read the biblical texts about divine repentance.",
+      "searchDomains": [
+        "reknew.org",
+        "drjohnsanders.com",
+        "c4ort.com"
+      ],
+      "scriptureTranslation": "NIV",
+      "sources": [
+        {
+          "id": "reknew-what-is-open-theism",
+          "title": "What is Open Theism?",
+          "short": "Boyd, What is OT",
+          "kind": "article",
+          "year": 2008,
+          "author": "Gregory A. Boyd",
+          "publisherHost": "ReKnew",
+          "url": "https://reknew.org/2008/01/what-is-open-theism-2/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": null,
+          "topics": [
+            "god",
+            "end-times"
+          ]
+        },
+        {
+          "id": "reknew-what-it-is-and-is-not",
+          "title": "Open Theism: What it is and is not (ReKnew topic archive)",
+          "short": "ReKnew",
+          "kind": "article",
+          "year": null,
+          "author": "Gregory A. Boyd",
+          "publisherHost": "ReKnew",
+          "url": "https://reknew.org/topic/what-it-is-and-is-not/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "article title",
+          "topics": [
+            "god"
+          ]
+        },
+        {
+          "id": "boyd-god-of-the-possible",
+          "title": "God of the Possible: A Biblical Introduction to the Open View of God",
+          "short": "Boyd",
+          "kind": "book",
+          "year": 2000,
+          "author": "Gregory A. Boyd",
+          "publisherHost": "Baker Publishing Group (Baker Books)",
+          "url": "https://bakerpublishinggroup.com/products/9780801062902_god-of-the-possible",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "chapter and page",
+          "topics": [
+            "god",
+            "scripture"
+          ]
+        },
+        {
+          "id": "openness-of-god",
+          "title": "The Openness of God: A Biblical Challenge to the Traditional Understanding of God",
+          "short": "Openness",
+          "kind": "book",
+          "year": 1994,
+          "author": "Clark H. Pinnock, Richard Rice, John Sanders, William Hasker and David Basinger",
+          "publisherHost": "InterVarsity Press (IVP Academic)",
+          "url": "https://www.ivpress.com/the-openness-of-god",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "chapter and page",
+          "topics": [
+            "god",
+            "scripture"
+          ],
+          "accessNote": "Bot protection: curl gets HTTP 403. Page opened and read in a real browser on 2026-11-16 (HTTP 200)."
+        },
+        {
+          "id": "sanders-god-who-risks",
+          "title": "The God Who Risks: A Theology of Divine Providence (2nd ed.)",
+          "short": "Sanders",
+          "kind": "book",
+          "year": 2007,
+          "author": "John Sanders",
+          "publisherHost": "InterVarsity Press (IVP Academic)",
+          "url": "https://www.ivpress.com/the-god-who-risks",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "chapter and page",
+          "topics": [
+            "god",
+            "christ"
+          ],
+          "accessNote": "Bot protection: curl gets HTTP 403. Page opened and read in a real browser on 2026-11-16 (HTTP 200)."
+        },
+        {
+          "id": "rice-future-open-theism",
+          "title": "The Future of Open Theism: From Antecedents to Opportunities",
+          "short": "Rice",
+          "kind": "book",
+          "year": 2020,
+          "author": "Richard Rice",
+          "publisherHost": "InterVarsity Press (IVP Academic)",
+          "url": "https://www.ivpress.com/the-future-of-open-theism",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "chapter and page",
+          "topics": [
+            "god"
+          ],
+          "accessNote": "Bot protection: curl gets HTTP 403. Page opened and read in a real browser on 2026-11-16 (HTTP 200)."
+        },
+        {
+          "id": "sanders-open-theism-articles",
+          "title": "John Sanders: articles and bibliography on open theism",
+          "short": "Sanders site",
+          "kind": "article",
+          "year": null,
+          "author": "John Sanders",
+          "publisherHost": "drjohnsanders.com",
+          "url": "https://drjohnsanders.com/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "article title",
+          "topics": [
+            "god"
+          ]
+        },
+        {
+          "id": "c4ort",
+          "title": "Center for Open and Relational Theology",
+          "short": "C4ORT",
+          "kind": "article",
+          "year": null,
+          "author": "Center for Open and Relational Theology (Thomas Jay Oord)",
+          "publisherHost": "Center for Open and Relational Theology",
+          "url": "https://c4ort.com/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "resource title",
+          "topics": [
+            "god"
+          ],
+          "accessNote": "Returns 403 to curl's bare 'Mozilla/5.0' agent; 200 with a full browser user-agent."
+        }
+      ],
+      "fairnessNotes": [
+        "The description 'God Learns' is the critics' headline. Open theists say God knows all of reality perfectly; future free choices are not yet reality to be known, so God's knowledge of them as possibilities is complete (Boyd: open theism is about the nature of the future, not a deficiency in God). Better: 'Open Future · Relational God · Responsive Providence'.",
+        "'God ... does not exhaustively foreknow future free choices' frames the view as a limit on omniscience. Most adherents state it positively: God exhaustively knows all that is knowable, including what might happen.",
+        "'Open theism is a development within evangelical Arminianism' is only partly true. Richard Rice, whose 1980 book The Openness of God named the view, is a Seventh-day Adventist; Boyd's ReKnew is Anabaptist-leaning; and 'open and relational' theologians such as Oord stand partly outside evangelicalism.",
+        "'Classical theism's notions ... reflect Greek philosophy more than Scripture' is their argument (Pinnock's critique of the 'biblical-classical synthesis') and is fair to include, but it should be presented as their claim, not as an assumed fact.",
+        "There are no confessions or denominational statements for open theism, so its sources are necessarily books and articles by its proponents. The prompt should not imply institutional backing it lacks."
+      ]
+    },
+    {
+      "id": "lutheran",
+      "name": "Lutheran",
+      "selfDescription": "Lutherans confess that sinners are justified by grace alone, through faith alone, on account of Christ alone, and that God delivers this gift through his Word and sacraments. In Baptism God gives new birth, and in the Lord's Supper Christ's true body and blood are given with the bread and wine for the forgiveness of sins. We distinguish Law from Gospel, teach a theology of the cross, and receive the Book of Concord, above all the Augsburg Confession, as a faithful exposition of Scripture.",
+      "emphases": [
+        "justification by grace through faith",
+        "Law and Gospel",
+        "Word and Sacrament"
+      ],
+      "americanBodies": [
+        "Evangelical Lutheran Church in America (ELCA)",
+        "Lutheran Church-Missouri Synod (LCMS)",
+        "Wisconsin Evangelical Lutheran Synod (WELS)",
+        "North American Lutheran Church (NALC)",
+        "Lutheran Congregations in Mission for Christ (LCMC)",
+        "Concordia Seminary (St. Louis); Concordia Theological Seminary (Fort Wayne)",
+        "Concordia Publishing House; Augsburg Fortress"
+      ],
+      "keyVoices": [
+        "Martin Luther",
+        "Philip Melanchthon",
+        "Martin Chemnitz",
+        "Johann Gerhard",
+        "C. F. W. Walther",
+        "Francis Pieper",
+        "Hermann Sasse",
+        "Dietrich Bonhoeffer",
+        "Gerhard O. Forde"
+      ],
+      "internalDiversity": "Confessional Lutherans (LCMS, WELS) subscribe to the whole Book of Concord because it agrees with Scripture, hold inerrancy, ordain only men and practice close(d) communion. The ELCA accepts the Augsburg Confession and the other confessions as true witnesses, ordains women and LGBTQ clergy, is in full communion with Reformed, Episcopal and Methodist churches, and signed the 1999 Joint Declaration on justification with the Catholic Church. The NALC and LCMC sit in between. Translations follow the split: LCMS uses the ESV, the ELCA the NRSV.",
+      "searchDomains": [
+        "lcms.org",
+        "wels.net",
+        "elca.org",
+        "thenalc.org",
+        "lcmc.net",
+        "bookofconcord.org",
+        "cph.org",
+        "csl.edu",
+        "ctsfw.edu",
+        "1517.org",
+        "lutheranworld.org",
+        "augsburgfortress.org"
+      ],
+      "scriptureTranslation": "ESV",
+      "sources": [
+        {
+          "id": "augsburg-confession",
+          "title": "The Augsburg Confession",
+          "short": "AC",
+          "kind": "confession",
+          "year": 1530,
+          "author": "Philip Melanchthon (presented by the Lutheran estates)",
+          "publisherHost": "BookOfConcord.org",
+          "url": "https://bookofconcord.org/augsburg-confession/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "Article number (e.g. AC X)",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        },
+        {
+          "id": "small-catechism",
+          "title": "Luther's Small Catechism",
+          "short": "SC",
+          "kind": "catechism",
+          "year": 1529,
+          "author": "Martin Luther",
+          "publisherHost": "Concordia Publishing House (LCMS)",
+          "url": "https://catechism.cph.org/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "Part and question (e.g. SC, Sacrament of the Altar)",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        },
+        {
+          "id": "large-catechism",
+          "title": "The Large Catechism",
+          "short": "LC",
+          "kind": "catechism",
+          "year": 1529,
+          "author": "Martin Luther",
+          "publisherHost": "BookOfConcord.org",
+          "url": "https://bookofconcord.org/large-catechism/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "Part and paragraph (e.g. LC V.8)",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        },
+        {
+          "id": "smalcald-articles",
+          "title": "The Smalcald Articles",
+          "short": "SA",
+          "kind": "confession",
+          "year": 1537,
+          "author": "Martin Luther",
+          "publisherHost": "BookOfConcord.org",
+          "url": "https://bookofconcord.org/smalcald-articles/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "Part.Article.paragraph (e.g. SA III.6)",
+          "topics": [
+            "salvation",
+            "sacraments",
+            "church-and-ministry"
+          ]
+        },
+        {
+          "id": "formula-of-concord-epitome",
+          "title": "Formula of Concord: Epitome",
+          "short": "FC Ep",
+          "kind": "confession",
+          "year": 1577,
+          "author": "Jakob Andreae, Martin Chemnitz and others",
+          "publisherHost": "BookOfConcord.org",
+          "url": "https://bookofconcord.org/epitome/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "Article and paragraph (e.g. FC Ep VII.6)",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        },
+        {
+          "id": "lcms-beliefs",
+          "title": "LCMS: Beliefs",
+          "short": "LCMS",
+          "kind": "denominational-statement",
+          "year": null,
+          "author": "Lutheran Church-Missouri Synod",
+          "publisherHost": "Lutheran Church-Missouri Synod",
+          "url": "https://www.lcms.org/what-we-believe/beliefs",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": null,
+          "topics": [
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry"
+          ]
+        },
+        {
+          "id": "wels-this-we-believe",
+          "title": "This We Believe",
+          "short": "WELS TWB",
+          "kind": "denominational-statement",
+          "year": null,
+          "author": "Wisconsin Evangelical Lutheran Synod",
+          "publisherHost": "WELS",
+          "url": "https://wels.net/about-wels/what-we-believe/this-we-believe/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "section and paragraph",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ],
+          "accessNote": "Returns 403 to curl's bare 'Mozilla/5.0' agent; 200 with a full browser user-agent."
+        },
+        {
+          "id": "elca-what-lutherans-believe",
+          "title": "ELCA: What Lutherans Believe",
+          "short": "ELCA",
+          "kind": "denominational-statement",
+          "year": null,
+          "author": "Evangelical Lutheran Church in America",
+          "publisherHost": "Evangelical Lutheran Church in America",
+          "url": "https://www.elca.org/about-the-elca/who-we-are/beliefs",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": null,
+          "topics": [
+            "salvation",
+            "sacraments",
+            "scripture"
+          ]
+        },
+        {
+          "id": "jddj",
+          "title": "Joint Declaration on the Doctrine of Justification",
+          "short": "JDDJ",
+          "kind": "position-paper",
+          "year": 1999,
+          "author": "Lutheran World Federation and the Catholic Church",
+          "publisherHost": "Lutheran World Federation",
+          "url": "https://lutheranworld.org/sites/default/files/2022-02/original_jddj_english.pdf",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "paragraph number (e.g. JDDJ 15)",
+          "topics": [
+            "salvation"
+          ]
+        },
+        {
+          "id": "kolb-wengert-book-of-concord",
+          "title": "The Book of Concord: The Confessions of the Evangelical Lutheran Church (Kolb-Wengert translation)",
+          "short": "BC (K-W)",
+          "kind": "book",
+          "year": 2000,
+          "author": "Robert Kolb and Timothy J. Wengert (eds.)",
+          "publisherHost": "Fortress Press",
+          "url": "https://www.fortresspress.com/store/product/9780800627409/The-Book-of-Concord",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "confession, article, paragraph",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        },
+        {
+          "id": "walther-law-and-gospel",
+          "title": "Law and Gospel: How to Read and Apply the Bible",
+          "short": "Walther",
+          "kind": "book",
+          "year": 1897,
+          "author": "C. F. W. Walther",
+          "publisherHost": "Concordia Publishing House",
+          "url": "https://www.cph.org/law-and-gospel-how-to-read-and-apply-the-bible",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "thesis number",
+          "topics": [
+            "scripture",
+            "salvation",
+            "church-and-ministry"
+          ]
+        },
+        {
+          "id": "forde-theologian-of-the-cross",
+          "title": "On Being a Theologian of the Cross",
+          "short": "Forde",
+          "kind": "book",
+          "year": 1997,
+          "author": "Gerhard O. Forde",
+          "publisherHost": "Eerdmans",
+          "url": "https://www.eerdmans.com/9780802843456/on-being-a-theologian-of-the-cross/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "thesis (Heidelberg Disputation) and page",
+          "topics": [
+            "god",
+            "salvation",
+            "christ"
+          ]
+        }
+      ],
+      "fairnessNotes": [
+        "No current prompt. If added, do not fold Lutherans into 'Reformed' or generic 'evangelical': Lutherans reject the Reformed view of the Lord's Supper (Formula of Concord VII) and teach baptismal regeneration.",
+        "Do not describe the real presence as 'consubstantiation'. Lutherans generally reject the term and prefer the sacramental union, with Christ's body and blood 'in, with and under' the bread and wine.",
+        "Decide which Lutheran voice speaks. LCMS/WELS and ELCA answers differ on Scripture, ordination, sexuality and ecumenism, and the ELCA also sits inside 'mainline_liberal'. Either specify 'confessional Lutheran' or describe the split."
+      ]
+    },
+    {
+      "id": "roman_catholic",
+      "name": "Catholic",
+      "selfDescription": "Catholics believe Jesus Christ founded one Church on the apostles, whose successors, the bishops in communion with the Pope, hand on the Word of God through Sacred Scripture and Sacred Tradition, faithfully interpreted by the Magisterium. Christ's grace comes to us above all through the seven sacraments, with the Eucharist, his real Body and Blood, as 'the source and summit of the Christian life', and God calls every person to holiness and eternal communion with the Holy Trinity.",
+      "emphases": [
+        "Scripture and Tradition",
+        "the sacramental life",
+        "the universal call to holiness"
+      ],
+      "americanBodies": [
+        "United States Conference of Catholic Bishops (USCCB) and the Latin-rite dioceses",
+        "Eastern Catholic churches in the US (e.g. Ruthenian, Ukrainian, Maronite, Melkite)",
+        "The Catholic University of America; University of Notre Dame",
+        "EWTN; Word on Fire; Catholic Answers"
+      ],
+      "keyVoices": [
+        "Augustine of Hippo",
+        "Thomas Aquinas",
+        "John Henry Newman",
+        "Fulton J. Sheen",
+        "Avery Dulles",
+        "Pope John Paul II",
+        "Pope Benedict XVI (Joseph Ratzinger)",
+        "Pope Leo XIV (living)",
+        "Robert Barron (living)",
+        "Scott Hahn (living)"
+      ],
+      "internalDiversity": "Catholics share one dogmatic framework, but in the US they differ sharply in emphasis: traditionalists drawn to the pre-1970 Latin Mass, 'JPII/Benedict' conservatives, and progressive Catholics focused on social teaching. They also differ on how to apply Catholic social teaching to politics and on the reception of recent papal teaching. Eastern Catholics share Catholic doctrine but follow Byzantine or other Eastern liturgies and spiritual traditions.",
+      "searchDomains": [
+        "vatican.va",
+        "usccb.org",
+        "newadvent.org",
+        "ewtn.com",
+        "catholic.com",
+        "wordonfire.org",
+        "papalencyclicals.net",
+        "ignatius.com",
+        "americamagazine.org",
+        "ncregister.com",
+        "catholicculture.org",
+        "catholic.edu"
+      ],
+      "scriptureTranslation": "NABRE",
+      "sources": [
+        {
+          "id": "ccc",
+          "title": "Catechism of the Catholic Church",
+          "short": "CCC",
+          "kind": "catechism",
+          "year": 1992,
+          "author": "Holy See",
+          "publisherHost": "Holy See (vatican.va)",
+          "url": "https://www.vatican.va/archive/ENG0015/_INDEX.HTM",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "paragraph number (e.g. CCC 1374)",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        },
+        {
+          "id": "ccc-compendium",
+          "title": "Compendium of the Catechism of the Catholic Church",
+          "short": "Compendium",
+          "kind": "catechism",
+          "year": 2005,
+          "author": "Holy See",
+          "publisherHost": "Holy See (vatican.va)",
+          "url": "https://www.vatican.va/archive/compendium_ccc/documents/archive_2005_compendium-ccc_en.html",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "question number",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        },
+        {
+          "id": "dei-verbum",
+          "title": "Dei Verbum: Dogmatic Constitution on Divine Revelation",
+          "short": "DV",
+          "kind": "denominational-statement",
+          "year": 1965,
+          "author": "Second Vatican Council",
+          "publisherHost": "Holy See (vatican.va)",
+          "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_en.html",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "section number (e.g. DV 10)",
+          "topics": [
+            "scripture",
+            "god"
+          ]
+        },
+        {
+          "id": "lumen-gentium",
+          "title": "Lumen Gentium: Dogmatic Constitution on the Church",
+          "short": "LG",
+          "kind": "denominational-statement",
+          "year": 1964,
+          "author": "Second Vatican Council",
+          "publisherHost": "Holy See (vatican.va)",
+          "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19641121_lumen-gentium_en.html",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "section number (e.g. LG 11)",
+          "topics": [
+            "church-and-ministry",
+            "salvation",
+            "sacraments",
+            "end-times"
+          ]
+        },
+        {
+          "id": "sacrosanctum-concilium",
+          "title": "Sacrosanctum Concilium: Constitution on the Sacred Liturgy",
+          "short": "SC",
+          "kind": "denominational-statement",
+          "year": 1963,
+          "author": "Second Vatican Council",
+          "publisherHost": "Holy See (vatican.va)",
+          "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_en.html",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "section number (e.g. SC 47)",
+          "topics": [
+            "worship",
+            "sacraments"
+          ]
+        },
+        {
+          "id": "gaudium-et-spes",
+          "title": "Gaudium et Spes: Pastoral Constitution on the Church in the Modern World",
+          "short": "GS",
+          "kind": "denominational-statement",
+          "year": 1965,
+          "author": "Second Vatican Council",
+          "publisherHost": "Holy See (vatican.va)",
+          "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651207_gaudium-et-spes_en.html",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "section number (e.g. GS 22)",
+          "topics": [
+            "ethics",
+            "christ",
+            "church-and-ministry"
+          ]
+        },
+        {
+          "id": "council-of-trent",
+          "title": "Canons and Decrees of the Council of Trent",
+          "short": "Trent",
+          "kind": "denominational-statement",
+          "year": 1563,
+          "author": "Council of Trent (1545-1563)",
+          "publisherHost": "Papal Encyclicals Online (papalencyclicals.net)",
+          "url": "https://www.papalencyclicals.net/councils/trent.htm",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "session, chapter or canon (e.g. Session 6, canon 9)",
+          "topics": [
+            "salvation",
+            "sacraments",
+            "scripture"
+          ]
+        },
+        {
+          "id": "ecclesia-de-eucharistia",
+          "title": "Ecclesia de Eucharistia (encyclical on the Eucharist)",
+          "short": "EdE",
+          "kind": "denominational-statement",
+          "year": 2003,
+          "author": "Pope John Paul II",
+          "publisherHost": "Holy See (vatican.va)",
+          "url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_20030417_eccl-de-euch.html",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "section number",
+          "topics": [
+            "sacraments",
+            "worship",
+            "church-and-ministry"
+          ]
+        },
+        {
+          "id": "code-of-canon-law",
+          "title": "Code of Canon Law (1983)",
+          "short": "CIC",
+          "kind": "denominational-statement",
+          "year": 1983,
+          "author": "Holy See",
+          "publisherHost": "Holy See (vatican.va)",
+          "url": "https://www.vatican.va/archive/cod-iuris-canonici/cic_index_en.html",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "canon number (e.g. can. 844)",
+          "topics": [
+            "church-and-ministry",
+            "sacraments"
+          ]
+        },
+        {
+          "id": "summa-theologiae",
+          "title": "Summa Theologiae",
+          "short": "ST",
+          "kind": "book",
+          "year": 1274,
+          "author": "Thomas Aquinas",
+          "publisherHost": "New Advent (newadvent.org)",
+          "url": "https://www.newadvent.org/summa/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "part, question, article (e.g. ST III q.75 a.4)",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        }
+      ],
+      "fairnessNotes": [
+        "No current prompt. If added, avoid Protestant polemical framings such as 'works-righteousness', 'Mary worship' or 'adding to Scripture'. Catholic teaching is that justification is by grace (see Trent Session 6 and the 1999 Joint Declaration with Lutherans), that Mary is venerated rather than worshipped, and that Scripture and Tradition flow from one 'divine wellspring' (DV 9).",
+        "Cite the Catechism and council documents by paragraph number. Individual theologians or popular apologists should not be treated as magisterial."
+      ]
+    },
+    {
+      "id": "eastern_orthodox",
+      "name": "Eastern Orthodox",
+      "selfDescription": "The Orthodox Church understands itself as the one, holy, catholic and apostolic Church, guarding unchanged the faith of the apostles, the Church Fathers and the seven Ecumenical Councils. Salvation is theosis: by grace, through the Holy Mysteries (the sacraments), prayer and ascetic struggle, human beings come to share in the life of the Holy Trinity. Theology is lived above all in the Divine Liturgy, where heaven and earth meet.",
+      "emphases": [
+        "theosis",
+        "Holy Tradition",
+        "the Divine Liturgy"
+      ],
+      "americanBodies": [
+        "Greek Orthodox Archdiocese of America",
+        "Orthodox Church in America (OCA)",
+        "Antiochian Orthodox Christian Archdiocese of North America",
+        "Serbian, Romanian, Bulgarian and Russian (ROCOR) Orthodox dioceses",
+        "Assembly of Canonical Orthodox Bishops of the United States of America",
+        "St Vladimir's Orthodox Theological Seminary; Holy Cross Greek Orthodox School of Theology; St Tikhon's Seminary"
+      ],
+      "keyVoices": [
+        "Athanasius of Alexandria",
+        "the Cappadocian Fathers (Basil, Gregory of Nazianzus, Gregory of Nyssa)",
+        "John Chrysostom",
+        "Maximus the Confessor",
+        "John of Damascus",
+        "Gregory Palamas",
+        "Georges Florovsky",
+        "Alexander Schmemann",
+        "Kallistos (Timothy) Ware",
+        "John Behr (living)"
+      ],
+      "internalDiversity": "Orthodox churches share one faith but are organized by jurisdiction (Greek, Russian, Antiochian, Serbian and others), which sometimes clash. The 2016 Holy and Great Council in Crete went ahead without Antioch, Russia, Bulgaria and Georgia, and jurisdictions differ on ecumenism, the calendar, and the reception of converts. The Oriental Orthodox churches (Coptic, Armenian, Ethiopian, Syriac) are a separate communion that does not accept the Council of Chalcedon.",
+      "searchDomains": [
+        "goarch.org",
+        "oca.org",
+        "antiochian.org",
+        "assemblyofbishops.org",
+        "svots.edu",
+        "svspress.com",
+        "hchc.edu",
+        "stots.edu",
+        "ancientfaith.com",
+        "holycouncil.org"
+      ],
+      "scriptureTranslation": "NKJV",
+      "sources": [
+        {
+          "id": "nicene-creed-oca",
+          "title": "The Symbol of Faith (Nicene-Constantinopolitan Creed, without the filioque)",
+          "short": "Creed",
+          "kind": "creed",
+          "year": 381,
+          "author": "First and Second Ecumenical Councils",
+          "publisherHost": "Orthodox Church in America",
+          "url": "https://www.oca.org/orthodoxy/prayers/symbol-of-faith",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "article (line) of the Creed",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "church-and-ministry",
+            "end-times"
+          ]
+        },
+        {
+          "id": "oca-orthodox-faith",
+          "title": "The Orthodox Faith (four-volume handbook, online)",
+          "short": "Hopko, Orthodox Faith",
+          "kind": "catechism",
+          "year": null,
+          "author": "Thomas Hopko",
+          "publisherHost": "Orthodox Church in America",
+          "url": "https://www.oca.org/orthodoxy/the-orthodox-faith",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "volume and section title",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        },
+        {
+          "id": "oca-sacraments",
+          "title": "The Orthodox Faith: Worship - The Sacraments",
+          "short": "OCA Sacraments",
+          "kind": "catechism",
+          "year": null,
+          "author": "Thomas Hopko",
+          "publisherHost": "Orthodox Church in America",
+          "url": "https://www.oca.org/orthodoxy/the-orthodox-faith/worship/the-sacraments",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "section title",
+          "topics": [
+            "sacraments",
+            "worship"
+          ]
+        },
+        {
+          "id": "john-damascene-exposition",
+          "title": "An Exact Exposition of the Orthodox Faith (NPNF II, vol. 9)",
+          "short": "Exact Exposition",
+          "kind": "book",
+          "year": null,
+          "author": "John of Damascus",
+          "publisherHost": "New Advent (newadvent.org)",
+          "url": "https://www.newadvent.org/fathers/3304.htm",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "book.chapter (e.g. IV.13)",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        },
+        {
+          "id": "holy-council-mission",
+          "title": "The Mission of the Orthodox Church in Today's World",
+          "short": "HGC Mission",
+          "kind": "denominational-statement",
+          "year": 2016,
+          "author": "Holy and Great Council of the Orthodox Church (Crete)",
+          "publisherHost": "Holy and Great Council of the Orthodox Church",
+          "url": "https://www.holycouncil.org/mission-orthodox-church-todays-world",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "section and paragraph",
+          "topics": [
+            "ethics",
+            "church-and-ministry"
+          ]
+        },
+        {
+          "id": "holy-council-documents",
+          "title": "Holy and Great Council: Official Documents (incl. Encyclical and Message)",
+          "short": "HGC Documents",
+          "kind": "denominational-statement",
+          "year": 2016,
+          "author": "Holy and Great Council of the Orthodox Church (Crete)",
+          "publisherHost": "Holy and Great Council of the Orthodox Church",
+          "url": "https://www.holycouncil.org/official-documents",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "document and paragraph",
+          "topics": [
+            "church-and-ministry",
+            "ethics",
+            "sacraments"
+          ]
+        },
+        {
+          "id": "lossky-mystical-theology",
+          "title": "The Mystical Theology of the Eastern Church",
+          "short": "Lossky",
+          "kind": "book",
+          "year": 1944,
+          "author": "Vladimir Lossky",
+          "publisherHost": "St Vladimir's Seminary Press",
+          "url": "https://svspress.com/mystical-theology-of-the-eastern-church-the/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "chapter and page",
+          "topics": [
+            "god",
+            "holy-spirit",
+            "salvation"
+          ]
+        },
+        {
+          "id": "schmemann-life-of-the-world",
+          "title": "For the Life of the World: Sacraments and Orthodoxy (new edition)",
+          "short": "Schmemann",
+          "kind": "book",
+          "year": 1963,
+          "author": "Alexander Schmemann",
+          "publisherHost": "St Vladimir's Seminary Press",
+          "url": "https://svspress.com/for-the-life-of-the-world-new-edition/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "chapter and page",
+          "topics": [
+            "sacraments",
+            "worship"
+          ]
+        },
+        {
+          "id": "ware-orthodox-church",
+          "title": "The Orthodox Church: An Introduction to Eastern Christianity (3rd ed.)",
+          "short": "Ware",
+          "kind": "book",
+          "year": 1963,
+          "author": "Timothy (Kallistos) Ware",
+          "publisherHost": "Penguin Random House",
+          "url": "https://www.penguinrandomhouse.com/books/318924/the-orthodox-church-by-timothy-ware/",
+          "verified": true,
+          "httpStatus": 200,
+          "locatorFormat": "chapter and page",
+          "topics": [
+            "god",
+            "christ",
+            "holy-spirit",
+            "scripture",
+            "salvation",
+            "sacraments",
+            "church-and-ministry",
+            "worship",
+            "ethics",
+            "end-times"
+          ]
+        }
+      ],
+      "fairnessNotes": [
+        "No current prompt. If added, do not present Orthodoxy as 'Catholicism without the Pope' or as merely 'Eastern' style. It rejects the filioque, papal supremacy and later Western developments such as purgatory as defined in the West, and it frames theology through theosis and the Liturgy rather than Western legal categories.",
+        "'Theosis' means participation in God's uncreated energies by grace, not becoming God by nature (the essence-energies distinction). Phrase it carefully.",
+        "Orthodox call the sacraments 'Holy Mysteries' and do not fix their number as dogmatically as Rome. The prompt should not impose a seven-sacrament checklist as Orthodox dogma without that nuance."
+      ]
+    }
+  ]
+}
