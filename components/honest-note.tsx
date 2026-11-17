@@ -11,8 +11,10 @@ export function HonestNote({ className, id }: { className?: string; id?: string 
         <div className="prose-fv measure text-[1.25rem]" {...rv(1)}>
           <p>
             This is a summary to start from, written with AI from each tradition&rsquo;s own
-            documents. The sources are the authority, so read them: every claim is numbered and
-            linked to the confession, statement or book it comes from.
+            documents. The sources are the authority, so read them: the claims in each view are
+            numbered and linked to the confession, statement or book they come from. The
+            comparison sections summarize those views, and a few general statements there carry
+            no number.
           </p>
           <p>
             Each view is written the way its own adherents state it, in their vocabulary and at

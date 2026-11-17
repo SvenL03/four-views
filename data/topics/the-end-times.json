@@ -15,7 +15,7 @@
       "traditionId": "dispensationalist",
       "headline": "Christ will first come for His church in the rapture, then after a seven-year tribulation return to earth and reign for a thousand years from David's throne, fulfilling God's promises to national Israel.",
       "body": [
-        "Dispensationalists read prophecy with the same consistent, literal (historical-grammatical) method they use for the rest of Scripture, so God's promises to national Israel about its land, Jerusalem and the throne of David will be kept to Israel as the prophets meant them, not absorbed into the church [3]. They see God's dealings with people as a series of stewardships, or dispensations, and the church, which began at Pentecost, as distinct from Israel [1].",
+        "Dispensationalists read prophecy with the same consistent, literal (historical-grammatical) method they use for the rest of Scripture, so God's promises to national Israel about its land, Jerusalem and the throne of David will be kept to Israel as the prophets meant them, not absorbed into the church [2][3]. They see God's dealings with people as a series of stewardships, or dispensations, and the church, which began at Pentecost, as distinct from Israel [1].",
         "The next great event in prophecy, they teach, is the rapture: Christ coming in the air to catch up living believers and raise those who have died, the blessed hope believers should always be watching for [1]. The rapture comes before the tribulation, a seven-year time of judgment on the whole earth that fulfills the seventieth week of Daniel's prophecy, while the church is in heaven [1][2].",
         "At the end of the tribulation Christ returns visibly to the earth with His saints. He binds Satan, lifts the curse on creation, restores Israel to its land and its covenant promises, and reigns from David's throne for a thousand years (the millennium) before the last judgment and the eternal state [1][2]. On this reading Revelation 6-19 describes those future judgments and Revelation 20 the coming earthly kingdom [1][2]. For dispensational theologian Michael Vlach, that future earthly kingdom between this age and the eternal state, together with a restored Israel serving the nations, is one of the clearest lines between dispensational and covenant theology [3]."
       ],
@@ -44,7 +44,7 @@
           "publisher": "Dallas Theological Seminary",
           "url": "https://www.dts.edu/about/doctrinal-statement/",
           "kind": "statement",
-          "locator": "Articles V, XIII, XVIII-XX"
+          "locator": "Articles V, XIII, XVIII-XXI"
         },
         {
           "id": "tms",
@@ -52,7 +52,7 @@
           "publisher": "The Master's Seminary",
           "url": "https://tms.edu/about/doctrinal-statement/",
           "kind": "statement",
-          "locator": "Eschatology: The Rapture of the Church; The Tribulation Period; The Second Coming and Millennial Reign"
+          "locator": "Eschatology: The Rapture of the Church; The Tribulation Period; The Second Coming and Millennial Reign; The Judgment of the Lost; Eternity"
         },
         {
           "id": "vlach",
@@ -103,7 +103,7 @@
           "publisher": "Orthodox Presbyterian Church",
           "url": "https://www.opc.org/wcf.html",
           "kind": "confession",
-          "locator": "ch. 25.1-2; ch. 33"
+          "locator": "ch. 1.9; ch. 25.1-2; ch. 32.2; ch. 33"
         },
         {
           "id": "belgic",
@@ -195,10 +195,10 @@
         {
           "id": "ct2019",
           "title": "EFCA Now Considers Premillennialism a Non-Essential",
-          "author": "Emily Belz",
+          "author": "Daniel Silliman",
           "publisher": "Christianity Today",
           "year": 2019,
-          "url": "https://www.christianitytoday.com/news/2019/august/efca-drops-premillennialism-evangelical-free-church-teds.html",
+          "url": "https://www.christianitytoday.com/2019/08/efca-drops-premillennialism-evangelical-free-church-teds/",
           "kind": "article"
         }
       ],
@@ -264,6 +264,7 @@
           "title": "The Rapture",
           "author": "Bruce J. Ackerson",
           "publisher": "Living Lutheran (ELCA)",
+          "year": 2005,
           "url": "https://www.livinglutheran.org/rapture/",
           "kind": "article"
         }
@@ -417,7 +418,7 @@
       {
         "title": "Three Views on the Millennium and Beyond",
         "author": "Darrell L. Bock, ed. (Craig Blaising, Kenneth Gentry, Robert Strimple)",
-        "note": "Zondervan Counterpoints, 1999: progressive dispensational premillennialism, postmillennialism and amillennialism, each answered by the others.",
+        "note": "Zondervan Counterpoints, 1999: premillennialism (argued by a progressive dispensationalist), postmillennialism and amillennialism, each answered by the others.",
         "traditionIds": [
           "dispensationalist",
           "reformed",
@@ -474,6 +475,6 @@
     "engine": "seed:claude-code",
     "model": "claude-opus-5-5",
     "reviewed": true,
-    "reviewNotes": "Opened every source URL with curl on 2026-11-16 and checked each paraphrase against the page text. DTS Doctrinal Statement Articles V (dispensations as stewardships), XIII (church began at Pentecost, distinct from Israel), XVIII (coming in the air, blessed hope), XIX (church in heaven during Israel's seventieth week; Rev 6:1-19:21 cited), XX (return to earth, millennial age, Satan bound, curse lifted, Israel restored). TMS Doctrinal Statement, Eschatology subsections (rapture before the seven-year tribulation, seventieth week, throne of David, thousand years). Vlach 2017 (literal hermeneutic for Israel's land, temple, Jerusalem; mediatorial kingdom between this age and eternal state; restored Israel serving the nations). WCF 25.1-2 and 33 on opc.org; Belgic Art. 37 and Heidelberg Q&A 52 on crcna.org. Pratt (Reformed Answers): confessions purposefully silent; premil, postmil and amil all acceptable; the confessed core; amillennial summary (Satan bound at cross and resurrection, first resurrection, no fixed scenario). EFCA SOF Arts. 9-10; Goodman 2018 (church dropped premillennial; ready rather than right); NAE SOF (personal return in power and glory, no millennial view); TGC Confessional Statement, The Restoration of All Things (no millennial view); Christianity Today 2019 (79-21 vote, premillennial replaced by glorious, many members still hold a 1,000-year reign). BCP 1979 Catechism, The Christian Hope; Ask The UMC rapture page (no rapture, tribulation or millennial teaching in doctrinal standards; Darby; order of salvation) and second-coming page (focus on first coming, not speculative); Shaner, Working Preacher 2018 (revealing rather than predictive; renewal not replacement; credits Rossing); Ackerson, Living Lutheran (prompted by Rossing on 60 Minutes II; fear not love; theology of the cross; sacrifice for those to come). Not opened: the further-reading books (no URLs given; titles, editors and contributors from standard bibliographic knowledge). The 'many members still hold' claim about EFCA rests on the Christianity Today report."
+    "reviewNotes": "Opened every source URL with curl on 2026-11-16 and checked each paraphrase against the page text. DTS Doctrinal Statement Articles V (dispensations as stewardships), XIII (church began at Pentecost, distinct from Israel), XVIII (coming in the air, blessed hope), XIX (church in heaven during Israel's seventieth week; Rev 6:1-19:21 cited), XX (return to earth, millennial age, Satan bound, curse lifted, Israel restored). TMS Doctrinal Statement, Eschatology subsections (rapture before the seven-year tribulation, seventieth week, throne of David, thousand years). Vlach 2017 (literal hermeneutic for Israel's land, temple, Jerusalem; mediatorial kingdom between this age and eternal state; restored Israel serving the nations). WCF 25.1-2 and 33 on opc.org; Belgic Art. 37 and Heidelberg Q&A 52 on crcna.org. Pratt (Reformed Answers): confessions purposefully silent; premil, postmil and amil all acceptable; the confessed core; amillennial summary (Satan bound at cross and resurrection, first resurrection, no fixed scenario). EFCA SOF Arts. 9-10; Goodman 2018 (church dropped premillennial; ready rather than right); NAE SOF (personal return in power and glory, no millennial view); TGC Confessional Statement, The Restoration of All Things (no millennial view); Christianity Today 2019 (79-21 vote, premillennial replaced by glorious, many members still hold a 1,000-year reign). BCP 1979 Catechism, The Christian Hope; Ask The UMC rapture page (no rapture, tribulation or millennial teaching in doctrinal standards; Darby; order of salvation) and second-coming page (focus on first coming, not speculative); Shaner, Working Preacher 2018 (revealing rather than predictive; renewal not replacement; credits Rossing); Ackerson, Living Lutheran (prompted by Rossing on 60 Minutes II; fear not love; theology of the cross; sacrifice for those to come). Not opened: the further-reading books (no URLs given; titles, editors and contributors from standard bibliographic knowledge). The 'many members still hold' claim about EFCA rests on the Christianity Today report. Review findings #6, #23, #24, #25, #26 (year only), #27 fixed on 2026-11-16: CT author is Daniel Silliman (canonical URL); throne of David now cited to TMS [2] as well as Vlach [3]; DTS locator extended to Article XXI and TMS to The Judgment of the Lost and Eternity (both opened and confirmed); WCF locator adds 1.9 and 32.2 (opened on opc.org and confirmed); Ackerson dated 2005 (byline confirmed April 19, 2005); Blaising note relabelled. Softened instead of sourced: the suggestion to cite Barbara Rossing for the theology-of-the-cross sentence, since no Rossing source was opened; the Ackerson column stays as the sole, dated, lay source and the view text already names it as a writer in Living Lutheran."
   }
 }

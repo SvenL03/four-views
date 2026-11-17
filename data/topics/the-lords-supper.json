@@ -2,7 +2,7 @@
   "slug": "the-lords-supper",
   "title": "The Lord's Supper",
   "question": "What happens at the Lord's Supper, how is Christ present, and who should come to the table?",
-  "intro": "On the night he was betrayed, Jesus took bread and the cup, called them his body and blood, and told his followers to do this in remembrance of him. Every church still obeys that command, under names like the Lord's Supper, Communion and the Eucharist. They differ on whether the meal is mainly a memorial or a means through which God gives grace, on how Christ is present, and on who should be invited to eat.",
+  "intro": "On the night he was betrayed, Jesus took bread and the cup, called them his body and blood, and told his followers to do this in remembrance of him. Nearly every church still keeps that command, under names like the Lord's Supper, Communion and the Eucharist. They differ on whether the meal is mainly a memorial or a means through which God gives grace, on how Christ is present, and on who should be invited to eat.",
   "traditionIds": [
     "reformed",
     "mainline_liberal",
@@ -16,7 +16,7 @@
       "headline": "In the Supper believers truly feed on Christ crucified, not by eating his body physically but by faith, as the Holy Spirit unites them to the risen Christ in heaven.",
       "body": [
         "Reformed churches teach that the Lord's Supper is a sacrament Christ instituted for the lasting remembrance of his sacrifice, to seal its benefits to true believers, to nourish them spiritually and to bind them to him and to one another [1]. It is not a new offering of Christ but a remembrance of his one offering on the cross [1].",
-        "The bread and wine remain bread and wine; they are called Christ's body and blood in the way sacramental language works [1][2]. Yet the Supper is more than a reminder. Those who receive worthily feed on Christ crucified and all the benefits of his death, not physically but spiritually: his body and blood are not in, with or under the bread and wine, yet they are as really present to the faith of believers as the elements are to their senses [1].",
+        "The bread and wine remain bread and wine; they are called Christ's body and blood in the way sacramental language works [1][2]. Yet the Supper is more than a reminder. Those who receive worthily feed on Christ crucified and all the benefits of his death, not physically but spiritually: his body and blood are not in, with or under the bread and wine, yet they are as really present to the faith of believers as the elements are to their senses [1]. The Second London Baptist Confession, the Reformed Baptist standard, says the same: Christ is present spiritually to the faith of believers, not bodily or physically [4].",
         "The Heidelberg Catechism explains how: though Christ is in heaven and believers are on earth, the Holy Spirit who lives in both unites them more and more to his body, and the visible signs assure them that they share in his true body and blood as surely as their mouths receive the bread and cup [2]. The Belgic Confession adds that the Supper nourishes those already born again, and that faith is the hand and mouth of the soul by which Christ, the bread from heaven, is received [3].",
         "Because the Supper is for believers, those ignorant of the faith or living in open ungodliness are not to be admitted to the table [1]."
       ],
@@ -35,7 +35,7 @@
         },
         {
           "ref": "Matt 26:26-29",
-          "why": "Jesus institutes the Supper and links it to the new covenant."
+          "why": "Jesus institutes the Supper and calls the cup his blood of the covenant, poured out for the forgiveness of sins."
         }
       ],
       "sources": [
@@ -65,6 +65,15 @@
           "url": "https://www.crcna.org/welcome/beliefs/confessions/belgic-confession",
           "kind": "confession",
           "locator": "Article 35"
+        },
+        {
+          "id": "lbc",
+          "title": "Second London Baptist Confession of Faith",
+          "publisher": "Founders Ministries (modern English edition)",
+          "year": 1689,
+          "url": "https://founders.org/library/chapter-30-the-lords-supper/",
+          "kind": "confession",
+          "locator": "ch. 30.7"
         }
       ],
       "consensus": "settled",
@@ -76,7 +85,7 @@
       "body": [
         "Mainline Protestant churches often call the Supper Holy Communion or the Eucharist, from the Greek word for thanksgiving, and teach that it is a sacrament in which Christ truly gives himself. The Episcopal catechism names the outward sign as bread and wine and the inward grace as the Body and Blood of Christ given to his people and received by faith. Its benefits are forgiveness of sins, a strengthened union with Christ and with one another, and a foretaste of the heavenly banquet [1].",
         "These churches speak of the Eucharist as a sacrifice only in a qualified sense: it is the church's sacrifice of praise and thanksgiving, through which Christ's one sacrifice is made present and his people are united with his offering of himself [1]. The Methodist Articles of Religion reject transubstantiation (the teaching that the substance of the bread and wine becomes Christ's body and blood) while affirming that, for those who receive with faith, the bread and cup are a partaking of the body and blood of Christ, given and received in a heavenly and spiritual manner [2].",
-        "In recent decades mainline churches have worked to restore the sacrament to the center of worship. The United Methodist Church adopted This Holy Mystery in 2004 as its official interpretive statement on Communion, to reclaim its sacramental heritage and to bring its practice into line with ecumenical agreement among churches [3]. Those who come are asked to examine their lives, repent of their sins and be in love and charity with all people [1]."
+        "In recent decades mainline churches have worked to restore the sacrament to the center of worship. The United Methodist Church adopted This Holy Mystery in 2004 as its official interpretive statement on Communion, to reclaim its sacramental heritage and to bring its practice into line with ecumenical agreement among churches [3]. On who may come, it says Christ invites those who love him, repent of sin and seek to live as disciples, that all who respond in faith are to be welcomed, and that baptism normally comes before Communion; it also encourages congregations to move toward weekly celebration on the Lord's Day [3]. Those who come are asked to examine their lives, repent of their sins and be in love and charity with all people [1]."
       ],
       "keyTexts": [
         {
@@ -124,7 +133,7 @@
         }
       ],
       "consensus": "divided",
-      "consensusNote": "Mainline churches inherit different accounts of how Christ is present: Lutheran (ELCA), Reformed (PC(USA)), Anglican (Episcopal) and Methodist (UMC). They also differ on who may receive: United Methodists invite all who love Christ, repent and seek to live in peace with one another, while Episcopal canons reserve Communion for the baptized, though practice varies by parish."
+      "consensusNote": "Mainline churches inherit different accounts of how Christ is present: Lutheran (ELCA), Reformed (PC(USA)), Anglican (Episcopal) and Methodist (UMC). They also differ on who may receive: United Methodists invite all who love Christ, repent and seek to live in peace with one another (the invitation described in This Holy Mystery), while Episcopal canon law has reserved Communion for the baptized, though practice varies by parish (a general statement; no Episcopal source is cited here)."
     },
     {
       "traditionId": "arminian",
@@ -132,7 +141,7 @@
       "body": [
         "Wesleyan-Arminian churches teach that the Lord's Supper is a sacrament and a means of grace: when it is received through faith, God uses it to quicken, strengthen and confirm faith [1]. The Wesleyan Church calls it a sacrament of our redemption by Christ's death and of our hope in his return, and a sign of the love Christians have for each other. To those who receive it humbly and by faith, it is a means through which God communicates grace to the heart [1].",
         "John Wesley counted receiving the Lord's Supper among the chief means of grace, together with prayer and searching the Scriptures, the ordinary channels God appointed for conveying his grace. He insisted there is no power in the bread and wine themselves: all the power is God's, who alone gives grace through them [3]. Everyone who desires more of God's grace, he taught, should wait for it at the Lord's table, because Christ himself gave that direction [3].",
-        "Wesley therefore urged constant communion. He argued that it is the duty of every Christian to receive the Supper as often as possible, first because Christ plainly commanded it, and second because its benefits are so great: the forgiveness of past sins and the present strengthening and refreshing of the soul [2]. The table is food for the journey of holiness, giving strength to obey and leading believers on toward perfect love [2]."
+        "Wesley therefore urged constant communion. He argued that it is the duty of every Christian to receive the Supper as often as possible, first because Christ plainly commanded it, and second because its benefits are so great: the forgiveness of past sins and the present strengthening and refreshing of the soul [2]. The table is food for the journey of holiness, giving strength to obey and leading believers on toward perfection [2]."
       ],
       "keyTexts": [
         {
@@ -169,7 +178,7 @@
           "year": 1788,
           "url": "https://wesley.nnu.edu/john-wesley/the-sermons-of-john-wesley-1872-edition/sermon-101-the-duty-of-constant-communion/",
           "kind": "sermon",
-          "locator": "I.1-2"
+          "locator": "I.1-3"
         },
         {
           "id": "s16",
@@ -178,17 +187,17 @@
           "publisher": "Wesley Center Online, Northwest Nazarene University",
           "url": "https://wesley.nnu.edu/john-wesley/the-sermons-of-john-wesley-1872-edition/sermon-16-the-means-of-grace/",
           "kind": "sermon",
-          "locator": "II.1, III.11"
+          "locator": "II.1, II.3, III.11"
         }
       ],
       "consensus": "mostly",
-      "consensusNote": "Wesleyan and holiness churches agree that the Supper is a sacrament and a means of grace, but most do not follow Wesley's call to weekly or constant communion, and practice ranges from weekly to quarterly. Arminian Baptists, such as Free Will Baptists, call it an ordinance."
+      "consensusNote": "Most Wesleyan and holiness churches agree that the Supper is a sacrament and a means of grace, though the Salvation Army, also in the holiness family, teaches that Christians do not need to practise sacraments like Holy Communion (its UK magazine Salvationist says so). Most do not follow Wesley's call to weekly or constant communion, and practice ranges from weekly to quarterly. Arminian Baptists, such as Free Will Baptists, call it an ordinance (a general statement, not cited here)."
     },
     {
       "traditionId": "conservative_evangelical",
       "headline": "The Lord's Supper is an ordinance of obedience in which the church remembers Christ's finished sacrifice and looks for his return.",
       "body": [
-        "Many conservative evangelicals, Southern Baptists foremost, teach that the Lord's Supper is an ordinance: a symbolic act of obedience in which members of the church, by eating the bread and drinking the fruit of the vine, memorialize the death of the Redeemer and anticipate his second coming [1]. This memorial emphasis, often traced to the Swiss Reformer Huldrych Zwingli, keeps the focus on a sacrifice completed once for all at the cross and on the believer's faith in it.",
+        "Many conservative evangelicals, Southern Baptists foremost, teach that the Lord's Supper is an ordinance: a symbolic act of obedience in which members of the church, by eating the bread and drinking the fruit of the vine, memorialize the death of the Redeemer and anticipate his second coming [1]. This memorial emphasis, often traced to the Swiss Reformer Huldrych Zwingli (a common historical judgment, not drawn from the sources below), keeps the focus on a sacrifice completed once for all at the cross and on the believer's faith in it.",
         "Because the Supper is a church ordinance, Southern Baptists hold that believer's baptism comes first: baptism is the prerequisite to church membership and to the Lord's Supper [1]. Many evangelical churches therefore invite baptized believers to the table and call each person to examine themselves before eating.",
         "Broader evangelical statements stress present benefit as well as remembrance. The Evangelical Free Church of America says the ordinances visibly and tangibly express the gospel; they are not the means of salvation, but when the church celebrates them in genuine faith they confirm and nourish believers [2]. The Gospel Coalition's confessional statement connects the Supper with ongoing covenant renewal and calls the ordinances God's pledge to us, divinely ordained means of grace, public vows of submission to Christ and anticipations of his return [3]."
       ],
@@ -224,7 +233,7 @@
           "id": "efca",
           "title": "EFCA Statement of Faith",
           "publisher": "Evangelical Free Church of America",
-          "year": 2008,
+          "year": 2019,
           "url": "https://www.efca.org/resources/document/efca-statement-faith",
           "kind": "statement",
           "locator": "Article 7"
@@ -304,7 +313,7 @@
           },
           {
             "traditionId": "mainline_liberal",
-            "answer": "It varies: United Methodists invite all who love Christ, repent and seek peace with one another, while Episcopal canons reserve Communion for the baptized."
+            "answer": "It varies: United Methodists invite all who love Christ, repent and seek peace with one another, while Episcopal canon law has reserved Communion for the baptized (no Episcopal source is cited here)."
           },
           {
             "traditionId": "arminian",
@@ -322,11 +331,11 @@
         "answers": [
           {
             "traditionId": "reformed",
-            "answer": "Calvin wished for weekly communion, but practice varies widely, from weekly to quarterly."
+            "answer": "Calvin wished for weekly communion (a historical point, not cited here), but practice varies widely, from weekly to quarterly."
           },
           {
             "traditionId": "mainline_liberal",
-            "answer": "Mainline churches have moved toward more frequent celebration, and in Episcopal practice the Eucharist is the principal Sunday service."
+            "answer": "United Methodist congregations are encouraged to move toward weekly celebration on the Lord's Day (This Holy Mystery), and in Episcopal practice the Eucharist is commonly the principal Sunday service (a general statement, no Episcopal source cited here)."
           },
           {
             "traditionId": "arminian",
@@ -366,7 +375,7 @@
         "meanings": [
           {
             "traditionId": "reformed",
-            "meaning": "Word, sacraments and prayer, which the Spirit uses to build faith in the elect."
+            "meaning": "Word, sacraments and prayer, which the Spirit uses to build faith in the elect (the Westminster Larger Catechism's list, not cited here)."
           },
           {
             "traditionId": "mainline_liberal",
@@ -395,7 +404,7 @@
           },
           {
             "traditionId": "arminian",
-            "meaning": "Sacrament, a means of grace when received in faith; Arminian Baptists say ordinance."
+            "meaning": "Sacrament, a means of grace when received in faith; Arminian Baptists generally say ordinance (a general statement, not cited here)."
           },
           {
             "traditionId": "conservative_evangelical",
@@ -445,8 +454,7 @@
         "url": "https://www.umcdiscipleship.org/resources/this-holy-mystery-a-united-methodist-understanding-of-holy-communion",
         "note": "The official United Methodist teaching document on Communion.",
         "traditionIds": [
-          "mainline_liberal",
-          "arminian"
+          "mainline_liberal"
         ]
       },
       {
@@ -465,6 +473,6 @@
     "engine": "seed:claude-code",
     "model": "claude-opus-5-5",
     "reviewed": true,
-    "reviewNotes": "Every source URL was opened (curl/node fetch) and the cited section read in full. Reformed: WCF ch. 29.1-2 and 29.5-8 on opc.org (purposes of the Supper, commemoration not sacrifice, elements remain bread and wine, spiritual feeding by faith, not in/with/under, ignorant and ungodly not admitted); Heidelberg Q&A 75-79 on crcna.org (Spirit unites believers to Christ in heaven; bread does not become Christ's body; signs assure real sharing); Belgic Confession Art. 35 on crcna.org (nourishes the regenerate, Christ the living bread, faith the hand and mouth of the soul). Mainline: Episcopal BCP Catechism, The Holy Eucharist (outward sign, inward grace received by faith, benefits, sacrifice of praise making Christ's sacrifice present, requirements); UMC Articles of Religion XVIII (partaking of the body and blood for those who receive with faith, transubstantiation rejected, heavenly and spiritual manner); This Holy Mystery landing page on umcdiscipleship.org (adopted 2004 as official interpretive statement; reclaim sacramental heritage, accord with ecumenical movements). The full This Holy Mystery PDF could not be text-extracted here, so its content on the open table and real presence is not cited; the United Methodist invitation and Episcopal canon on Communion of the baptized appear only in consensusNote and partings as general knowledge. Wesleyan: The Wesleyan Church Articles of Religion Art. 18 (para. 242: sacraments as means of grace when received through faith; Lord's Supper a sacrament of redemption, hope and love; grace communicated to the heart); Wesley Sermon 101 I.1-2 (duty to receive as often as he can; command of Christ; forgiveness of past sins and strengthening of souls; leads on to perfection); Wesley Sermon 16 II.1 and III.11 (chief means of grace, ordinary channels; no inherent power in the elements; all who desire grace to wait for it at the Supper). Conservative Evangelical: BF&M 2000 Art. VII (symbolic act of obedience by church members, memorialize and anticipate; baptism prerequisite); EFCA Art. 7; TGC Confessional Statement, Baptism and the Lord's Supper (ongoing covenant renewal, pledge, means of grace, vows, anticipation). The Zwingli attribution, Calvin's wish for weekly communion and frequency patterns in partings are general historical knowledge, not cited. Further-reading books are listed without URLs from memory of their bibliographic details; titles and editors were not re-checked online. Nazarene Manual and ELCA documents were not used because their sites failed or blocked automated fetches."
+    "reviewNotes": "Review fixes applied 2026-11-16 (findings 3, 14-19): This Holy Mystery PDF (linked from the cited landing page) was read and now supports the United Methodist invitation, baptism-before-Communion and weekly-celebration claims in the Mainline body [3]; the Second London Baptist Confession ch. 30.7 (Founders Ministries) was opened and added as Reformed source [4]; EFCA year 2019; Sermon 101 locator I.1-3 and Sermon 16 locator II.1, II.3, III.11; Matt 26:26-29 gloss now uses the covenant-blood wording; intro softened to nearly every church and the Salvation Army noted (its Salvationist page opened); This Holy Mystery tagged Mainline only. Softened instead of sourced (marked as general knowledge in the text): the Episcopal canon on Communion of the baptized, the Episcopal principal Sunday Eucharist, Calvin on weekly communion, the Zwingli attribution, Free Will Baptists calling it an ordinance, and the Larger Catechism list for means of grace. Comparison sections carry no inline numbers, so claims there that match a view body rest on the numbered sources in that view. Earlier notes follow. Every source URL was opened (curl/node fetch) and the cited section read in full. Reformed: WCF ch. 29.1-2 and 29.5-8 on opc.org (purposes of the Supper, commemoration not sacrifice, elements remain bread and wine, spiritual feeding by faith, not in/with/under, ignorant and ungodly not admitted); Heidelberg Q&A 75-79 on crcna.org (Spirit unites believers to Christ in heaven; bread does not become Christ's body; signs assure real sharing); Belgic Confession Art. 35 on crcna.org (nourishes the regenerate, Christ the living bread, faith the hand and mouth of the soul). Mainline: Episcopal BCP Catechism, The Holy Eucharist (outward sign, inward grace received by faith, benefits, sacrifice of praise making Christ's sacrifice present, requirements); UMC Articles of Religion XVIII (partaking of the body and blood for those who receive with faith, transubstantiation rejected, heavenly and spiritual manner); This Holy Mystery landing page on umcdiscipleship.org (adopted 2004 as official interpretive statement; reclaim sacramental heritage, accord with ecumenical movements). The This Holy Mystery PDF was later extracted (2026-11-16); the Episcopal canon on Communion of the baptized remains general knowledge. Wesleyan: The Wesleyan Church Articles of Religion Art. 18 (para. 242: sacraments as means of grace when received through faith; Lord's Supper a sacrament of redemption, hope and love; grace communicated to the heart); Wesley Sermon 101 I.1-3 (duty to receive as often as he can; command of Christ; forgiveness of past sins and strengthening of souls; leads on to perfection); Wesley Sermon 16 II.1 and III.11 (chief means of grace, ordinary channels; no inherent power in the elements; all who desire grace to wait for it at the Supper). Conservative Evangelical: BF&M 2000 Art. VII (symbolic act of obedience by church members, memorialize and anticipate; baptism prerequisite); EFCA Art. 7; TGC Confessional Statement, Baptism and the Lord's Supper (ongoing covenant renewal, pledge, means of grace, vows, anticipation). The Zwingli attribution, Calvin's wish for weekly communion and frequency patterns in partings are general historical knowledge, not cited. Further-reading books are listed without URLs from memory of their bibliographic details; titles and editors were not re-checked online. Nazarene Manual and ELCA documents were not used because their sites failed or blocked automated fetches."
   }
 }

@@ -42,8 +42,8 @@
       ],
       "keyTexts": [
         { "ref": "1 Tim 2:3-6", "why": "God wants all people to be saved, and Christ gave himself as a ransom for all." },
-        { "ref": "Titus 2:11", "why": "The grace of God that brings salvation has appeared to all people." },
-        { "ref": "2 Pet 3:9", "why": "God is not willing that any should perish but that all should come to repentance." },
+        { "ref": "Titus 2:11", "why": "The grace of God has appeared, offering salvation to all people." },
+        { "ref": "2 Pet 3:9", "why": "God does not want anyone to perish, but wants everyone to come to repentance." },
         { "ref": "1 Pet 1:1-2", "why": "Believers are chosen according to the foreknowledge of God the Father." }
       ],
       "sources": [
@@ -72,8 +72,8 @@
       "sources": [
         { "id": "bfm", "title": "The Baptist Faith and Message 2000", "publisher": "Southern Baptist Convention", "year": 2000, "url": "https://bfm.sbc.net/bfm2000/", "kind": "confession", "locator": "Article V, God's Purpose of Grace" },
         { "id": "abstract", "title": "Abstract of Principles", "publisher": "The Southern Baptist Theological Seminary", "year": 1858, "url": "https://www.sbts.edu/about/abstract/", "kind": "confession", "locator": "Article V, Election" },
-        { "id": "traditional", "title": "A Statement of the Traditional Southern Baptist Understanding of God's Plan of Salvation", "publisher": "The Alabama Baptist", "year": 2012, "url": "https://thealabamabaptist.org/?p=64009", "kind": "statement", "locator": "Articles Six and Eight" },
-        { "id": "ttt", "title": "Truth, Trust and Testimony in a Time of Tension: A Statement from the Calvinism Advisory Committee", "publisher": "The Alabama Baptist", "year": 2013, "url": "https://thealabamabaptist.org/?p=69169", "kind": "statement", "locator": "section Tensions" }
+        { "id": "traditional", "title": "A Statement of the Traditional Southern Baptist Understanding of God's Plan of Salvation", "author": "Eric Hankins and others", "publisher": "Reprinted in The Alabama Baptist", "year": 2012, "url": "https://thealabamabaptist.org/?p=64009", "kind": "statement", "locator": "Articles Six and Eight" },
+        { "id": "ttt", "title": "Truth, Trust and Testimony in a Time of Tension: A Statement from the Calvinism Advisory Committee", "author": "Calvinism Advisory Committee", "publisher": "Reprinted in The Alabama Baptist", "year": 2013, "url": "https://thealabamabaptist.org/?p=69169", "kind": "statement", "locator": "section Tensions" }
       ],
       "consensus": "divided",
       "consensusNote": "Conservative Evangelicals include both Calvinists and non-Calvinists. In the SBC both camps affirm the same confessional article on election and disagree on how to read it; the 2013 committee was an advisory team, not a binding ruling."
@@ -95,7 +95,7 @@
       "sources": [
         { "id": "boyd-what", "title": "What is Open Theism?", "author": "Gregory A. Boyd", "publisher": "ReKnew", "year": 2008, "url": "https://reknew.org/2008/01/what-is-open-theism-2/", "kind": "article" },
         { "id": "openness", "title": "The Openness of God: A Biblical Challenge to the Traditional Understanding of God", "author": "Clark H. Pinnock, Richard Rice, John Sanders, William Hasker, David Basinger", "publisher": "InterVarsity Press (book page at drjohnsanders.com)", "year": 1994, "url": "https://drjohnsanders.com/books/the-openness-of-god/", "kind": "book" },
-        { "id": "boyd-rom9", "title": "How do you respond to Romans 9?", "author": "Gregory A. Boyd", "publisher": "ReKnew", "year": 2008, "url": "https://reknew.org/2008/01/how-do-you-respond-to-romans-9/", "kind": "article", "locator": "sec. 3-5" }
+        { "id": "boyd-rom9", "title": "How do you respond to Romans 9?", "author": "Gregory A. Boyd", "publisher": "ReKnew", "year": 2008, "url": "https://reknew.org/2008/01/how-do-you-respond-to-romans-9/", "kind": "article", "locator": "sec. 2-5" }
       ],
       "consensus": "no-official-position",
       "consensusNote": "Open Theism is a theological movement, not a denomination, so it has no confession of its own. Its teachers differ on whether the open future is unknowable in principle or left open by God's choice, and its place within evangelical bodies has been debated."
@@ -186,7 +186,8 @@
       { "title": "Institutes of the Christian Religion, Book III, chapters 21-24", "author": "John Calvin", "url": "https://www.ccel.org/ccel/calvin/institutes.v.xxii.html", "note": "The classic Reformed treatment of election.", "traditionIds": ["reformed"] },
       { "title": "Sermon 128: Free Grace", "author": "John Wesley", "url": "https://wesley.nnu.edu/john-wesley/the-sermons-of-john-wesley-1872-edition/sermon-128-free-grace/", "note": "Wesley's 1739 sermon against unconditional predestination.", "traditionIds": ["arminian"] },
       { "title": "Arminian Theology: Myths and Realities", "author": "Roger E. Olson (IVP Academic, 2006)", "note": "A modern Arminian's own account of the tradition.", "traditionIds": ["arminian"] },
-      { "title": "Whosoever Will: A Biblical-Theological Critique of Five-Point Calvinism", "author": "David L. Allen and Steve W. Lemke, eds. (B&H Academic, 2010)", "note": "Southern Baptist non-Calvinist case.", "traditionIds": ["conservative_evangelical"] },
+      { "title": "Whosoever Will: A Biblical-Theological Critique of Five-Point Calvinism", "author": "David L. Allen and Steve W. Lemke, eds. (B&H Academic, 2010)", "note": "The non-Calvinist case within the Southern Baptist Convention, answering five-point Calvinism.", "traditionIds": ["conservative_evangelical"] },
+      { "title": "Calvinism: A Southern Baptist Dialogue", "author": "E. Ray Clendenen and Brad J. Waggoner, eds. (B&H Academic, 2008)", "note": "A dialogue among Southern Baptists about Calvinism.", "traditionIds": ["conservative_evangelical"] },
       { "title": "The Openness of God", "author": "Clark H. Pinnock, Richard Rice, John Sanders, William Hasker, David Basinger", "url": "https://drjohnsanders.com/books/the-openness-of-god/", "note": "The 1994 book that brought the open view into evangelical debate.", "traditionIds": ["open_theist"] }
     ]
   },
@@ -196,6 +197,6 @@
     "engine": "seed:claude-code",
     "model": "claude-opus-5-5",
     "reviewed": true,
-    "reviewNotes": "Opened every source URL and read the cited sections: WCF ch. 3.1-3.8 and 9.1-9.4 (opc.org); Canons of Dort First Main Point Arts. 6-10 and Third/Fourth Main Points Art. 9 (crcna.org); Calvin Institutes III.21 secs. 1 and 5 (ccel.org); Wesleyan Church Articles of Religion Arts. 8, 10, 11 (paras. 224, 226, 228); Methodist Articles of Religion Art. VIII (umc.org); Wesley, Free Grace secs. 2-4, 10, 20, 29 (wesley.nnu.edu); BF&M 2000 Art. V (bfm.sbc.net); Abstract of Principles Art. V (sbts.edu); Traditional Statement Arts. Six and Eight and the 2013 Calvinism Advisory Committee report, Tensions section (both via thealabamabaptist.org reprints, since baptistpress.com blocks automated fetches); Boyd, What is Open Theism? and How do you respond to Romans 9? secs. 3-5 (reknew.org); The Openness of God book page (drjohnsanders.com). Further-reading books without URLs (Basinger, Jowers, Olson, Allen and Lemke) were not opened; their titles, editors and publishers are given from standard bibliographic knowledge. Could not read the Church of the Nazarene Articles of Faith page (content loads by script), so it is not cited."
+    "reviewNotes": "Opened every source URL and read the cited sections: WCF ch. 3.1-3.8 and 9.1-9.4 (opc.org); Canons of Dort First Main Point Arts. 6-10 and Third/Fourth Main Points Art. 9 (crcna.org); Calvin Institutes III.21 secs. 1 and 5 (ccel.org); Wesleyan Church Articles of Religion Arts. 8, 10, 11 (paras. 224, 226, 228); Methodist Articles of Religion Art. VIII (umc.org); Wesley, Free Grace secs. 2-4, 10, 20, 29 (wesley.nnu.edu); BF&M 2000 Art. V (bfm.sbc.net); Abstract of Principles Art. V (sbts.edu); Traditional Statement Arts. Six and Eight and the 2013 Calvinism Advisory Committee report, Tensions section (both via thealabamabaptist.org reprints, since baptistpress.com blocks automated fetches); Boyd, What is Open Theism? and How do you respond to Romans 9? secs. 2-5 (reknew.org); The Openness of God book page (drjohnsanders.com). Further-reading books without URLs (Basinger, Jowers, Olson, Allen and Lemke) were not opened; their titles, editors and publishers are given from standard bibliographic knowledge. Review fixes 2026-11-16: Southern Baptist reading list now pairs the non-Calvinist Whosoever Will (relabelled) with the dialogue volume Calvinism: A Southern Baptist Dialogue (title, editors, publisher and year confirmed in Open Library; its contents were not opened, so the note says only that it is a dialogue); the two SBC statements now show their reprint status and authors (Eric Hankins as primary author of the Traditional Statement, confirmed in the JBTM record at galaxie.com; the committee as author of its report); the Titus 2:11 and 2 Pet 3:9 glosses reworded to match the linked NIV; the Boyd Romans 9 locator widened to sec. 2-5. Could not read the Church of the Nazarene Articles of Faith page (content loads by script), so it is not cited."
   }
 }
