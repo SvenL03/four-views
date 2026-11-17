@@ -5,6 +5,7 @@ export function SiteHeader() {
     <header className="wrap flex items-center justify-between gap-4 py-4 sm:py-5">
       <Link
         href="/"
+        translate="no"
         className="font-serif text-[1.375rem] font-semibold tracking-[-0.02em] leading-none py-2"
       >
         Four Views

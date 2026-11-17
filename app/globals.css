@@ -12,6 +12,7 @@
   --ink: oklch(0.2 0.012 260);
   --ink-2: oklch(0.42 0.012 260);
   --line: oklch(0.88 0.006 95);
+  --tap: oklch(0.2 0.012 260 / 0.12);
 
   /* tradition accents: L and C fixed, hue from lib/traditions.ts */
   --acc-l: 0.5;
@@ -32,6 +33,7 @@
     --ink: oklch(0.94 0.004 95);
     --ink-2: oklch(0.78 0.006 95);
     --line: oklch(0.3 0.008 260);
+    --tap: oklch(0.94 0.004 95 / 0.12);
 
     --acc-l: 0.8;
     --acc-c: 0.09;
@@ -58,6 +60,17 @@
 html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  -webkit-tap-highlight-color: var(--tap);
+}
+
+a,
+button,
+input,
+select,
+label,
+summary,
+[role="tab"] {
+  touch-action: manipulation;
 }
 
 body {
@@ -77,10 +90,15 @@ body {
   color: var(--paper);
 }
 
-:focus-visible {
-  outline: 2px solid var(--ink);
-  outline-offset: 3px;
-  border-radius: 2px;
+/* In the base layer so component and utility rules (pill radii on .btn,
+   .field, .seg-btn, rounded-*; .field and focus-visible:outline-offset-*)
+   can refine it instead of being overridden by an unlayered rule. */
+@layer base {
+  :focus-visible {
+    outline: 2px solid var(--ink);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
 }
 
 a {

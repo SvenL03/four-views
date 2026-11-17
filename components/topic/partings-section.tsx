@@ -156,7 +156,7 @@ export function PartingsSection({ partings, ids }: { partings: Parting[]; ids: T
                     <dt className="ui font-semibold">
                       <TraditionLabel id={id} short={mode === "two"} />
                     </dt>
-                    <dd className={cn("mt-1.5 leading-normal", mode === "two" ? "text-base" : "text-[1.125rem]")}>
+                    <dd className={cn("mt-1.5 leading-normal break-words", mode === "two" ? "text-base" : "text-[1.125rem]")}>
                       {answerFor(p, id)}
                     </dd>
                   </div>

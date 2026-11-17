@@ -5,7 +5,7 @@ export function SiteFooter() {
   return (
     <footer className="bg-paper-2">
       <div className="wrap pt-16 pb-12 sm:pt-20">
-        <p {...rv()} className="font-serif font-semibold tracking-[-0.035em] leading-[0.9] text-[clamp(3.5rem,13vw,11rem)]">
+        <p {...rv()} translate="no" className="font-serif font-semibold tracking-[-0.035em] leading-[0.9] text-[clamp(3.5rem,13vw,11rem)]">
           Four Views
         </p>
         <div className="mt-10 grid gap-8 sm:grid-cols-[1fr_auto] sm:items-end">

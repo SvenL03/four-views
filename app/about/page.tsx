@@ -19,7 +19,7 @@ const STEPS = [
   },
   {
     h: "Each one speaks in its own words",
-    p: "A view is written the way a thoughtful adherent would state it, in that tradition's vocabulary and at its strongest, never in its critics' terms. Where a tradition is divided, the page says so.",
+    p: "A view is written the way a thoughtful adherent would state it, in that tradition’s vocabulary and at its strongest, never in its critics’ terms. Where a tradition is divided, the page says so.",
   },
   {
     h: "From its own documents",

@@ -84,7 +84,7 @@ export function ViewArticle({ view, headingLevel = 3 }: { view: View; headingLev
             {view.keyTexts.map((k) => (
               <li key={k.ref} className="grid grid-cols-[auto_1fr] gap-x-3">
                 <BookOpen className="tr-text mt-[0.35rem] size-4" aria-hidden="true" />
-                <span>
+                <span className="min-w-0 break-words">
                   <a
                     href={scriptureUrl(k.ref, t.translation)}
                     target="_blank"
@@ -112,7 +112,7 @@ export function ViewArticle({ view, headingLevel = 3 }: { view: View; headingLev
               className="grid grid-cols-[1.75rem_1fr] gap-x-2 -mx-2 px-2 py-2"
             >
               <span className="ui tr-text font-semibold tabular-nums pt-[0.15rem]">{i + 1}</span>
-              <span className="ui text-base">
+              <span className="ui min-w-0 text-base break-words">
                 <a
                   href={s.url}
                   target="_blank"

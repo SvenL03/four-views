@@ -13,11 +13,15 @@ type Notice =
   | { kind: "limited"; message: string; retryAfterSeconds: number }
   | { kind: "error"; message: string };
 
+function about(n: number, unit: string): string {
+  return `about ${n} ${unit}${n === 1 ? "" : "s"}`;
+}
+
 function waitText(seconds: number): string {
-  if (seconds < 90) return `about ${Math.max(1, Math.round(seconds))} seconds`;
+  if (seconds < 90) return about(Math.max(1, Math.round(seconds)), "second");
   const min = Math.round(seconds / 60);
-  if (min < 90) return `about ${min} minutes`;
-  return `about ${Math.round(min / 60)} hours`;
+  if (min < 90) return about(min, "minute");
+  return about(Math.round(min / 60), "hour");
 }
 
 export async function requestTopic(query: string): Promise<CreateTopicResponse> {
@@ -29,9 +33,9 @@ export async function requestTopic(query: string): Promise<CreateTopicResponse> 
     });
     const data = (await res.json().catch(() => null)) as CreateTopicResponse | null;
     if (data && typeof data === "object" && "status" in data) return data;
-    return { status: "error", message: "The server sent an answer we couldn't read. Try again in a moment." };
+    return { status: "error", message: "The server sent an answer we couldn’t read. Try again in a moment." };
   } catch {
-    return { status: "error", message: "We couldn't reach the server. Check your connection and try again." };
+    return { status: "error", message: "We couldn’t reach the server. Check your connection and try again." };
   }
 }
 
@@ -44,7 +48,11 @@ export function TopicSearch({ autoFocus = false, stacked = false }: { autoFocus?
 
   async function submit(q: string) {
     const text = q.trim();
-    if (text.length < 2 || busy) return;
+    if (busy) return;
+    if (text.length < 2) {
+      inputRef.current?.focus();
+      return;
+    }
     setBusy(true);
     setNotice(null);
     const r = await requestTopic(text);
@@ -101,7 +109,7 @@ export function TopicSearch({ autoFocus = false, stacked = false }: { autoFocus?
           {busy ? (
             <>
               <LoaderCircle className="size-5 animate-spin motion-reduce:animate-none" aria-hidden="true" />
-              Opening
+              Opening…
             </>
           ) : (
             <>

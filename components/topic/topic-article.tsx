@@ -69,7 +69,10 @@ export function TopicArticle({ topic }: { topic: Topic }) {
                 How to read this page
               </a>
             </p>
-            <ShareBar title={`${topic.title}: four Christian views`} text={topic.question} />
+            <ShareBar
+            title={/[?!]$/.test(topic.title) ? `${topic.title} Four Christian views` : `${topic.title}: four Christian views`}
+            text={topic.question}
+          />
           </div>
         </div>
 
@@ -151,7 +154,7 @@ export function TopicArticle({ topic }: { topic: Topic }) {
           <div className="mt-12 grid gap-14 lg:gap-16">
             {s.terms.map((term) => (
               <div key={term.term} {...rv(1)} className="grid gap-6 lg:grid-cols-[minmax(0,4fr)_minmax(0,8fr)] lg:gap-16">
-                <h3 className="font-serif font-semibold tracking-[-0.02em] leading-[1.05] text-[clamp(1.625rem,2.6vw,2.25rem)] text-balance">
+                <h3 className="font-serif font-semibold tracking-[-0.02em] leading-[1.05] text-[clamp(1.625rem,2.6vw,2.25rem)] text-balance break-words">
                   {term.term}
                 </h3>
                 <dl className="grid gap-x-10 gap-y-6 sm:grid-cols-2">
@@ -227,11 +230,13 @@ export function TopicArticle({ topic }: { topic: Topic }) {
               Pass it on
             </h2>
             <p className="mt-2 measure">
-              Send this to someone you disagree with about {topic.title.toLowerCase()}, and read it
-              together.
+              Send this to someone you disagree with, and read it together.
             </p>
           </div>
-          <ShareBar title={`${topic.title}: four Christian views`} text={topic.question} />
+          <ShareBar
+            title={/[?!]$/.test(topic.title) ? `${topic.title} Four Christian views` : `${topic.title}: four Christian views`}
+            text={topic.question}
+          />
         </div>
       </section>
     </article>
@@ -246,7 +251,7 @@ function ReadingItem({
   showTraditions?: boolean;
 }) {
   return (
-    <li className="min-w-0">
+    <li className="min-w-0 break-words">
       <p className="font-serif text-[1.25rem] font-semibold leading-snug">
         {r.url ? (
           <a href={r.url} target="_blank" rel="noopener noreferrer" className="link">

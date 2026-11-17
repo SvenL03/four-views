@@ -18,7 +18,7 @@ export default async function Home() {
       <section className="wrap pt-10 pb-20 sm:pt-16 sm:pb-28">
         <div className="grid gap-12 lg:grid-cols-[minmax(0,7fr)_minmax(0,5fr)] lg:items-end lg:gap-16">
           <div>
-            <h1 className="display rise">Four Views</h1>
+            <h1 className="display rise" translate="no">Four Views</h1>
             <p className="statement measure mt-8 rise rise-2">
               One question, four American Christian traditions, each in its own words and with its
               own sources.

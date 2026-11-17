@@ -65,12 +65,12 @@ async function fetchTopic(slug: string): Promise<GetTopicResponse> {
     if (res.status === 404) return { status: "missing" };
     return {
       status: "error",
-      message: "The server sent an answer we couldn't read.",
+      message: "The server sent an answer we couldn’t read.",
     };
   } catch {
     return {
       status: "error",
-      message: "We couldn't reach the server. Check your connection.",
+      message: "We couldn’t reach the server. Check your connection.",
     };
   }
 }
@@ -250,7 +250,7 @@ export function TopicPending({
   const views = (partial?.views ?? []) as View[];
 
   return (
-    <div className="wrap pt-8 pb-28 sm:pt-14 sm:pb-40" aria-busy="true">
+    <div className="wrap pt-8 pb-28 sm:pt-14 sm:pb-40">
       <h1 className="title max-w-[16ch]">{partial?.title ?? title}</h1>
       <div className="mt-10 grid gap-10 lg:grid-cols-[minmax(0,7fr)_minmax(0,5fr)] lg:gap-16">
         <div>
@@ -266,13 +266,13 @@ export function TopicPending({
           )}
         </div>
         <div>
-          <p className="ui flex items-center gap-3 font-semibold" role="status">
+          <p className="ui flex items-center gap-3 font-semibold tabular-nums" role="status">
             <LoaderCircle
               className="size-5 animate-spin motion-reduce:animate-none"
               aria-hidden="true"
             />
             {state.kind === "loading"
-              ? "Checking"
+              ? "Checking…"
               : `Writing the views: ${done} of 4 done`}
           </p>
           <div className="mt-4 grid grid-cols-4 gap-1.5" aria-hidden="true">
@@ -297,7 +297,7 @@ export function TopicPending({
       </div>
 
       {views.length > 0 && (
-        <section aria-labelledby="partial-h" className="mt-24">
+        <section aria-labelledby="partial-h" aria-busy="true" className="mt-24">
           <h2 id="partial-h" className="h2">
             Finished so far
           </h2>

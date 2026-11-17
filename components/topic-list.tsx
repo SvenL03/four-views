@@ -19,7 +19,7 @@ export function TopicList({ topics }: { topics: TopicSummary[] }) {
             href={`/t/${t.slug}`}
             className="grid gap-x-12 gap-y-4 py-8 sm:py-10 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] transition-colors hover:bg-paper-2 -mx-4 px-4 rounded-[1.25rem]"
           >
-            <h3 className="font-serif font-semibold tracking-[-0.025em] leading-[1.02] text-[clamp(2rem,4.2vw,3.5rem)] text-balance group-hover:underline decoration-2 underline-offset-[0.12em]">
+            <h3 className="font-serif font-semibold tracking-[-0.025em] leading-[1.02] text-[clamp(2rem,4.2vw,3.5rem)] text-balance break-words group-hover:underline decoration-2 underline-offset-[0.12em]">
               {t.title}
             </h3>
             <span className="grid gap-4 content-start lg:pt-2">
