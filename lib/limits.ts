@@ -33,7 +33,11 @@ export function dailyGenerationCap(): number {
 }
 /** Held against the cap while a topic is being written; replaced by the real cost when it finishes. */
 export function generationEstimateUsd(): number {
-  return envNumber("GENERATION_COST_ESTIMATE_USD", 0.3);
+  // Defaults follow the engine's estimated cost per new topic (docs/REWORK-PLAN.md › Before and after).
+  const engine = process.env.ENGINE;
+  const fallback =
+    engine === "mock" ? 0 : engine === "perplexity" || !process.env.ANTHROPIC_API_KEY ? 0.2 : 1.5;
+  return envNumber("GENERATION_COST_ESTIMATE_USD", fallback);
 }
 
 /** Paid generation may only run when its cost can be tracked (a database), or with the free mock engine. */
