@@ -4,7 +4,7 @@
 
 ## Preview
 
-- **URL:** https://four-views-vfpgzvghf-sven-pro-services.vercel.app (private: Vercel login required).
+- **URL (stable, always the latest push of the branch):** https://four-views-git-rework-2026-11-sven-pro-services.vercel.app (private: Vercel login required).
 - **Without a Vercel login:** a 23-hour share link is in the group's notes folder, in `four-views-preview-access.md`. It's kept out of git because it works as an access token. Open it once; it sets a cookie for every path on that deployment.
 
 ## How to exercise the main flow
@@ -82,4 +82,4 @@
 - **Sites that block automated reading.** The Assemblies of God (ag.org), ELCA and the Nazarene Articles of Faith page couldn't be checked automatically, so the AG appears less than its size warrants, and Pentecostal views cite the Church of God (Cleveland) and the IPHC instead.
 - **Reading lists.** Further-reading books listed without a URL weren't opened; their titles and editors come from the writers' knowledge.
 - **Removed feature.** The old "write as a named theologian" box is gone: it produced invented first-person speech for real people.
-- **Design review.** The `web-design-guidelines` review runs next, after this file.
+- **Design review.** The `web-design-guidelines` review ran at 7:46 PM: 25 fixes applied (focus ring, touch handling, long-text wrapping, typography, `aria-busy` scope), 16 left with reasons (e.g. no contact channel for "Tell us what to fix" yet, view and compare state not in the URL).
