@@ -2,9 +2,10 @@
 
 ## Status (keep current)
 
-- **Updated:** 2026-11-16 7:25 PM ET
+- **Updated:** 2026-11-16 7:35 PM ET
 - **Branch:** `rework-2026-11` (pushed). Production (`four-views.vercel.app`, from `main`) is untouched.
-- **Now:** six helpers working in parallel (3 writing and source-checking the six test topics, UI, engine, cache/limits/share). Integrator merges, builds, deploys a private preview, walks it at desktop and phone width.
+- **Done and committed:** the six test topics (all pass `scripts/check-topics.ts`, every source opened by the writer, 6 more citations re-opened by the integrator); engine (Claude + Perplexity adapters, validation, guard, mock; 19 smoke checks pass); Neon database (free plan, tables made), per-visitor limits, daily spend cap, topics API, share images, sitemap. Build passes; an early private preview deployed and its API behaves (ready / paused / rejected / missing / search / OG image / sitemap).
+- **Now:** UI helper finishing the comparison layout; then deploy, walk at desktop and phone width, write `READY-FOR-REVIEW.md`.
 - **Engine:** no working key. Both Perplexity keys are dead and Vercel AI Gateway needs a card on file. The app works without one (checked, pre-written topics; new topics show a friendly "paused" state). Decision packaged in `DECISIONS-FOR-SVEN.md`.
 - **Pick up from here:** contract is `lib/schema.ts` (topic shape), `lib/traditions.ts`, `lib/engine/types.ts`, `lib/api-contract.ts`. Check topics with `node scripts/check-topics.ts`.
 
