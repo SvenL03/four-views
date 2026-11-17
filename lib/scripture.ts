@@ -48,6 +48,7 @@ export function checkScriptureRef(ref: string): string | null {
     book = LOOKUP.get(key);
     if (!book) return `unknown book "${m[1].trim()}"`;
     const chapter = Number(m[2]);
+    if (book[1] === 1 && !m[3]) continue; // "Jude 3" = verse 3 of a one-chapter book
     if (chapter < 1 || chapter > book[1]) return `${book[0]} has ${book[1]} chapters`;
     const endChapter = m[5] ? Number(m[4]) : m[6] ? Number(m[6]) : undefined;
     if (endChapter && endChapter > book[1]) return `${book[0]} has ${book[1]} chapters`;
