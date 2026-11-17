@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       robots: { index: false, follow: true },
     };
   }
-  const title = `${topic.title}: four Christian views`;
+  const title = /[?!]$/.test(topic.title) ? `${topic.title} Four Christian views` : `${topic.title}: four Christian views`;
   return {
     title,
     description: topic.question,

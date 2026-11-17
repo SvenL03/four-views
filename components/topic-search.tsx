@@ -139,7 +139,7 @@ export function TopicSearch({ autoFocus = false, stacked = false }: { autoFocus?
             {notice.kind === "paused" && (
               <>
                 <p>
-                  New topics are paused for now. {notice.message}
+                  {notice.message}
                 </p>
                 {notice.suggestions.length > 0 && (
                   <>
