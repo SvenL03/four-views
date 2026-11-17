@@ -1,0 +1,508 @@
+{
+  "slug": "will-my-dog-be-in-heaven",
+  "title": "Will My Dog Be in Heaven?",
+  "question": "Do animals, including the pets we have loved, have a place in God's new creation?",
+  "intro": "Almost everyone who loses a dog or cat eventually asks whether they will see that animal again. The Bible promises a renewed creation but says little directly about individual animals, so Christian traditions answer from their wider teaching about creation, the soul and God's character. Most have no official position, and their teachers differ in how much they are willing to say.",
+  "traditionIds": [
+    "reformed",
+    "arminian",
+    "conservative_evangelical",
+    "mainline_liberal"
+  ],
+  "whyTheseFour": "Wesleyans have the classic sermon arguing that animals will be delivered, and conservative evangelicals have the best-known modern case for seeing pets again; the Reformed tradition shows how confessional restraint and human uniqueness shape a cautious hope, and the mainline answers mainly through prayer and liturgy for grieving pet owners.",
+  "views": [
+    {
+      "traditionId": "reformed",
+      "headline": "God will renew the whole creation, animals included, but Scripture does not say whether the particular animals we loved will return, so Reformed teachers hope with restraint and point first to Christ.",
+      "body": [
+        "Reformed Christians begin with creation's renewal. Romans 8 says the creation now groaning will be set free when God's children are revealed. John Calvin read this to mean every creature will share a better condition suited to its nature, while warning that it is not right to inquire too curiously into what beasts and plants will become [1]. Michael Reeves, answering for Ligonier Ministries, adds that God does not throw away what he called good; the risen body of Jesus is the firstfruits of the renewed heavens and earth [2].",
+        "The Westminster Confession teaches that God made human beings, male and female, in his image with reasonable and immortal souls, and its chapter on life after death speaks of human souls going to God [3]. So Reformed writers do not assume a pet's soul is in heaven now; the question is whether God will remake animals in the new creation, the renewed world after Christ returns.",
+        "In a tract published by the Orthodox Presbyterian Church, Larry Wilson says the Bible neither teaches nor denies that we will see our pets. Animals did not sin, God's covenant with Noah embraced them, and through Christ the whole creation will share the freedom of God's children. He would like to hope so but honestly does not know, and he turns the reader to whether they know Christ [4]. Dutch Reformed pastor A. N. Hendriks hopes for dogs on the new earth, though he thinks talk of my dog belongs to this passing age; there, no creature will shed a tear [5]."
+      ],
+      "keyTexts": [
+        {
+          "ref": "Rom 8:19-22",
+          "why": "The creation itself will be freed from its bondage to decay, which Calvin applies to every creature according to its nature."
+        },
+        {
+          "ref": "Gen 1:26-27",
+          "why": "Only human beings are made in God's image, the basis for the Confession's teaching on the human soul."
+        },
+        {
+          "ref": "Gen 9:9-10",
+          "why": "God's covenant after the flood includes every living creature, not only Noah's family."
+        },
+        {
+          "ref": "Eph 1:10",
+          "why": "God's plan is to unite all things in heaven and on earth in Christ."
+        }
+      ],
+      "sources": [
+        {
+          "id": "calvin-romans",
+          "title": "Commentary on the Epistle to the Romans",
+          "author": "John Calvin",
+          "publisher": "Christian Classics Ethereal Library",
+          "year": 1540,
+          "url": "https://ccel.org/ccel/calvin/calcom38.xii.vi.html",
+          "kind": "book",
+          "locator": "on Romans 8:21"
+        },
+        {
+          "id": "ligonier-reeves",
+          "title": "Is this world doomed to destruction, or will God renew it in the end?",
+          "author": "Michael Reeves",
+          "publisher": "Ligonier Ministries",
+          "url": "https://learn.ligonier.org/qas/is-this-world-a-sinking-ship-or-is-there-still-hope-for-its-future",
+          "kind": "web"
+        },
+        {
+          "id": "wcf",
+          "title": "Westminster Confession of Faith",
+          "publisher": "Orthodox Presbyterian Church",
+          "year": 1647,
+          "url": "https://opc.org/wcf.html",
+          "kind": "confession",
+          "locator": "ch. 4.2; ch. 32.1"
+        },
+        {
+          "id": "opc-pet",
+          "title": "Will You See Your Pet in Heaven?",
+          "author": "Larry Wilson",
+          "publisher": "Orthodox Presbyterian Church",
+          "url": "https://opc.org/cce/tracts/pet.html",
+          "kind": "article"
+        },
+        {
+          "id": "hendriks",
+          "title": "The Saviour of Man and Beast: Will I see my cat or dog in heaven?",
+          "author": "A. N. Hendriks",
+          "publisher": "Christian Library (from Nader Bekeken, translated by Elizabeth DeWit)",
+          "year": 2014,
+          "url": "https://www.christianstudylibrary.org/node/56235",
+          "kind": "article"
+        }
+      ],
+      "consensus": "no-official-position",
+      "consensusNote": "No Reformed confession or catechism addresses animals in the new creation. Reformed writers range from Calvin's caution about speculation, and those who stress that only humans bear God's image, to pastors such as Wilson and Hendriks who openly hope to see animals, and perhaps their own, in the renewed world."
+    },
+    {
+      "traditionId": "arminian",
+      "headline": "John Wesley taught that the animals who suffer under the curse will be delivered and richly repaid when God makes all things new, a hope many Wesleyans still hold while admitting part of it is conjecture.",
+      "body": [
+        "The Wesleyan answer rests largely on John Wesley's late sermon The General Deliverance, preached on Romans 8:19-22. Wesley argued that animals, which he called the brute creation, were happy in Eden, fell into suffering because of human sin, and will be delivered, not annihilated, when God makes all things new. The promise that God will wipe away all tears, he said, applies to every creature according to its capacity [1]. His notes on Romans read Paul the same way: every kind of visible creature shares in the coming refreshment, because destruction is not deliverance [2].",
+        "Wesley grounded this in God's justice and mercy. Animals suffer without having sinned, so he believed something better remains for them after death, a full amends for what they endured. He even offered, openly labeled as a conjecture, that God might raise them to be capable of knowing and loving him. Yet he insisted that God regards human beings far more, and that the practical fruit of the doctrine is to soften our hearts toward animals now [1].",
+        "Wesleyan writers today carry this forward. Mark K. Olson, writing for the Society of Evangelical Arminians, notes that Wesley came to believe animals have souls and will be redeemed with God's people in the new creation [3]. Ryan Danker, president of the Charles Wesley Society, writing after his own cat died, concludes that our pets will be part of God's new creation, made whole and free in God's time, and that Wesleyans are called to care for animals in the meantime [4]."
+      ],
+      "keyTexts": [
+        {
+          "ref": "Rom 8:19-22",
+          "why": "Wesley's sermon text: the whole creation, animals included, waits to be delivered from corruption."
+        },
+        {
+          "ref": "Rev 21:4-5",
+          "why": "No more death, sorrow or pain, which Wesley applies to every creature according to its capacity."
+        },
+        {
+          "ref": "Isa 11:6-9",
+          "why": "The wolf and the lamb at peace: Wesley's picture of animals restored without cruelty."
+        },
+        {
+          "ref": "Ps 145:9",
+          "why": "God's mercy is over all his works, the theme Wesley draws out for both animals and people."
+        }
+      ],
+      "sources": [
+        {
+          "id": "wesley-60",
+          "title": "The General Deliverance (Sermon 60)",
+          "author": "John Wesley",
+          "publisher": "Wesley Center Online, Northwest Nazarene University",
+          "url": "https://wesley.nnu.edu/john-wesley/the-sermons-of-john-wesley-1872-edition/sermon-60-the-general-deliverance/",
+          "kind": "sermon",
+          "locator": "Sermon 60, III.1-10"
+        },
+        {
+          "id": "wesley-notes-rom",
+          "title": "Explanatory Notes upon the New Testament: Romans",
+          "author": "John Wesley",
+          "publisher": "Wesley Center Online, Northwest Nazarene University",
+          "year": 1755,
+          "url": "https://wesley.nnu.edu/john-wesley/john-wesleys-notes-on-the-bible/notes-on-st-pauls-epistle-to-the-romans/",
+          "kind": "book",
+          "locator": "Romans 8:19-21"
+        },
+        {
+          "id": "olson",
+          "title": "John Wesley on Animal Redemption",
+          "author": "Mark K. Olson",
+          "publisher": "Society of Evangelical Arminians",
+          "year": 2026,
+          "url": "https://evangelicalarminians.org/mark-k-olson-john-wesley-on-animal-redemption/",
+          "kind": "article"
+        },
+        {
+          "id": "danker",
+          "title": "All Cats (and Dogs) Go to Heaven",
+          "author": "Ryan Nicholas Danker",
+          "publisher": "Firebrand Magazine",
+          "year": 2021,
+          "url": "https://firebrandmag.com/articles/all-cats-and-dogs-go-to-heaven",
+          "kind": "article"
+        }
+      ],
+      "consensus": "no-official-position",
+      "consensusNote": "No Wesleyan or Methodist body has made this a doctrine. The view comes from Wesley's own sermon, which he partly framed as conjecture; Wesleyan writers who take up the question mostly share his hope, while others simply leave it with God."
+    },
+    {
+      "traditionId": "conservative_evangelical",
+      "headline": "Animals will fill the new earth, and many evangelical teachers think God may well restore the pets we loved, though Scripture gives no direct promise.",
+      "body": [
+        "Evangelicals who write on this begin with the New Earth: the final home of God's people is this world redeemed and restored, the new heavens and new earth of Isaiah 65 and Revelation 21. Randy Alcorn argues that Isaiah shows animals living there, that Revelation shows horses in heaven, and that a restored Eden without animals would be a strange omission [1].",
+        "On pets, Alcorn reasons from Romans 8. The creation suffered because of human sin and will be freed when God's people are raised, so at least some animals who suffered on the old earth may be made whole on the new. He keeps the distinction clear: animals are not made in God's image and did not sin, so Christ did not die for them as he did for people, yet his redemption reaches everything human sin brought down [2]. He tells grieving parents not to correct children who pray to see their dog again, since there is scriptural reason to think God may answer, while the answer remains God's [3].",
+        "Billy Graham's ministry answered a widow grieving her dog in similar terms. Heaven will be perfect happiness, and if we need animals there for that, God will provide them; many scholars, it adds, expect Isaiah's peaceable animals in the new earth. But heaven's chief glory, the answer stresses, is being with God and with Jesus Christ [4]."
+      ],
+      "keyTexts": [
+        {
+          "ref": "Isa 65:17-25",
+          "why": "The new heavens and new earth, where the wolf and the lamb feed together."
+        },
+        {
+          "ref": "Rom 8:19-23",
+          "why": "Creation's freedom is tied to the resurrection of God's people, the hinge of Alcorn's argument."
+        },
+        {
+          "ref": "Rev 21:5",
+          "why": "Christ makes all things new, which Alcorn reads as old things renewed, animals included."
+        },
+        {
+          "ref": "Ps 104:29-30",
+          "why": "God takes away the breath of his creatures and sends his Spirit to create and renew, which Alcorn applies to animals."
+        }
+      ],
+      "sources": [
+        {
+          "id": "alcorn-2010",
+          "title": "Will There Be Animals in Heaven?",
+          "author": "Randy Alcorn",
+          "publisher": "Eternal Perspective Ministries",
+          "year": 2010,
+          "url": "https://www.epm.org/resources/2010/Feb/3/will-there-be-animals-heaven/",
+          "kind": "article"
+        },
+        {
+          "id": "alcorn-heaven-40",
+          "title": "Will Animals, Including Our Pets, Live Again?",
+          "author": "Randy Alcorn",
+          "publisher": "Eternal Perspective Ministries",
+          "year": 2021,
+          "url": "https://www.epm.org/resources/2021/Mar/9/animals-pets-live-again/",
+          "kind": "book",
+          "locator": "Heaven, ch. 40"
+        },
+        {
+          "id": "alcorn-2005",
+          "title": "Our Beloved Dog Recently Died. Should I Correct My Kids When They Say They Can't Wait to Play with Him Again in Heaven?",
+          "author": "Randy Alcorn",
+          "publisher": "Eternal Perspective Ministries",
+          "year": 2005,
+          "url": "https://www.epm.org/resources/2005/Jun/5/our-beloved-dog-recently-died-should-i-correct-my-/",
+          "kind": "article"
+        },
+        {
+          "id": "bgea",
+          "title": "Will there be animals in Heaven?",
+          "publisher": "Billy Graham Evangelistic Association",
+          "year": 2013,
+          "url": "https://billygraham.org.uk/answer/i-suppose-youve-been-asked-this-before-but-will-there-be-animals-in-heaven/",
+          "kind": "web"
+        }
+      ],
+      "consensus": "no-official-position",
+      "consensusNote": "Evangelical statements of faith do not address the question. Popular teachers such as Alcorn and Graham lean hopeful; other evangelical pastors say Scripture is simply silent about individual animals, and some doubt animals continue after death at all."
+    },
+    {
+      "traditionId": "mainline_liberal",
+      "headline": "Mainline churches make no doctrinal ruling, but their worship now names the grief of losing an animal and commends the creature to God's care, within a hope that the whole creation will be renewed.",
+      "body": [
+        "Mainline Protestants usually meet this question in pastoral care and worship rather than in doctrine. In 2012 the Episcopal Church's General Convention passed Resolution A054, making new rites and prayers available for people who care for animals, including for when a companion animal dies or retires, after years of requests from church members [1].",
+        "The Episcopal service at the loss of a beloved animal gives thanks for the animal as a source of love, affection and joy, and asks for faith to commit this creature of God's own making to God's care. Its readings include Isaiah's peaceable kingdom, Paul's groaning creation in Romans 8, and Psalm 104, where God sends his Spirit and renews the face of the ground. It closes by confessing that all life is a gift from God [2]. The rite does not say where the animal is; it entrusts the animal to God.",
+        "Mainline writers carry that same trust into theology. In the Christian Century, Rodney Clapp argues that the coming new creation will be full of animal life, but says frankly that he cannot settle whether particular pets will be there, though he would like to meet his own collie again [3]. Jean McCurdy Meade, writing in The Living Church, agrees that Scripture does not teach the eternal fate of animals, yet finds passages that show their place in God's providence, and offers a burial liturgy so that real grief can be honored [4]."
+      ],
+      "keyTexts": [
+        {
+          "ref": "Ps 104:24-30",
+          "why": "The earth is full of God's creatures; he gives and takes their breath and renews the ground, read at the loss of an animal."
+        },
+        {
+          "ref": "Isa 11:6-9",
+          "why": "The peaceable kingdom, a reading in the Episcopal rite and Clapp's picture of the new creation."
+        },
+        {
+          "ref": "Rom 8:19-25",
+          "why": "Creation waits in hope for freedom from decay, also a reading in the rite."
+        },
+        {
+          "ref": "Matt 10:29-31",
+          "why": "Not one sparrow is forgotten by God, echoed in the rite's prayers."
+        }
+      ],
+      "sources": [
+        {
+          "id": "ens-a054",
+          "title": "Convention calls for new rites, prayers for care of beloved animals",
+          "author": "Sharon Sheridan",
+          "publisher": "Episcopal News Service",
+          "year": 2012,
+          "url": "https://www.episcopalnewsservice.org/2012/07/12/new-rites-and-prayers-for-care-of-beloved-animals-approved/",
+          "kind": "article",
+          "locator": "Resolution A054"
+        },
+        {
+          "id": "episcopal-rite",
+          "title": "Service at the Loss of a Beloved Animal",
+          "publisher": "The Episcopal Church (copy hosted by Building Faith)",
+          "url": "https://buildfaith.org/wp-content/uploads/2019/06/service_at_the_loss_of_a_beloved_animal.pdf",
+          "kind": "statement"
+        },
+        {
+          "id": "clapp",
+          "title": "Animals in the kingdom",
+          "author": "Rodney Clapp",
+          "publisher": "The Christian Century",
+          "year": 2012,
+          "url": "https://www.christiancentury.org/article/2012-06/animals-kingdom",
+          "kind": "article"
+        },
+        {
+          "id": "meade",
+          "title": "On the Death of a Beloved Animal",
+          "author": "Jean McCurdy Meade",
+          "publisher": "The Living Church",
+          "year": 2020,
+          "url": "https://livingchurch.org/covenant/on-the-death-of-a-beloved-animal/",
+          "kind": "article"
+        }
+      ],
+      "consensus": "no-official-position",
+      "consensusNote": "No mainline denomination has ruled on whether animals live on after death. The Episcopal bishops deliberately made the animal rites available rather than formally authorizing them, and mainline clergy answer the question in different ways."
+    }
+  ],
+  "synthesis": {
+    "common": [
+      "Animals are good creatures of God, and God cares for them.",
+      "Romans 8 points to a creation that will be freed from decay, not thrown away.",
+      "No tradition claims Scripture directly promises that a particular pet will be raised.",
+      "Grief over an animal is real and can be brought to God."
+    ],
+    "partings": [
+      {
+        "question": "Will the particular animals we knew be raised, or will the new creation simply have animals in it?",
+        "why": "It turns on whether creation's redemption reaches individual animals, the way resurrection reaches individual people, or renews animal life in general.",
+        "answers": [
+          {
+            "traditionId": "reformed",
+            "answer": "Most Reformed teachers expect animals in the renewed creation but will not say whether particular ones return; Calvin warned against curiosity, and Wilson hopes but says he does not know."
+          },
+          {
+            "traditionId": "arminian",
+            "answer": "Wesley expected the very creatures who suffered to receive amends after death, which points to individual animals, though he did not discuss household pets as such."
+          },
+          {
+            "traditionId": "conservative_evangelical",
+            "answer": "Alcorn argues that at least some animals who suffered on the old earth must be made whole on the new, and that pets are likely among them."
+          },
+          {
+            "traditionId": "mainline_liberal",
+            "answer": "It is left open: Clapp sees room for resurrected pets but cannot say, and the Episcopal rite entrusts the animal to God without describing its future."
+          }
+        ]
+      },
+      {
+        "question": "Do animals have souls that continue after death?",
+        "why": "Each answer depends on what makes a human being unique: the image of God and an immortal soul, and whether animals share anything like it.",
+        "answers": [
+          {
+            "traditionId": "reformed",
+            "answer": "The Westminster Confession gives immortal souls to human beings made in God's image and says nothing similar of animals, so Reformed writers do not assume a pet lives on now."
+          },
+          {
+            "traditionId": "arminian",
+            "answer": "Wesley came to believe animals have souls, and he spoke of something better remaining for them after death."
+          },
+          {
+            "traditionId": "conservative_evangelical",
+            "answer": "Alcorn stresses that animals are not made in God's image, and rests his hope not on an animal soul but on God's power to re-create a pet on the new earth."
+          },
+          {
+            "traditionId": "mainline_liberal",
+            "answer": "The rite and the writers take no position on animal souls; they speak of God who gives breath and renews the face of the earth."
+          }
+        ]
+      },
+      {
+        "question": "How much should Christians say where Scripture is quiet?",
+        "why": "Traditions weigh differently the duty of restraint against reasoning from God's character to likely conclusions.",
+        "answers": [
+          {
+            "traditionId": "reformed",
+            "answer": "Say little: Calvin urged being content to know that nothing in the renewed world will be deformed or fading."
+          },
+          {
+            "traditionId": "arminian",
+            "answer": "Reason boldly from God's justice and mercy, as Wesley did, while marking the boldest ideas as conjecture."
+          },
+          {
+            "traditionId": "conservative_evangelical",
+            "answer": "Reason from God's generosity and the parallel in Romans 8 to what is likely, without making it a promise."
+          },
+          {
+            "traditionId": "mainline_liberal",
+            "answer": "Answer in prayer and lament more than doctrine, entrusting the animal to God."
+          }
+        ]
+      },
+      {
+        "question": "What is the most important thing to say to a grieving pet owner?",
+        "why": "Each tradition's center of gravity shows in where it turns the conversation.",
+        "answers": [
+          {
+            "traditionId": "reformed",
+            "answer": "Wilson's tract turns to the larger question: you will not see your pet in heaven unless you go there yourself, through Christ."
+          },
+          {
+            "traditionId": "arminian",
+            "answer": "Wesley says God's care for animals shows how much more he loves people, and should make us merciful to animals now."
+          },
+          {
+            "traditionId": "conservative_evangelical",
+            "answer": "Graham's answer says heaven will be perfect happiness, and its chief joy is being with Christ."
+          },
+          {
+            "traditionId": "mainline_liberal",
+            "answer": "The church gives thanks for the animal, grieves with its people, and prays for wisdom to care for all creatures."
+          }
+        ]
+      }
+    ],
+    "terms": [
+      {
+        "term": "Heaven",
+        "meanings": [
+          {
+            "traditionId": "reformed",
+            "meaning": "Where the souls of believers are with God now; the final hope is the renewed heavens and earth after Christ returns."
+          },
+          {
+            "traditionId": "arminian",
+            "meaning": "In Wesley's sermon, the new heavens and new earth where every creature is free of pain."
+          },
+          {
+            "traditionId": "conservative_evangelical",
+            "meaning": "Alcorn distinguishes the present heaven from the New Earth, the physical final home where animals will live."
+          },
+          {
+            "traditionId": "mainline_liberal",
+            "meaning": "For Clapp, the new creation in which the material world is taken up into God's work rather than left behind."
+          }
+        ]
+      },
+      {
+        "term": "Redemption of creation",
+        "meanings": [
+          {
+            "traditionId": "reformed",
+            "meaning": "God restores the fallen world with mankind, each creature sharing a better condition according to its nature."
+          },
+          {
+            "traditionId": "arminian",
+            "meaning": "The general deliverance: animals freed from the bondage of corruption and repaid for their suffering."
+          },
+          {
+            "traditionId": "conservative_evangelical",
+            "meaning": "Christ's death for humanity purchases the renewal of everything human sin brought down, animals included, though he did not die for animals as for people."
+          },
+          {
+            "traditionId": "mainline_liberal",
+            "meaning": "God's renewal of all life, which the church confesses as interwoven and a gift from God."
+          }
+        ]
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "The General Deliverance (Sermon 60)",
+        "author": "John Wesley",
+        "url": "https://wesley.nnu.edu/john-wesley/the-sermons-of-john-wesley-1872-edition/sermon-60-the-general-deliverance/",
+        "note": "The classic Wesleyan case that animals will be delivered and repaid in the new creation.",
+        "traditionIds": [
+          "arminian"
+        ]
+      },
+      {
+        "title": "Heaven, ch. 40: Will Animals, Including Our Pets, Live Again?",
+        "author": "Randy Alcorn",
+        "url": "https://www.epm.org/resources/2021/Mar/9/animals-pets-live-again/",
+        "note": "The best-known evangelical argument that animals, and probably pets, will be on the New Earth.",
+        "traditionIds": [
+          "conservative_evangelical"
+        ]
+      },
+      {
+        "title": "Will You See Your Pet in Heaven?",
+        "author": "Larry Wilson",
+        "url": "https://opc.org/cce/tracts/pet.html",
+        "note": "A short, honest Reformed tract for grieving pet owners.",
+        "traditionIds": [
+          "reformed"
+        ]
+      },
+      {
+        "title": "Commentary on Romans, on 8:19-22",
+        "author": "John Calvin",
+        "url": "https://ccel.org/ccel/calvin/calcom38.xii.vi.html",
+        "note": "The Reformed starting point: creation renewed, with a warning against curiosity about animals.",
+        "traditionIds": [
+          "reformed"
+        ]
+      },
+      {
+        "title": "Animals in the kingdom",
+        "author": "Rodney Clapp",
+        "url": "https://www.christiancentury.org/article/2012-06/animals-kingdom",
+        "note": "A mainline essay that expects animals in the new creation and leaves pets an open question.",
+        "traditionIds": [
+          "mainline_liberal"
+        ]
+      },
+      {
+        "title": "Service at the Loss of a Beloved Animal",
+        "author": "The Episcopal Church",
+        "url": "https://buildfaith.org/wp-content/uploads/2019/06/service_at_the_loss_of_a_beloved_animal.pdf",
+        "note": "The rite many mainline congregations use when a companion animal dies.",
+        "traditionIds": [
+          "mainline_liberal"
+        ]
+      },
+      {
+        "title": "The Problem of Pain, ch. 9 (Animal Pain)",
+        "author": "C. S. Lewis",
+        "note": "An Anglican layman's reflection on animal suffering, suggesting the bond between a tame animal and its master may carry into heaven; read across all four traditions.",
+        "traditionIds": [
+          "reformed",
+          "arminian",
+          "conservative_evangelical",
+          "mainline_liberal"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "version": 2,
+    "generatedAt": "2026-11-17T00:24:27Z",
+    "engine": "seed:claude-code",
+    "model": "claude-opus-5-5",
+    "reviewed": true,
+    "reviewNotes": "Every source URL was opened with curl (checker user agent) and the paraphrased passage located in the page text. Reformed: Calvin on Rom 8:21 (CCEL) confirmed creatures share a better condition according to their nature and the warning against curious inquiry about beasts, plants and metals; Reeves Ligonier Q&A confirmed renewal not annihilation and Christ's body as firstfruits; WCF 4.2 (immortal souls, image of God) and 32.1 (souls return to God) on opc.org; Wilson OPC tract confirmed Bible neither teaches nor denies, Noah covenant, I'd like to hope so but I don't know; Hendriks confirmed hope for dogs on the new earth, my belongs to this dispensation, no animal sheds a tear. Wesleyan: Sermon 60 on Wesley Center Online, sections III.1-10 checked for deliverance not annihilation (III.1), tears wiped for every creature according to capacity (III.2), regard for man far greater (III.5), conjecture about animals becoming capable of God (III.6), amends after death (III.9), softening hearts (III.10); Notes on Romans 8:19-21 confirmed each kind according as it is capable and destruction is not deliverance; Olson (SEA, 2026) and Danker (Firebrand, 2021) confirmed as paraphrased. Evangelical: Alcorn 2010 (Isa 65:25, horses in Rev, omission argument), Alcorn 2021 page labeled Chapter 40 of Heaven (not in God's image, indirect redemption, specific animals made whole, Ps 104:30), Alcorn 2005 (don't correct kids, answer up to God); BGEA UK answer (2013) confirmed widow, perfect happiness, Isa 11, presence of God and Christ. Billy Graham's US page (billygraham.org/?p=307499) did not show the text, so the UK copy is cited without naming Graham as author. Mainline: ENS 2012 confirmed Resolution A054 and the bishops' change from authorize to make available; the rite PDF (Building Faith copy) was text-extracted and the thanksgiving, commendation to God's care, readings and closing confirmed, but I could not confirm it is word-for-word the text in the 2012 General Convention Journal; Clapp (Christian Century 2012) and Meade (Living Church 2020) confirmed. Not opened: C. S. Lewis, The Problem of Pain ch. 9 (further reading only, no URL; summary checked against Danker's article). Desiring God (Piper) pages returned 403 to automated fetches and were not used."
+  }
+}

@@ -1,0 +1,479 @@
+{
+  "slug": "the-end-times",
+  "title": "The End Times",
+  "question": "When Christ returns, will believers be taken up first, is there a thousand-year reign on earth, what part does Israel play, and how should Revelation be read?",
+  "intro": "Every Christian tradition confesses that Jesus will come again, raise the dead and make all things new. They part ways on the details: whether believers will be caught up before a time of great distress (the tribulation), what the thousand years of Revelation 20 (the millennium) describe, and whether God's promises to the nation of Israel still await an earthly fulfillment. Underneath sits a question of method: how literally to read prophecy and Revelation's visions.",
+  "traditionIds": [
+    "dispensationalist",
+    "reformed",
+    "conservative_evangelical",
+    "mainline_liberal"
+  ],
+  "whyTheseFour": "Dispensationalism gave American Christianity the pre-tribulation rapture and a future earthly kingdom centered on Israel; Reformed confessions teach one visible return and judgment, and many Reformed teachers read the millennium as Christ's present reign; the broad evangelical coalition confesses Christ's bodily return while deliberately leaving the millennium open; and mainline churches keep the creedal hope but decline any timetable, reading Revelation as a word of hope for now.",
+  "views": [
+    {
+      "traditionId": "dispensationalist",
+      "headline": "Christ will first come for His church in the rapture, then after a seven-year tribulation return to earth and reign for a thousand years from David's throne, fulfilling God's promises to national Israel.",
+      "body": [
+        "Dispensationalists read prophecy with the same consistent, literal (historical-grammatical) method they use for the rest of Scripture, so God's promises to national Israel about its land, Jerusalem and the throne of David will be kept to Israel as the prophets meant them, not absorbed into the church [3]. They see God's dealings with people as a series of stewardships, or dispensations, and the church, which began at Pentecost, as distinct from Israel [1].",
+        "The next great event in prophecy, they teach, is the rapture: Christ coming in the air to catch up living believers and raise those who have died, the blessed hope believers should always be watching for [1]. The rapture comes before the tribulation, a seven-year time of judgment on the whole earth that fulfills the seventieth week of Daniel's prophecy, while the church is in heaven [1][2].",
+        "At the end of the tribulation Christ returns visibly to the earth with His saints. He binds Satan, lifts the curse on creation, restores Israel to its land and its covenant promises, and reigns from David's throne for a thousand years (the millennium) before the last judgment and the eternal state [1][2]. On this reading Revelation 6-19 describes those future judgments and Revelation 20 the coming earthly kingdom [1][2]. For dispensational theologian Michael Vlach, that future earthly kingdom between this age and the eternal state, together with a restored Israel serving the nations, is one of the clearest lines between dispensational and covenant theology [3]."
+      ],
+      "keyTexts": [
+        {
+          "ref": "1 Thess 4:13-18",
+          "why": "Christ comes in the air to raise the dead in Christ and catch up living believers: the rapture."
+        },
+        {
+          "ref": "Dan 9:24-27",
+          "why": "Daniel's seventy weeks; the seventieth week is read as the future seven-year tribulation."
+        },
+        {
+          "ref": "Rev 20:1-7",
+          "why": "Satan bound and Christ reigning a thousand years, read as a future earthly kingdom."
+        },
+        {
+          "ref": "Ezek 37:21-28",
+          "why": "God's promise to gather Israel into its own land under a Davidic king."
+        }
+      ],
+      "sources": [
+        {
+          "id": "dts",
+          "title": "Doctrinal Statement",
+          "publisher": "Dallas Theological Seminary",
+          "url": "https://www.dts.edu/about/doctrinal-statement/",
+          "kind": "statement",
+          "locator": "Articles V, XIII, XVIII-XX"
+        },
+        {
+          "id": "tms",
+          "title": "Doctrinal Statement",
+          "publisher": "The Master's Seminary",
+          "url": "https://tms.edu/about/doctrinal-statement/",
+          "kind": "statement",
+          "locator": "Eschatology: The Rapture of the Church; The Tribulation Period; The Second Coming and Millennial Reign"
+        },
+        {
+          "id": "vlach",
+          "title": "What Are the Most Important Differences between Dispensationalism and Covenant Theology?",
+          "author": "Michael J. Vlach",
+          "year": 2017,
+          "url": "https://mikevlach.blogspot.com/2017/01/what-are-most-important-differences.html",
+          "kind": "article"
+        }
+      ],
+      "consensus": "mostly",
+      "consensusNote": "Dispensationalists agree on a future earthly millennium and a future for national Israel, and their schools' statements (such as Dallas and The Master's Seminary) teach a pre-tribulation rapture. Classic, revised and progressive dispensationalists differ on how sharply Israel and the church are distinct and how far Christ's kingdom has already begun."
+    },
+    {
+      "traditionId": "reformed",
+      "headline": "Christ will return once, bodily and visibly, to raise the dead, judge the world and renew creation; the confessions bind no millennial timetable, and many Reformed Christians read Revelation 20 as Christ's present reign.",
+      "body": [
+        "Reformed churches speak of the end in the terms of their confessions. On a day God has fixed but kept hidden, Christ will come from heaven bodily and visibly, as He ascended; the dead will be raised, the living changed, and every person will give account before His judgment seat [1][2]. The Heidelberg Catechism draws comfort from this: the judge believers await is the very Savior who already stood trial in their place and removed the curse from them [3].",
+        "The confessions deliberately bind no one to a timetable. Reformed teachers hold premillennial, postmillennial and amillennial readings of Revelation 20 (the passage about a thousand-year reign, the millennium) in good standing, as long as the confessed core stands: Christ's return in glory, the resurrection of the righteous and the wicked, the final judgment, and eternal life in the new heavens and new earth [4].",
+        "A common Reformed reading is amillennialism, which expects no separate thousand-year kingdom on earth after Christ returns. The thousand years picture the present reign of Christ and His saints: Satan was bound by Christ's triumph at the cross and resurrection, and the first resurrection is new birth in Christ or the life of believers with Him in heaven. Amillennialists commit to no fixed scenario for the last days [4]. The Westminster Confession describes the church as the whole number of the elect gathered into one under Christ, no longer confined to one nation as under the law, so Reformed teaching speaks of one people of God rather than two parallel programs [1]."
+      ],
+      "keyTexts": [
+        {
+          "ref": "Rev 20:1-6",
+          "why": "Read by amillennialists as the present reign of Christ and His saints between His two comings."
+        },
+        {
+          "ref": "John 12:31",
+          "why": "Jesus says the ruler of this world is cast out now, read as Satan's binding."
+        },
+        {
+          "ref": "Col 2:15",
+          "why": "Christ disarmed the powers at the cross."
+        },
+        {
+          "ref": "Matt 25:31-46",
+          "why": "One judgment of all nations when the Son of Man comes in glory."
+        },
+        {
+          "ref": "Eph 2:6",
+          "why": "Believers already raised and seated with Christ, one reading of the first resurrection."
+        }
+      ],
+      "sources": [
+        {
+          "id": "wcf",
+          "title": "Westminster Confession of Faith",
+          "publisher": "Orthodox Presbyterian Church",
+          "url": "https://www.opc.org/wcf.html",
+          "kind": "confession",
+          "locator": "ch. 25.1-2; ch. 33"
+        },
+        {
+          "id": "belgic",
+          "title": "Belgic Confession",
+          "publisher": "Christian Reformed Church in North America",
+          "url": "https://www.crcna.org/welcome/beliefs/confessions/belgic-confession",
+          "kind": "confession",
+          "locator": "Article 37"
+        },
+        {
+          "id": "hc",
+          "title": "Heidelberg Catechism",
+          "publisher": "Christian Reformed Church in North America",
+          "url": "https://www.crcna.org/welcome/beliefs/confessions/heidelberg-catechism",
+          "kind": "catechism",
+          "locator": "Q&A 52"
+        },
+        {
+          "id": "pratt",
+          "title": "The Millennium: Will Christ Reign for a Thousand Years?",
+          "author": "Richard L. Pratt Jr.",
+          "publisher": "Third Millennium Ministries (Reformed Answers)",
+          "url": "https://reformedanswers.org/answer.asp?file=40932",
+          "kind": "article"
+        }
+      ],
+      "consensus": "divided",
+      "consensusNote": "Reformed confessions settle the core (one visible return, the resurrection, the final judgment) but are silent on the millennium. Amillennial, postmillennial and historic premillennial Reformed teachers all stand within the confessions; this view sets out the shared core and the amillennial reading."
+    },
+    {
+      "traditionId": "conservative_evangelical",
+      "headline": "Christ's personal, bodily and glorious return is the blessed hope every evangelical confesses; the order of rapture, tribulation and millennium is held with conviction but not made a test of fellowship.",
+      "body": [
+        "Conservative evangelicals stake their hope on the fact of Christ's return: He will come back personally, bodily and in glory, at a time known only to God; He will raise the dead, judge the world and bring His people into the joy of the new heaven and new earth [1][3][4]. That blessed hope is meant to shape life now, through constant expectancy, godly living, sacrificial service and energetic mission [1].",
+        "On the order of events, this coalition deliberately leaves room. Debates over the rapture (believers caught up to meet the Lord), the tribulation (a coming time of great distress) and the millennium (the thousand years of Revelation 20) are real, but its shared statements name Christ's return without naming a millennial view [3][4]. In 2019 the Evangelical Free Church of America, for which premillennialism had been a distinctive, voted 79 to 21 percent to replace premillennial with glorious in its statement of faith, judging the question not essential to the gospel; many of its members still expect a thousand-year reign [5].",
+        "That openness was already practiced in congregations. One EFCA pastor recalls a church that left the word premillennial out of its own statement and called him, a premillennialist, choosing to focus on the truth that the Lord is coming back and on living so as to be unashamed when He comes [2]. He concludes that being ready for Christ's return matters far more than being right about its sequence [2]."
+      ],
+      "keyTexts": [
+        {
+          "ref": "Titus 2:13",
+          "why": "The glorious appearing of Christ is the believer's blessed hope."
+        },
+        {
+          "ref": "Acts 1:11",
+          "why": "The same Jesus will come back in the same way He was seen going."
+        },
+        {
+          "ref": "Matt 24:36",
+          "why": "No one knows the day or hour, so the church watches rather than sets dates."
+        },
+        {
+          "ref": "2 Pet 3:11-13",
+          "why": "Waiting for the new heavens and new earth calls for holy living now."
+        }
+      ],
+      "sources": [
+        {
+          "id": "efca",
+          "title": "EFCA Statement of Faith",
+          "publisher": "Evangelical Free Church of America",
+          "url": "https://www.efca.org/resources/document/efca-statement-faith",
+          "kind": "statement",
+          "locator": "Articles 9-10"
+        },
+        {
+          "id": "goodman",
+          "title": "Are We Premillennial? Or Amillennial?",
+          "author": "Highland Goodman",
+          "publisher": "Evangelical Free Church of America",
+          "year": 2018,
+          "url": "https://blogs.efca.org/posts/are-we-premillennial-or-amillennial",
+          "kind": "article"
+        },
+        {
+          "id": "nae",
+          "title": "Statement of Faith",
+          "publisher": "National Association of Evangelicals",
+          "url": "https://www.nae.org/statement-of-faith/",
+          "kind": "statement"
+        },
+        {
+          "id": "tgc",
+          "title": "Confessional Statement",
+          "publisher": "The Gospel Coalition",
+          "url": "https://www.thegospelcoalition.org/about/foundation-documents/",
+          "kind": "statement",
+          "locator": "The Restoration of All Things"
+        },
+        {
+          "id": "ct2019",
+          "title": "EFCA Now Considers Premillennialism a Non-Essential",
+          "author": "Emily Belz",
+          "publisher": "Christianity Today",
+          "year": 2019,
+          "url": "https://www.christianitytoday.com/news/2019/august/efca-drops-premillennialism-evangelical-free-church-teds.html",
+          "kind": "article"
+        }
+      ],
+      "consensus": "divided",
+      "consensusNote": "Settled on Christ's personal, bodily return, the resurrection and the final judgment; divided on the millennium and the timing of the rapture. Many evangelical churches hold dispensational or historic premillennial views and others are amillennial, and their shared statements leave the question open."
+    },
+    {
+      "traditionId": "mainline_liberal",
+      "headline": "Christ will come in power and make all things new, but Scripture gives no timetable; mainline churches teach no rapture or tribulation scheme and read Revelation as a word of hope for the church now.",
+      "body": [
+        "Mainline churches confess Christ's return in their creeds and catechisms. In the Episcopal catechism, Christ's coming in glory means He will come not in weakness but in power and make all things new; He will judge the living and the dead, God will raise the dead in the fullness of their being, and nothing, not even death, can separate believers from God's love [1]. What mainline churches decline to do is turn that hope into a calendar.",
+        "The United Methodist Church notes that its doctrinal standards contain no teaching on the rapture (believers taken from the earth before the end), a great tribulation for those left behind, or a millennial reign. It traces those terms to nineteenth-century prophecy conferences and to John Nelson Darby, founder of the Plymouth Brethren, and points instead to Jesus' word that no one knows the day or the hour [2]. Methodists, it says, attend less to the order of things to come than to the order of salvation, God's grace at work in lives now [2][3].",
+        "Mainline scholars read Revelation as apocalyptic literature, a genre that reveals rather than predicts: John's vision lets the church see God's home among mortals, and the new heaven and new earth as creation renewed rather than destroyed [4]. Prompted by Lutheran scholar Barbara Rossing's critique, a writer in the ELCA's Living Lutheran argues that rapture teaching invites escape from the world, while the theology of the cross calls Christians to care for the earth and sacrifice for the generations to come [5]."
+      ],
+      "keyTexts": [
+        {
+          "ref": "Rev 21:1-5",
+          "why": "God makes His home among mortals and makes all things new."
+        },
+        {
+          "ref": "Mark 13:32-37",
+          "why": "No one knows the day or hour; the call is to keep awake, not to calculate."
+        },
+        {
+          "ref": "Rom 8:38-39",
+          "why": "Nothing, not even death, separates believers from God's love: the ground of Christian hope."
+        }
+      ],
+      "sources": [
+        {
+          "id": "bcp",
+          "title": "An Outline of the Faith, commonly called the Catechism (Book of Common Prayer 1979)",
+          "publisher": "The Episcopal Church",
+          "url": "https://www.bcponline.org/Misc/catechism.html",
+          "kind": "catechism",
+          "locator": "The Christian Hope"
+        },
+        {
+          "id": "umc-rapture",
+          "title": "Where does the Rapture fit into United Methodist beliefs?",
+          "publisher": "United Methodist Communications (Ask The UMC)",
+          "url": "https://umc.org/what-we-believe/where-does-the-rapture-fit-into-united-methodist-beliefs",
+          "kind": "statement"
+        },
+        {
+          "id": "umc-second",
+          "title": "What does The United Methodist Church teach about the second coming?",
+          "publisher": "United Methodist Communications (Ask The UMC)",
+          "url": "https://www.umc.org/en/content/ask-the-umc-what-does-the-united-methodist-church-teach-about-the-second-coming",
+          "kind": "statement"
+        },
+        {
+          "id": "shaner",
+          "title": "Commentary on Revelation 21:1-6a",
+          "author": "Katherine A. Shaner",
+          "publisher": "Working Preacher (Luther Seminary)",
+          "year": 2018,
+          "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/all-saints-day/commentary-on-revelation-211-6a-3",
+          "kind": "article"
+        },
+        {
+          "id": "ackerson",
+          "title": "The Rapture",
+          "author": "Bruce J. Ackerson",
+          "publisher": "Living Lutheran (ELCA)",
+          "url": "https://www.livinglutheran.org/rapture/",
+          "kind": "article"
+        }
+      ],
+      "consensus": "mostly",
+      "consensusNote": "Mainline denominations have no single end-times document; they confess Christ's return in the creeds and leave the details open, and the teaching here comes from a catechism, denominational Q&A and scholars. Members range from traditional to liberal in how literally they take the details of Christ's return."
+    }
+  ],
+  "synthesis": {
+    "common": [
+      "Jesus Christ will return, and His coming is the church's hope.",
+      "The dead will be raised and all people will stand before Christ's judgment.",
+      "God will make all things new: a new heaven and a new earth.",
+      "No one knows the day or the hour, so the faithful response is watchful, faithful living now, not date-setting."
+    ],
+    "partings": [
+      {
+        "question": "Will believers be taken up before a time of tribulation?",
+        "why": "It turns on whether Christ's coming for His people (1 Thess 4) and His coming to earth are two stages or one event, and whether Daniel's seventieth week is still future.",
+        "answers": [
+          {
+            "traditionId": "dispensationalist",
+            "answer": "Yes. The rapture comes first, and the church is in heaven during the seven-year tribulation, Daniel's seventieth week."
+          },
+          {
+            "traditionId": "reformed",
+            "answer": "The confessions describe one visible return at which the dead are raised and the living changed together; they teach no earlier, separate coming."
+          },
+          {
+            "traditionId": "conservative_evangelical",
+            "answer": "Evangelicals differ on the timing; their shared statements require only Christ's personal, bodily and glorious return."
+          },
+          {
+            "traditionId": "mainline_liberal",
+            "answer": "No. The UMC notes that rapture and tribulation teaching is absent from its doctrinal standards and dates from nineteenth-century prophecy movements."
+          }
+        ]
+      },
+      {
+        "question": "What is the thousand-year reign of Revelation 20?",
+        "why": "The split depends on whether Revelation 20 follows chapter 19 in time and how literally apocalyptic numbers and images are read.",
+        "answers": [
+          {
+            "traditionId": "dispensationalist",
+            "answer": "A future, literal reign of Christ on earth from David's throne, after His return and before the eternal state."
+          },
+          {
+            "traditionId": "reformed",
+            "answer": "The confessions do not say; amillennialists read it as Christ's present reign with His saints, while Reformed premillennialists and postmillennialists read it otherwise."
+          },
+          {
+            "traditionId": "conservative_evangelical",
+            "answer": "Left open: premillennial and amillennial believers share churches, and the EFCA dropped premillennial from its statement in 2019."
+          },
+          {
+            "traditionId": "mainline_liberal",
+            "answer": "Not a timetable: Revelation's visions reveal God's presence and renewal rather than predict a sequence of events."
+          }
+        ]
+      },
+      {
+        "question": "Does national Israel have a distinct future in God's plan?",
+        "why": "It rests on whether God's promises of land and throne are fulfilled literally to ethnic Israel, or fulfilled in Christ and His one people from every nation.",
+        "answers": [
+          {
+            "traditionId": "dispensationalist",
+            "answer": "Yes. The church is distinct from Israel, and Christ will restore Israel to its land and its covenant promises in the millennium."
+          },
+          {
+            "traditionId": "reformed",
+            "answer": "The church is the one people of God gathered under Christ, no longer confined to one nation, so Reformed teaching sees one people rather than two programs."
+          },
+          {
+            "traditionId": "conservative_evangelical",
+            "answer": "Divided: dispensational evangelicals expect a restored Israel, others read the promises as fulfilled in Christ, and the shared statements do not decide it."
+          },
+          {
+            "traditionId": "mainline_liberal",
+            "answer": "The mainline teaching cited here assigns Israel no part in an end-times sequence; it centers on God's renewal of all creation."
+          }
+        ]
+      },
+      {
+        "question": "How should the book of Revelation be read?",
+        "why": "The hinge is genre: a forecast of future events in order, or apocalyptic vision that unveils God's rule to its first readers and to every generation.",
+        "answers": [
+          {
+            "traditionId": "dispensationalist",
+            "answer": "With a consistently literal method: chapters 6-19 describe the coming tribulation and chapter 20 the coming kingdom."
+          },
+          {
+            "traditionId": "reformed",
+            "answer": "Carefully, reading unclear passages by clearer ones; the confessions bind the core truths and leave the scenario open."
+          },
+          {
+            "traditionId": "conservative_evangelical",
+            "answer": "Readings vary; all agree it promises Christ's return and the new creation, and the method is left to conviction."
+          },
+          {
+            "traditionId": "mainline_liberal",
+            "answer": "As apocalyptic literature that reveals rather than predicts, showing God's home among mortals and creation renewed."
+          }
+        ]
+      }
+    ],
+    "terms": [
+      {
+        "term": "Rapture",
+        "meanings": [
+          {
+            "traditionId": "dispensationalist",
+            "meaning": "Christ's coming in the air to catch up the church before the tribulation, an event distinct from His return to earth."
+          },
+          {
+            "traditionId": "reformed",
+            "meaning": "The catching up of living believers at Christ's one visible return, not a separate coming."
+          },
+          {
+            "traditionId": "conservative_evangelical",
+            "meaning": "The catching up of believers to meet the Lord; its timing is debated within the coalition."
+          },
+          {
+            "traditionId": "mainline_liberal",
+            "meaning": "A nineteenth-century term absent from mainline doctrinal standards; they speak instead of Christ's coming in glory."
+          }
+        ]
+      },
+      {
+        "term": "Millennium",
+        "meanings": [
+          {
+            "traditionId": "dispensationalist",
+            "meaning": "A future thousand-year reign of Christ on earth, with Israel restored."
+          },
+          {
+            "traditionId": "reformed",
+            "meaning": "For amillennialists, the present age of Christ's reign with His saints; other Reformed views are also held."
+          },
+          {
+            "traditionId": "conservative_evangelical",
+            "meaning": "The thousand years of Revelation 20, whose meaning members may hold differently."
+          },
+          {
+            "traditionId": "mainline_liberal",
+            "meaning": "An image within Revelation's vision, not a timetable for history."
+          }
+        ]
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Three Views on the Millennium and Beyond",
+        "author": "Darrell L. Bock, ed. (Craig Blaising, Kenneth Gentry, Robert Strimple)",
+        "note": "Zondervan Counterpoints, 1999: progressive dispensational premillennialism, postmillennialism and amillennialism, each answered by the others.",
+        "traditionIds": [
+          "dispensationalist",
+          "reformed",
+          "conservative_evangelical"
+        ]
+      },
+      {
+        "title": "The Meaning of the Millennium: Four Views",
+        "author": "Robert G. Clouse, ed. (George Eldon Ladd, Herman Hoyt, Loraine Boettner, Anthony Hoekema)",
+        "note": "InterVarsity Press, 1977: historic premillennial, dispensational, postmillennial and amillennial cases with responses.",
+        "traditionIds": [
+          "dispensationalist",
+          "reformed",
+          "conservative_evangelical"
+        ]
+      },
+      {
+        "title": "Dispensationalism",
+        "author": "Charles C. Ryrie",
+        "note": "Moody Publishers, revised edition: the classic statement of the dispensational system.",
+        "traditionIds": [
+          "dispensationalist"
+        ]
+      },
+      {
+        "title": "The Bible and the Future",
+        "author": "Anthony A. Hoekema",
+        "note": "Eerdmans, 1979: a standard Reformed amillennial account of the last things.",
+        "traditionIds": [
+          "reformed"
+        ]
+      },
+      {
+        "title": "The Blessed Hope",
+        "author": "George Eldon Ladd",
+        "note": "Eerdmans, 1956: the evangelical historic premillennial case for one return after the tribulation.",
+        "traditionIds": [
+          "conservative_evangelical"
+        ]
+      },
+      {
+        "title": "The Rapture Exposed: The Message of Hope in the Book of Revelation",
+        "author": "Barbara R. Rossing",
+        "note": "Westview, 2004: a Lutheran New Testament scholar's reading of Revelation as hope rather than escape.",
+        "traditionIds": [
+          "mainline_liberal"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "version": 2,
+    "generatedAt": "2026-11-17T00:32:26Z",
+    "engine": "seed:claude-code",
+    "model": "claude-opus-5-5",
+    "reviewed": true,
+    "reviewNotes": "Opened every source URL with curl on 2026-11-16 and checked each paraphrase against the page text. DTS Doctrinal Statement Articles V (dispensations as stewardships), XIII (church began at Pentecost, distinct from Israel), XVIII (coming in the air, blessed hope), XIX (church in heaven during Israel's seventieth week; Rev 6:1-19:21 cited), XX (return to earth, millennial age, Satan bound, curse lifted, Israel restored). TMS Doctrinal Statement, Eschatology subsections (rapture before the seven-year tribulation, seventieth week, throne of David, thousand years). Vlach 2017 (literal hermeneutic for Israel's land, temple, Jerusalem; mediatorial kingdom between this age and eternal state; restored Israel serving the nations). WCF 25.1-2 and 33 on opc.org; Belgic Art. 37 and Heidelberg Q&A 52 on crcna.org. Pratt (Reformed Answers): confessions purposefully silent; premil, postmil and amil all acceptable; the confessed core; amillennial summary (Satan bound at cross and resurrection, first resurrection, no fixed scenario). EFCA SOF Arts. 9-10; Goodman 2018 (church dropped premillennial; ready rather than right); NAE SOF (personal return in power and glory, no millennial view); TGC Confessional Statement, The Restoration of All Things (no millennial view); Christianity Today 2019 (79-21 vote, premillennial replaced by glorious, many members still hold a 1,000-year reign). BCP 1979 Catechism, The Christian Hope; Ask The UMC rapture page (no rapture, tribulation or millennial teaching in doctrinal standards; Darby; order of salvation) and second-coming page (focus on first coming, not speculative); Shaner, Working Preacher 2018 (revealing rather than predictive; renewal not replacement; credits Rossing); Ackerson, Living Lutheran (prompted by Rossing on 60 Minutes II; fear not love; theology of the cross; sacrifice for those to come). Not opened: the further-reading books (no URLs given; titles, editors and contributors from standard bibliographic knowledge). The 'many members still hold' claim about EFCA rests on the Christianity Today report."
+  }
+}
