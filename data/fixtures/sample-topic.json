@@ -1,0 +1,164 @@
+{
+  "slug": "zz-fixture",
+  "title": "Spiritual gifts today",
+  "question": "Are the miraculous gifts of the Spirit, such as tongues, prophecy and healing, given to the church today?",
+  "intro": "Every Christian tradition believes the Holy Spirit gives gifts to the church. They differ on whether the sign gifts seen in Acts, like speaking in tongues, prophecy and healing, continue after the apostles, and on what those gifts would look like now.",
+  "traditionIds": ["reformed", "conservative_evangelical", "charismatic", "dispensationalist"],
+  "whyTheseFour": "These four cover the whole range in American churches: two cessationist readings with different foundations, an open-but-cautious middle, and the movement that made the question unavoidable.",
+  "views": [
+    {
+      "traditionId": "reformed",
+      "headline": "God spoke finally in his Son and in the apostolic Scriptures; the revelatory gifts that attested that word have ceased.",
+      "body": [
+        "Reformed churches confess that the former ways of God revealing his will to his people have now ceased, because Scripture is complete and sufficient for all of faith and life [1]. Gifts like prophecy and tongues were tied to new revelation, so they served the founding of the church on the apostles and prophets [2].",
+        "This is not a denial that God works powerfully today. The Spirit still regenerates, illumines Scripture, answers prayer and can heal in answer to it [3]. What has ended is the office and the gift of adding to God's word.",
+        "Some Reformed writers hold a softer view and leave room for lesser, non-binding prophecy, but the confessional churches read the closing of the canon as the closing of revelation [1][3]."
+      ],
+      "keyTexts": [
+        { "ref": "Hebrews 1:1-2", "why": "God has spoken finally in his Son." },
+        { "ref": "Ephesians 2:20", "why": "The church is built on the foundation of apostles and prophets, laid once." },
+        { "ref": "2 Timothy 3:16-17", "why": "Scripture fully equips the believer." }
+      ],
+      "sources": [
+        { "id": "wcf", "title": "Westminster Confession of Faith", "publisher": "Orthodox Presbyterian Church", "year": 1647, "url": "https://opc.org/wcf.html", "kind": "confession", "locator": "ch. 1.1, 1.6" },
+        { "id": "gaffin", "title": "Perspectives on Pentecost", "author": "Richard B. Gaffin Jr.", "publisher": "P&R Publishing", "year": 1979, "url": "https://www.prpbooks.com/", "kind": "book", "locator": "ch. 5" },
+        { "id": "opc-report", "title": "Report on the Gifts of the Spirit", "publisher": "Orthodox Presbyterian Church", "year": 1980, "url": "https://opc.org/", "kind": "statement" }
+      ],
+      "consensus": "mostly",
+      "consensusNote": "A minority of Reformed pastors, especially in Sovereign Grace churches, are open to continuing gifts."
+    },
+    {
+      "traditionId": "conservative_evangelical",
+      "headline": "The Spirit still gives every gift he chooses, but everything is tested by Scripture and nothing adds to it.",
+      "body": [
+        "Most evangelical statements of faith say the Spirit gives gifts for building up the church without ruling on which gifts continue [1]. Many congregations hold an open-but-cautious position: they do not forbid tongues or prophecy, but they do not seek them as a mark of maturity.",
+        "What matters most is that any gift serves the gospel, is exercised in love and order, and never claims the authority of Scripture [2]. The Southern Baptist mission boards, for example, have shifted their policies on private prayer language more than once [3]."
+      ],
+      "keyTexts": [
+        { "ref": "1 Corinthians 12:4-11", "why": "The Spirit distributes varied gifts as he wills." },
+        { "ref": "1 Corinthians 14:39-40", "why": "Do not forbid tongues; do all things decently and in order." },
+        { "ref": "1 Thessalonians 5:19-21", "why": "Do not despise prophecy, but test everything." }
+      ],
+      "sources": [
+        { "id": "nae", "title": "Statement of Faith", "publisher": "National Association of Evangelicals", "url": "https://www.nae.org/statement-of-faith/", "kind": "statement" },
+        { "id": "grudem", "title": "Are Miraculous Gifts for Today? Four Views", "author": "Wayne Grudem (ed.)", "publisher": "Zondervan", "year": 1996, "url": "https://www.zondervan.com/", "kind": "book" },
+        { "id": "imb", "title": "IMB policy on private prayer language", "publisher": "International Mission Board", "year": 2015, "url": "https://www.imb.org/", "kind": "statement" }
+      ],
+      "consensus": "divided",
+      "consensusNote": "Evangelicals range from firm cessationists to full continuationists; there is no shared official line."
+    },
+    {
+      "traditionId": "charismatic",
+      "headline": "The promise of Pentecost is for every generation; the Spirit gives every gift today as he did in Acts.",
+      "body": [
+        "Pentecostals believe the baptism in the Holy Spirit is a distinct experience after salvation that empowers believers for witness, and that speaking in other tongues is its initial physical sign [1].",
+        "Nothing in Scripture says the gifts would stop before Christ returns. Paul says they cease when the perfect comes, which is the return of Christ, not the closing of the canon [2]. Divine healing is provided for in the atonement and is the privilege of all believers [1].",
+        "Prophecy today never adds to Scripture; it applies God's word to a present situation and must be judged by the church [3]."
+      ],
+      "keyTexts": [
+        { "ref": "Acts 2:38-39", "why": "The promise is for you, your children and all who are far off." },
+        { "ref": "1 Corinthians 13:8-12", "why": "Gifts cease when we see face to face." },
+        { "ref": "Mark 16:17-18", "why": "Signs follow those who believe." }
+      ],
+      "sources": [
+        { "id": "ag-sft", "title": "Statement of Fundamental Truths", "publisher": "Assemblies of God", "year": 1916, "url": "https://ag.org/Beliefs/Statement-of-Fundamental-Truths", "kind": "statement", "locator": "Articles 7, 8 and 12" },
+        { "id": "fee", "title": "God's Empowering Presence", "author": "Gordon D. Fee", "publisher": "Hendrickson", "year": 1994, "url": "https://www.hendrickson.com/", "kind": "book" },
+        { "id": "ag-prophecy", "title": "Prophets and Personal Prophecy", "publisher": "Assemblies of God", "year": 2000, "url": "https://ag.org/Beliefs/Position-Papers", "kind": "statement" }
+      ],
+      "consensus": "settled",
+      "consensusNote": "Charismatics outside classical Pentecostalism often do not hold tongues as the initial evidence."
+    },
+    {
+      "traditionId": "dispensationalist",
+      "headline": "The sign gifts belonged to the apostolic era, authenticating the message while the church was founded.",
+      "body": [
+        "Dispensational teachers distinguish the transitional period of Acts, when signs confirmed the apostles' message to Israel, from the present dispensation of grace, in which the completed Scriptures are the church's guide [1].",
+        "Tongues were a sign to unbelieving Israel and faded as the gospel went to the Gentiles [2]. God still heals in answer to prayer, but no one today has the apostolic gift of healing [3]."
+      ],
+      "keyTexts": [
+        { "ref": "1 Corinthians 14:21-22", "why": "Tongues are a sign for unbelievers, citing Isaiah." },
+        { "ref": "Hebrews 2:3-4", "why": "Signs confirmed the word spoken by those who heard the Lord." },
+        { "ref": "2 Corinthians 12:12", "why": "Signs mark an apostle." }
+      ],
+      "sources": [
+        { "id": "dts", "title": "Doctrinal Statement", "publisher": "Dallas Theological Seminary", "url": "https://www.dts.edu/about/doctrinal-statement/", "kind": "statement", "locator": "Article XII" },
+        { "id": "macarthur", "title": "Strange Fire", "author": "John MacArthur", "publisher": "Thomas Nelson", "year": 2013, "url": "https://www.gty.org/", "kind": "book" },
+        { "id": "ryrie", "title": "Basic Theology", "author": "Charles C. Ryrie", "publisher": "Moody Publishers", "year": 1999, "url": "https://www.moodypublishers.com/", "kind": "book", "locator": "ch. 66" }
+      ],
+      "consensus": "mostly",
+      "consensusNote": "Progressive dispensationalists are less uniform; some are open to continuing gifts."
+    }
+  ],
+  "synthesis": {
+    "common": [
+      "The Holy Spirit indwells every believer and gives gifts for the good of the church.",
+      "Scripture is the final test of any claimed word from God; no gift may contradict it.",
+      "God can and does heal in answer to prayer.",
+      "Love is greater than any gift."
+    ],
+    "partings": [
+      {
+        "question": "Did the miraculous gifts end with the apostles?",
+        "why": "It turns on whether these gifts were tied to new revelation and the church's foundation, or to the whole age between Pentecost and Christ's return.",
+        "answers": [
+          { "traditionId": "reformed", "answer": "Yes. Revelatory gifts ceased with the completed canon." },
+          { "traditionId": "conservative_evangelical", "answer": "Not necessarily. Many leave the question open and test what they see." },
+          { "traditionId": "charismatic", "answer": "No. They continue until Christ returns." },
+          { "traditionId": "dispensationalist", "answer": "Yes. They marked the transitional apostolic era." }
+        ]
+      },
+      {
+        "question": "What is the perfect in 1 Corinthians 13:10?",
+        "why": "The text says the gifts cease when the perfect comes, so its meaning decides the timing.",
+        "answers": [
+          { "traditionId": "reformed", "answer": "Most say Christ's return, but argue cessation on other grounds." },
+          { "traditionId": "conservative_evangelical", "answer": "Usually Christ's return." },
+          { "traditionId": "charismatic", "answer": "Christ's return, when we see face to face." },
+          { "traditionId": "dispensationalist", "answer": "Some say the completed Scriptures or the mature church." }
+        ]
+      },
+      {
+        "question": "Is speaking in tongues a sign of Spirit baptism?",
+        "why": "It depends on whether Spirit baptism is a second experience after conversion or the same event.",
+        "answers": [
+          { "traditionId": "reformed", "answer": "No. Spirit baptism happens at conversion." },
+          { "traditionId": "conservative_evangelical", "answer": "No. Every believer is baptized by the Spirit at conversion." },
+          { "traditionId": "charismatic", "answer": "Yes. Tongues are the initial physical evidence." },
+          { "traditionId": "dispensationalist", "answer": "No. Spirit baptism places a believer into the body of Christ at conversion." }
+        ]
+      }
+    ],
+    "terms": [
+      {
+        "term": "Prophecy",
+        "meanings": [
+          { "traditionId": "reformed", "meaning": "New revelation from God, now ceased; or faithful preaching of Scripture." },
+          { "traditionId": "conservative_evangelical", "meaning": "Often preaching; for some, a fallible prompting to be tested." },
+          { "traditionId": "charismatic", "meaning": "A Spirit-given word applying God's will to a present situation, judged by the church." },
+          { "traditionId": "dispensationalist", "meaning": "Revelation given to the apostolic church, completed in Scripture." }
+        ]
+      },
+      {
+        "term": "Baptism in the Spirit",
+        "meanings": [
+          { "traditionId": "reformed", "meaning": "Union with Christ at regeneration." },
+          { "traditionId": "conservative_evangelical", "meaning": "What happens to every believer at conversion." },
+          { "traditionId": "charismatic", "meaning": "A distinct empowering after conversion, evidenced by tongues." },
+          { "traditionId": "dispensationalist", "meaning": "The Spirit placing a believer into the body of Christ, which began at Pentecost." }
+        ]
+      }
+    ],
+    "furtherReading": [
+      { "title": "Perspectives on Pentecost", "author": "Richard B. Gaffin Jr.", "note": "The standard Reformed case for cessation.", "traditionIds": ["reformed"] },
+      { "title": "God's Empowering Presence", "author": "Gordon D. Fee", "note": "A Pentecostal scholar's study of every Spirit passage in Paul.", "traditionIds": ["charismatic"] },
+      { "title": "Strange Fire", "author": "John MacArthur", "note": "A sharp cessationist critique of the charismatic movement.", "traditionIds": ["dispensationalist"] },
+      { "title": "Are Miraculous Gifts for Today? Four Views", "author": "Wayne Grudem (ed.)", "url": "https://www.zondervan.com/", "note": "Four scholars state and answer each other's positions.", "traditionIds": ["reformed", "conservative_evangelical", "charismatic", "dispensationalist"] }
+    ]
+  },
+  "meta": {
+    "version": 2,
+    "generatedAt": "2026-11-16T23:00:00.000Z",
+    "engine": "fixture",
+    "reviewed": false
+  }
+}
